@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<compendium version="5" auto_indent="NO">
+  <class>
+    <name>Ranger</name>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Ranger Archetype: Specialist</name>
+        <text>These are rangers that focus on improving their their ammunition in lock step with the skills, tinkering with special shots, be those bullets, bolts, or arrows.</text>
+        <text>Evolving from practical effects they grow adept at empowering their devices with the potent fusion of gadgetry and magic to produce marvelous results.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Specialist: Knack</name>
+        <text>At 3rd level when you select this archetype, you gain proficiency with Tinker's Tools. If you already have proficiency with Tinker's Tools, you can gain proficiency with another artisan tool of your choice.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Specialist: Trick Shots</name>
+        <text>At 3rd level, you gain the ability to create special pieces of ammunition. When you fire a weapon with the ammunition property, you can choose to expend one these special shots to give the attack a special property.</text>
+        <text>You can have a number of these special shots equal to your proficiency bonus, recreating expended ones during a short or long rest. You can swap out any unspent ones for other options during a short or long rest. When you create one, select from the options found in Trick Shots feats.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="7">
+      <feature optional="YES">
+        <name>Specialist: Spell Shots</name>
+        <text>Starting at 7th level, you gain the ability to infuse special arrows magical abilities. You have a pool of these arrows equal to your proficieny bonus, recreating any expended arrows during a long rest. As a bonus action, you can expend a spell slot infuse on the spells from the following table into one of these arrows. The spell doesn't trigger immediately, but triggers on impact. You can shoot the arrow at a point within range or a creature. Regardless of it the attack hits or misses the creature, the effect imbued in the arrow is triggered at a point of your choice adjacent to the creature. If the spell effects a line or cone, you can select the projection of the area from the point.</text>
+        <text>If a spell requires concentration, it uses your concentration as normal.</text>
+        <text></text>
+        <text>Spell Slot Level |	Infused Spell Options</text>
+        <text>1st |	fog cloud, burning hands</text>
+        <text>2nd |	darkness, shatter</text>
+        <text>3rd |	fireball, sleet storm</text>
+        <text>4th |	black tentacles, ice storm</text>
+        <text>5th |	cloudkill, synaptic static*</text>
+      </feature>
+    </autolevel>
+    <autolevel level="11">
+      <feature optional="YES">
+        <name>Specialist: Empowered Shots</name>
+        <text>Starting at 11th level, whenever you make a Trick Shot or Spell Shot against a creature, it deals an additional 1d8 damage to the target of any damage type dealt by the shot (or the default damage type of the weapon if the attack would otherwise not do damage).</text>
+      </feature>
+    </autolevel>
+    <autolevel level="11">
+      <feature optional="YES">
+        <name>Specialist: Grapple Shot</name>
+        <text>Additionally at 11th level, you gain the ability to fire special shots with a range of 30 feet that carry a cord that immediately pulls to to their location. As an action or attack as part of the attack action, you can make this shot against a creature, surface, or object. This shot does no damage, but on a hit, if the creature or object is small or smaller, it is immediately pulled up to 30 feet toward you, or you are pulled 30 feet toward if it is medium or larger.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="15">
+      <feature optional="YES">
+        <name>Specialist: Endless Innovation</name>
+        <text>Starting at 15th level, if you start your turn without a Trick Shot, you can create a trick shot as a bonus action.</text>
+      </feature>
+    </autolevel>
+  </class>
+  <feat>
+    <name>Trick Shot: Binding Shot</name>
+    <prerequisite></prerequisite>
+    <text>Instead of doing damage, this arrow turns into a Net when striking the target.</text>
+  </feat>
+  <feat>
+    <name>Trick Shot: Burst Shot</name>
+    <prerequisite></prerequisite>
+    <text>When this shot hits a target, it emits a brilliant flash of light. The target and creatures within 10 feet of the target must make a Dexterity saving throw or becoming blinded until the start of your next turn.</text>
+  </feat>
+  <feat>
+    <name>Trick Shot: Explosive Shot</name>
+    <prerequisite></prerequisite>
+    <text>When this shot hits a target, it emits an explosion. The target and creatures within 5 feet of the target must make a Dexterity saving throw or take 1d4 fire damage and 1d4 thunder damage. This damage increases to 1d6 fire damage and 1d6 thunder damage at 11th level.</text>
+  </feat>
+  <feat>
+    <name>Trick Shot: Guided Shot</name>
+    <prerequisite></prerequisite>
+    <text>When fired, this shot tracks it target. This attack is made with advantage, and ignores cover, including complete cover, as long as there is a path to the target you are aware of that requires the arrow to travel less than the maximum range of the weapon used.</text>
+  </feat>
+  <feat>
+    <name>Trick Shot: Rocket Shot</name>
+    <prerequisite></prerequisite>
+    <text>The attacks range is doubled, and on a hit the target takes an additional 1d8 damage from the attack.</text>
+  </feat>
+</compendium>

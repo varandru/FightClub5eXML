@@ -1,0 +1,2086 @@
+<?xml version='1.0' encoding='utf-8'?>
+<compendium version="5" auto_indent="NO">
+  <class>
+    <name>Occultist</name>
+    <hd>6</hd>
+    <proficiency>Wisdom, Charisma, Animal Handling, Arcana, Deception, History, Investigation, Medicine, Nature, Religion, Sleight of Hand, Stealth, Survival</proficiency>
+    <numSkills>2</numSkills>
+    <armor>None</armor>
+    <weapons>Daggers, quarterstaffs, light crossbows</weapons>
+    <tools>Herbalism Kit</tools>
+    <spellAbility>Wisdom</spellAbility>
+    <autolevel level="1">
+      <slots>3, 2</slots>
+    </autolevel>
+    <autolevel level="2">
+      <slots>3, 3</slots>
+    </autolevel>
+    <autolevel level="3">
+      <slots>3, 4, 2</slots>
+    </autolevel>
+    <autolevel level="4" scoreImprovement="YES">
+      <slots>3, 4, 3</slots>
+    </autolevel>
+    <autolevel level="5">
+      <slots>4, 4, 3, 2</slots>
+    </autolevel>
+    <autolevel level="6">
+      <slots>4, 4, 3, 3</slots>
+    </autolevel>
+    <autolevel level="7">
+      <slots>4, 4, 3, 3, 1</slots>
+    </autolevel>
+    <autolevel level="8" scoreImprovement="YES">
+      <slots>4, 4, 3, 3, 2</slots>
+    </autolevel>
+    <autolevel level="9">
+      <slots>5, 4, 3, 3, 3, 1</slots>
+    </autolevel>
+    <autolevel level="10">
+      <slots>5, 4, 3, 3, 3, 2</slots>
+    </autolevel>
+    <autolevel level="11">
+      <slots>6, 4, 3, 3, 3, 2, 1</slots>
+    </autolevel>
+    <autolevel level="12" scoreImprovement="YES">
+      <slots>6, 4, 3, 3, 3, 2, 1</slots>
+    </autolevel>
+    <autolevel level="13">
+      <slots>6, 4, 3, 3, 3, 2, 1, 1</slots>
+    </autolevel>
+    <autolevel level="14">
+      <slots>6, 4, 3, 3, 3, 2, 1, 1</slots>
+    </autolevel>
+    <autolevel level="15">
+      <slots>7, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+    </autolevel>
+    <autolevel level="16" scoreImprovement="YES">
+      <slots>7, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+    </autolevel>
+    <autolevel level="17">
+      <slots>7, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
+    </autolevel>
+    <autolevel level="18">
+      <slots>8, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+    </autolevel>
+    <autolevel level="19" scoreImprovement="YES">
+      <slots>8, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
+    </autolevel>
+    <autolevel level="20">
+      <slots>8, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Starting Occultist</name>
+        <text>Starting Equipment</text>
+        <text>You start with the following items, plus anything provided by your background.</text>
+        <text></text>
+        <text>(a) a quarterstaff or (b) a dagger</text>
+        <text>(a) a component pouch or (b) an arcane focus</text>
+        <text>(a) a scholar's pack or (b) an explorer's pack</text>
+        <text>A Herbalism kit</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature>
+        <name>Spellcasting</name>
+        <text>As a practioner of occult magic, you have inherited and developed techniques to manipulate reality through mediums of rituals, spirits, elements, and more. See Spells Rules for the general rules of spellcasting and the Spells Listing for the Occultist spell list.</text>
+        <text></text>
+        <text>Cantrips:</text>
+        <text>   At 1st level, you know three cantrips of your choice from the Occultist spell list. You learn additional Occultist cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Occultist table.</text>
+        <text></text>
+        <text>Spell Slots:</text>
+        <text>   The Occultist table shows how many spell slots you have to cast your Occultist spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+        <text>   For example, if you know the 1st-level spell witchbolt and have a 1st-level and a 2nd-level spell slot available, you can cast witchbolt using either slot.</text>
+        <text>Spells Known of 1st Level and Higher</text>
+        <text>   You know four 1st-level spells of your choice from the Occultist spell list.</text>
+        <text>   The Spells Known column of the Occultist table shows when you learn more Occultist spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</text>
+        <text>   Additionally, when you gain a level in this class, you can choose one of the Occultist spells you know and replace it with another spell from the Occultist spell list, which also must be of a level for which you have spell slots.</text>
+        <text>Spellcasting Ability:</text>
+        <text>   Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</text>
+        <text></text>
+        <text>Ritual Casting:</text>
+        <text>   You can cast any Occultist spell you know as a ritual if that spell has the ritual tag.</text>
+        <text></text>
+        <text>Spellcasting Focus:</text>
+        <text>   You can use an occult fetish as a spellcasting focus for your Occultist spells.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature>
+        <name>Occult Tradition</name>
+        <text>Choose an occult tradition, shaping your the techniques, features, and rites available to you from the following: Oracle, Shaman, or Witch.</text>
+        <text>Your choice grants you features when you choose it at 1st level, 3rd level, 6th level, and 14th level.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="2">
+      <feature>
+        <name>Occult Rites</name>
+        <text>In as you delve your Tradition of occult magic, you find deviations and branches to explore that help you specialize and perfect your craft in the way that best suits you.</text>
+        <text>At 2nd Level, you gain two Occult Rites of your choice. Your Occult Rites options are detailed at the end of the subclass description for subclass specific Rites, and at the end of the class description for general Rites, you can select from either you subclass or class list.. When you gain certain Occultist levels, you gain additional Occult Rites of your choice.</text>
+        <text>Additionally, when you gain a level in this class, you can choose one of the Occult Rites you know and replace it with another Occult Rites that you could learn at that level. A level prerequisite in a Occult Rite refers to Occultist level, not character level.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature>
+        <name>Occult Tradition feature</name>
+        <text>At 3rd level, you gain a feature from your Occult Tradition.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <feature>
+        <name>Occult Tradition feature</name>
+        <text>At 6th level, you gain a feature from your Occult Tradition.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="10">
+      <feature>
+        <name>Traditional Expertise</name>
+        <text>Starting at 10th level, your passed down knowledge of tradition gives you expertise in a skill of your tradition; choose one of your skill proficiencies form Animal Handling, Arcana, Medicine, Nature, Survival. Your Proficiency Bonus is doubled for any ability check you make that use of the chosen Proficiency. If you have proficiency in none of the selected skills, you can instead gain proficiency in one of your choice.</text>
+        <text>Additionally, when you make a Wisdom ability check, you can draw upon your Tradition and expend a 1st level spell slot to gain advantage on the check.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="14">
+      <feature>
+        <name>Occult Tradition feature</name>
+        <text>At 14th level, you gain a feature from your Occult Tradition.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="20">
+      <feature>
+        <name>The Old Ways</name>
+        <text>At 20th level, your master of ritual and tradition is extensive an unparalleled, you've unlocked ancient secrets and perfected techniques to master rituals completely. Any occultist spell you know of 3rd level or lower becomes a ritual spell for you. When you cast a spell that is not normally a ritual as a ritual, it requires additional consumed material components worth 10 gold per level of the spell.</text>
+        <text>Additionally, your mastery of rituals allows you to work them more quickly, and a spell only takes additional turns equal to the spells level to cast (for example, casting a 3rd level spell as a ritual would take fours turns to cast, casting as your action or bonus action on the fourth turn). Spells with a casting time of a reaction cannot be cast as a ritual.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Occult Tradition: Tradition of the Oracle</name>
+        <text>An oracle is an occultists whose power comes to them from their connection to fate; bound and empowered oracles carry some piece of divine mystery within them, tied to an aspect of destiny and fate. As their power grows they begin to understand this mystery with revelations, unlocking its secrets and the power they contain.</text>
+        <text>An oracle typically does not directly serve a god, rather they often are people who's fate has entangled them in the affairs of the gods. Oracles have great power, but their powers are not ones that mortals were meant to have, and consequently they are frequently burdened by their powers.</text>
+        <text>The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their Oracle with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Tradition of the Oracle: Divine Touch</name>
+        <text>At 1st level when you select this Tradition, you have been touched by a divine revelation that has given you a gift of insight and a dramatic flair to deliver it - you learn the cantrips guidance and thaumaturgy.</text>
+        <text>Additionally, the touch of divine revelation has opened new pathways of magic that lie beyond the mortal grasp. When your Spellcasting feature lets you learn a occultist cantrip or a occultist spell of 1st level or higher, you can choose the new spell from the cleric spell list or the occultist spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a occultist spell for you.</text>
+        <text>For some, this burden marks them more heavily. At the discretion of your DM, you can optionally select to a curse and corresponding boon from the Cursed Burden section.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Tradition of the Oracle: Cursed Burden (Optional feature)</name>
+        <text>Frequently, the burden of the divine mysteries an oracle touches are too great for their mortal body to bear, and they suffer backlash in the form of curses. These take the form of optional character flaws.</text>
+        <text>As these are a part of your power, they can only be removed by the Wish spell, by Remove Curse cast at the 9th level, or a divine being, but if removed you may also lose your associated boon.</text>
+        <text>You and your DM may opt to mix and match or to use a custom curse and boon as appropriate, these are just a template for ones that pair well.</text>
+        <text>Blind. You are permanently blinded. You gain the Oracle's Sight rite.</text>
+        <text>Burned. You are scarred by burns. The first die of any fire damage you take from a hostile creature is maximized. You gain the Mystery of Fire rite.</text>
+        <text>Silent. You cannot speak above a whisper, creatures further than 10 feet from you cannot hear you. You gain the Mystery of Death rite</text>
+        <text>Frail. You are physical frail, reducing your Constitution and Strength ability score by 1. You gain the Mystery of Life rite.</text>
+        <text>Ill Omen. You are marked by strife. You make all Persuasion checks at disadvantage. You gain the Mystery of Battle rite.</text>
+        <text>Foresworn. You cannot reveal the nature of your divinations to others. You gain the Divine Fate rite.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Tradition of the Oracle: Fate Reading</name>
+        <text>Starting at 3rd level, your connection to the flow of fate gives you the ability to read from it, tracing outcomes and glimpsing the unknowable future. You learn the spell augury and can cast it at will without expending spell slot.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <feature optional="YES">
+        <name>Tradition of the Oracle: Enlightened Understanding</name>
+        <text>Starting at 6th level, you've come to unravel the mysteries of magic and fate, understanding their secrets and potential. Whenever you use a Mystery, you gain temporary hit points equal to your Wisdom modifier.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="14">
+      <feature optional="YES">
+        <name>Tradition of the Oracle: Prophecy</name>
+        <text>Starting at 14th level, you can cast augury a number of times equal to your Wisdom modifier before per day before it starts having a chance to return random answers.</text>
+        <text>Additionally, when you divine the future with augury, you can issue a cryptic prophecy, with three specific points for rolls that may occur within the next 30 minutes. For each specific point you prophesize, if you specify only the type of roll (for example, an attack, a Strength (Athletics) check, or an initiative roll, etc), a d4 is reserved (example "someone will be particularly quick when rolling initiative").</text>
+        <text>If you specify a specific action and a specific person, a d6 is reserved (for example, "when the wizard Caius rolls for initiative, he will be unusually quick"). If you give it a specific unlikely condition, a d8 can be reserved at the discretion of the DM.</text>
+        <text>A specific action or person can only have one prophesized event. If that prophesized event takes place (at the discretion of the DM it has occurred), the oracle can spend the reserved die and add it to the roll; if multiple events trigger the prophecy, the oracle can select which of them is effected by the reserved die.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Occult Tradition: Tradition of the Shaman</name>
+        <text>A shaman is an occultist that walks the paths of the spirits, binding them to their cause to empower themselves or bring havoc to their foes. Tough and powerful, they are most often found in the thick of the fight, wreathed in their primal power.</text>
+        <text>A shaman may view themselves as in service to their spirits or as served by the spirits; the what and the how of their contract can vary wildly, as can the source of their spirits, be it pulling from an ancestral or primal powers.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Tradition of the Shaman: Spiritual Warrior</name>
+        <text>When you select this subclass, you gain proficiency in simple weapons, light armor, medium armor and shields. Additionally, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Tradition of the Shaman: Call Spirit</name>
+        <text>Starting at 1st level, as a bonus action you can call a spirit to your side. This can be a primal spirit of fire, cold, or lightning, or an ancestral spirit with radiant or necrotic power. This bond lasts for 10 minutes once formed. You can release a spirit early as an action, and it is immediately released if you call another spirit.</text>
+        <text>While a spirit is bonded to you it strengthens your melee weapon attacks, causing them to deal an additional 1d4 damage of the spirit's type.</text>
+        <text>As a bonus action while it is bonded, you can manifest the spirit within 30 feet of you. The spirit is medium sized but spectral in nature while manifested. While the spirit is manifested, whenever you take the attack action you may replace any number of attacks you could normally take with melee spell attacks from your bonded spirit. Melee spell attacks done by the spirit deal 1d4 + your Wisdom modifier damage of the same spirit's type on a hit. As a bonus action you can move it up to 30 feet in any direction or recall it to yourself, ending its manifestation.</text>
+        <text>A manifested spirit cannot move more than 60 feet from you, and is recalled to you if you move more than 60 feet from it.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Tradition of the Shaman: Empowered Spirits</name>
+        <text>Starting at 3rd level, when you call a spirit, you expend a spell slot of 1st level or higher to empowered that spirit. An empowered spirit adds additional damage to your weapon and deals additional manifested damage. While the spirit is called and not manifested you gain temporary hit points equal to the level of the spell slot spent to empower at the start of each of your turns.</text>
+        <text>Spell Slot |	Weapon Damage |	Manifested Damage |	Temporary Hit Points</text>
+        <text>  1st |	1d6  |	2d4 |	1</text>
+        <text>  2nd |	1d8  |	2d6 |	2</text>
+        <text>  3rd |	1d10 |	2d6 |	2</text>
+        <text>  4th |	1d12 |	2d8 |	4</text>
+        <text>  5th |	1d12 |	2d8 |	5</text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <feature optional="YES">
+        <name>Tradition of the Shaman: Extra Attack</name>
+        <text>Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+        <text>If you have a manifested spirit, you can replace one or both attacks with the special attack with it.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="14">
+      <feature optional="YES">
+        <name>Tradition of the Shaman: Spiritual Empowerment</name>
+        <text>Starting at 14th level, when you cast a spell of 1st level or higher, you can make a single weapon attack as a bonus action. If you have a manifested spirit, you can attack with it in place of making a weapon attack.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Occult Tradition: Tradition of the Witch</name>
+        <text>A Witch can be many things, and most often refers to someone that villagers find scary and weird, but at the heart of every crazed story there's a sliver of truth, and that truth is that witches do indeed exist.</text>
+        <text>Some may live openly as what they are, while others may be the last person the superstitious villagers might expect. Varied in their powers, designs, and traditions based on their Coven, generalizing about a Witch is challenging, but they are most often defined by the varied utilitarian magic, hexes that make crossing them unwise, and powerful intelligent familiars.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Tradition of the Witch: Witch's Magic</name>
+        <text>When you select this Tradition at first level you learn the spell find familiar, and when you summon a familiar with this spell, it acts on your initiative. Additionally, can select 2 additional cantrips of your choice from the Occultist spell list.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Tradition of the Witch: Coven</name>
+        <text>Starting at 1st level, you select the Coven you belong to, selecting from Black Coven, White Coven, or Green Coven. Based on which Coven you select, you gain access to additional spells and manifest different special powers. Spells gained from this feature added to your spells known and are Occultist spells for you, but do not count against the number of spells you can know.</text>
+        <text>While the Covens are often associated with Evil, Good, and Neutral respectively, you do not have to of a particular alignment to join a particular coven - it is merely your area of expertise and what traditions you know.</text>
+        <text> Witch of the Black Coven specializes in inflicting pain, curses, and eventual agonizing death to those that cross her, a Witch of the White Coven focuses on binding and healing, and the focus of a Witch of the Green coven is the closest to the Witch's roots in Hag-like fey magic, drawing power from nature to baffle her foes and control her surroundings.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Tradition of the Witch: Black Coven Spells</name>
+        <text>Witch Level |	Bonus Spells</text>
+        <text>1st | rotting curse, arms of hadar</text>
+        <text>3rd |	blindness/deafness, darkness</text>
+        <text>5th |	animate shadow, wither</text>
+        <text>7th |	blight, evard's black tentacles</text>
+        <text>9th |	killing curse, contagion</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Tradition of the Witch: White Coven Spells</name>
+        <text>Witch Level |	Bonus Spells</text>
+        <text>1st | binding curse, healing word</text>
+        <text>3rd |	calm emotions, hold person</text>
+        <text>5th |	revivify, mass healing word</text>
+        <text>7th |	banishment, otiluke's resilient sphere</text>
+        <text>9th |	curse of impotence, hold monster</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Tradition of the Witch: Green Coven Spells</name>
+        <text>Witch Level |	Bonus Spells</text>
+        <text>1st | befuddling curse, entangle</text>
+        <text>3rd |	alter self, enlarge/reduce</text>
+        <text>5th |	gaseous form, major image</text>
+        <text>7th |	greater invisibility, polymorph</text>
+        <text>9th |	swapping curse, wrath of nature</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Tradition of the Witch: Familiar Bond</name>
+        <text>At 3rd level, when you cast find familiar, your familiar gains an Intelligence, Wisdom and Charisma of 10, and the ability to speak any languages you speak.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Tradition of the Witch: Familiar Bond (Black Coven)</name>
+        <text>As a reaction to a creature within 30 feet of your familiar hitting with an attack, your familiar can subtract 1d4 + half your Occultist level (rounded down) from their attack roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll succeeds or fails, or before the creature deals its damage. It can do this a number of times equal to your Wisdom modifier, regaining all uses after you complete a long rest.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Tradition of the Witch: Familiar Bond (White Coven)</name>
+        <text>When you complete a long rest, your familiar gains temporary hit points equal to your twice Occultist level + you Wisdom modifier. As a reaction to a creature within 30 feet of it being attacked, it can teleport to that creature and give it temporary hit points up to the number of temporary hit points it currently has (minimum one). If the familiar has no temporary hit points remaining, it cannot use this reaction.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Tradition of the Witch: Familiar Bond (Green Coven)</name>
+        <text>When you complete a long rest, your familiar gains illusory duplicates equal to your Wisdom modifier. These persist until destroyed by taking damage or you complete a long rest. The illusory duplicates cannot take any actions, but move and act like your familiar, staying within 30 feet of you or it. As an action or as a reaction to taking damage, your familiar can swap places with any of these duplicates. If it swaps places as a reaction, it takes no damage, but the illusory copy is destroyed. The illusory duplicates cannot be harmed while they are within 5 feet of you.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <feature optional="YES">
+        <name>Tradition of the Witch: Witch's Touch</name>
+        <text>Starting at 6th level, whenever you cast a spell of 1st level or higher with a range of touch (including through your familiar), you can add one of the following modifiers to the spell:</text>
+        <text>It grants one affected target temporary hit points equal to your Wisdom modifier. Only one creature can have these temporary hit points at a time.</text>
+        <text>It deals additional damage equal to your Wisdom modifier to one affected creature.</text>
+        <text>It adds or subtracts 1d4 from the target's next attack roll or saving throw before the start of your next turn.</text>
+        <text></text>
+        <text>You can also confer these effects to another spell with a range longer than touch by making its range touch, or confer these effects as an action without casting a spell by touching a target (making a melee spell attack to do if the target is an unwilling creature).</text>
+      </feature>
+    </autolevel>
+    <autolevel level="14">
+      <feature optional="YES">
+        <name>Tradition of the Witch: Witch's Touch</name>
+        <text>Starting at 14th level, when you cast a curse spell that requires a material component that would be consumed by the spell, you no longer need that material component and can use your occult fetish as the material component of the spell.</text>
+        <text>Additionally, any time you cast a curse with a duration that is not Instantaneous or hex you have advantage on concentration saving throws to maintain their effects.</text>
+      </feature>
+    </autolevel>
+  </class>
+  <feat>
+    <name>Occult Rite: Alchemical Rites</name>
+    <text>You gain proficiency with alchemy tools. During a long rest, you can use them to concoct an improvised potion of healing spending 1 hour of the long rest to tend to it's simmering. Due to it's improvised nature, it expires in 24 hours, and has no value in gold pieces.</text>
+    <text>During this process, you can expend a 5th level spell to make it a greater healing potion. The expended spell slot is regained when the long rest is completed as normal.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Blood Rituals</name>
+    <prerequisite>5th level</prerequisite>
+    <text>Whenever you cast a ritual spell that requires a material component, you can instead use blood.</text>
+    <text>Willing living creatures within 10 feet of you can expend hit dice, rolling them and taking necrotic damage equal to the value rolled to fuel the ritual instead of a material component, with each 10 hit points sacrificed in this manner able to replace up to 100 gp of material components (for example, to replace a diamond worth 500 gold, 50 hit points would have to be expended in this manner).</text>
+    <text>Creatures that lose hit points in this way cannot regain those hit points until they complete a long rest.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Blood Magic</name>
+    <prerequisite>5th level</prerequisite>
+    <text>You can sacrifice the blood of living creatures to power spells. When you cast a spell, instead of expending a spell slot, you can sacrifice blood to power the spell, sacrificing one hit die per level of spell you cast, rolling them and taking damage equal to the number rolled. Willing creatures within 10 feet can use their reaction contribute blood to the spell, sacrificing hit dice by rolling them and taking necrotic damage equal to the number rolled. All sacrificed hit dice are added together to the level of the spell you can cast.</text>
+    <text>Creatures that lose hit points in this way cannot regain those hit points until they complete a long rest.</text>
+    <text>You can cast a total number of spell levels in this manner equal to your Occultist level. You regain all levels of usage of this rite when you complete a long rest. Some spells (marked as blood magic) can only be cast via blood magic using this rite.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Commune Beyond Death</name>
+    <text>You learn the speak with dead spell, and it's a occultist spell for you, but does not count against your spells known. You can cast it without expending a spell slot. Once you cast it this way, you must finish a short or long rest before you can cast it this way again.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Corrupt Item</name>
+    <prerequisite>5th level</prerequisite>
+    <text>You use a dark and secret rite to corrupt a non-magical item causing it to become a cursed magic item. While any creature other than you is in possession of this item, they are under the effect of bane. Select one of the following for the items magical property (the item must be of a type of item that could be the magical item selected): bag of tricks, brooch of shielding, goggles of night, lantern of revealing, or staff of the python (you can ignore attunement restrictions of this item).</text>
+    <text>When you change rites, you can reselect this rite to destroy the item and create a new item.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Emblazoned Fetish</name>
+    <text>You emblazon a mystical mark on yourself, via a tattoo, scar, or similar permanent mark. You can use this as your spell casting focus for casting spells. While using this mark to cast spells, you do not need a free hand to cast spells that have a Material component that uses your Occult Fetish.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Lost Ritual</name>
+    <text>You learn of a ritual lost to time. Select on occultist spell you know of 5th level or lower. This spell becomes a ritual spell for you. You can cast this spell as a ritual once, and must complete a short or long rest before casting it as a ritual again.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Markings of Protections</name>
+    <text>You mark yourself with magical symbols and patterns, protecting you from harm. You are under the effect of the mage armor spell.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Occult Haste</name>
+    <prerequisite>5th level</prerequisite>
+    <text>You mark yourself with magical symbols and patterns, protecting you from harm. You are under the effect of the mage armor spell.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Rite of Immortality</name>
+    <prerequisite>15th level</prerequisite>
+    <text>You continue to age, but you will no longer die of old age.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Rite of Immortality</name>
+    <prerequisite>15th level</prerequisite>
+    <text>You cease to visually age, and can even choose to become more youthful in appearance, though the natural life span of your race remains your natural lifespan.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Rite of Youth</name>
+    <prerequisite>15th level</prerequisite>
+    <text>You cease to visually age, and can even choose to become more youthful in appearance, though the natural life span of your race remains your natural lifespan.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Root of Magic</name>
+    <prerequisite>15th level</prerequisite>
+    <text>You learn 10 cantrips from any class list of your choice. They are occultist spells for you.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Soulburn</name>
+    <text>You can make your powers sear the very soul of the creature they strike. When you deal fire or lightning damage, you can choose to make it deal necrotic damage instead.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Specialized Poisons</name>
+    <text>When you deal poison damage with an occultist spell or created poison, you can (but don't have to) specify a creature type (such as beast or monstrosity) it is created to effect. The poison damage from that spell or poison bypasses any resistance or immunity to poison damage a creature of that type has. All other creature types beside the specified type have resistance to damage by that spell effect or poison.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Vestaments of War</name>
+    <text>You gain proficiency in light armor. If you already have proficiency in light armor, you gain proficiency in medium armor and shields.</text>
+    <text>You can take this rite twice.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Revelation of Battle</name>
+    <prerequisite>Mystery of Battle, Tradition of the Oracle</prerequisite>
+    <text>Your understanding of the nature of battle unlocks its secrets for you. You learn the following spells at the following levels. These are occultist spells for you.</text>
+    <text>Occultist Level |	Spells Learned</text>
+    <text>1st | thunderous smite</text>
+    <text>3rd | branding smite</text>
+    <text>5th | blinding smite</text>
+    <text>7th | staggering smite</text>
+    <text>9th | banishing smite</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Truth of Strife</name>
+    <prerequisite>5th level, Mystery of Battle, Tradition of the Oracle</prerequisite>
+    <text>Your understanding of battle reveals that it comes easily. You can trigger the Mystery of Battle when casting a cantrip as an action.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Inevitable End</name>
+    <prerequisite>Mystery of Death, Tradition of the Oracle</prerequisite>
+    <text>When you deal necrotic damage, you can ignore a creature's resistance to necrotic damage.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Revelation of Death</name>
+    <prerequisite>Mystery of Death, Tradition of the Oracle</prerequisite>
+    <text>Your understanding of the nature of death unlocks its secrets for you. You learn the following spells at the following levels. These are occultist spells for you.</text>
+    <text>Occultist Level |	Spells Learned</text>
+    <text>1st | false life</text>
+    <text>3rd | gentle repose</text>
+    <text>5th | wither</text>
+    <text>7th | blight</text>
+    <text>9th | killing curse</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Revelation of Fire</name>
+    <prerequisite>Mystery of Fire, Tradition of the Oracle</prerequisite>
+    <text>Your understanding of the nature of fire unlocks its secrets for you. You learn the following spells at the following levels. These are occultist spells for you.</text>
+    <text>Occultist Level |	Spells Learned</text>
+    <text>1st | burning hands</text>
+    <text>3rd | continual flame</text>
+    <text>5th | fireball</text>
+    <text>7th | fire shield</text>
+    <text>9th | immolation</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Voracious Flames</name>
+    <prerequisite>Mystery of Fire, Tradition of the Oracle</prerequisite>
+    <text>The flames that wreath when you invoke the Mystery of Fire you burn more voraciously. Once per turn, if a creature ends their turn within 5 feet of you or strikes you with a melee attack while within 5 feet of you, you can choose to deal 1d6 fire damage to that creature</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Revelation of Life</name>
+    <prerequisite>Mystery of Life, Tradition of the Oracle</prerequisite>
+    <text>Your understanding of the nature of fire unlocks its secrets for you. You learn the following spells at the following levels. These are occultist spells for you.</text>
+    <text>Occultist Level |	Spells Learned</text>
+    <text>1st | healing word</text>
+    <text>3rd | warding bond</text>
+    <text>5th | beacon of hope</text>
+    <text>7th | aura of life</text>
+    <text>9th | mass cure wounds</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Divine Fate</name>
+    <prerequisite>Tradition of the Oracle</prerequisite>
+    <text>You expand your expertise of reading fate to be able to more specifically divine information from your readings, learning additional more specific spells. You learn the following spells at the following levels. These are occultist spells for you.</text>
+    <text>Occultist Level |	Spells Learned</text>
+    <text>1st | identify</text>
+    <text>3rd | locate object</text>
+    <text>5th | clairvoyance</text>
+    <text>7th | locate creatyre</text>
+    <text>9th | legend lore</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Divine Sight</name>
+    <prerequisite>15th level, Tradition of the Oracle</prerequisite>
+    <text>If you have blindsight, you gain truesight with a range equal to your blindsight.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Mystery of Battle</name>
+    <prerequisite>Tradition of the Oracle</prerequisite>
+    <text>Within war and conflict you see the true essence of perfect conflict. Once per turn on your turn, when you cast a spell a spell of 1st level or higher, you become attuned to the flow of battle and can make a single melee weapon attack as part of the same action.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Mystery of Death</name>
+    <prerequisite>Tradition of the Oracle</prerequisite>
+    <text>You delve the depths of the mystery that lies at the end of life. When you cast a spell of 1st level or higher that deals damage, you can reroll a number of the spell's damage dice equal to your Wisdom modifier. You must use the new value of the die. Dice you reroll this way are converted to necrotic damage, and your current hit points are reduced by one for each die you reroll in this manner.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Mystery of Fire</name>
+    <prerequisite>Tradition of the Oracle</prerequisite>
+    <text>Within flames you have seen yourself, and you know them as they know you. When you cast a spell of 1st level or higher, you can shroud yourself in flames until the start of your next turn, giving you partial cover.</text>
+    <text>While these flames wreath you, you can add fire damage equal to your Wisdom modifier (minimum 1) to damage rolls for melee weapon attacks or to one damage roll of spells that deal fire damage (including the spell that invoked this mystery if applicable).</text>
+    <text>Your current hit points are reduced by 1d4 at the end of your turn by the flames.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Mystery of Life</name>
+    <prerequisite>Tradition of the Oracle</prerequisite>
+    <text>Your powers are tied to the nature of life and its ever shifting balance. When you cast a spell of 1st level or higher, you can heal a creature other than yourself within 30 feet for a number of hit points up to your occultist level. Your current hit points are reduced by an amount equal to the amount you heal the target of the mystery for.</text>
+    <text>You can only use this ability on creatures that have vibrant life pulsing within them, it does not work on undead, constructs, or creatures at zero hit points.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Oracle's Sight</name>
+    <prerequisite>Tradition of the Oracle</prerequisite>
+    <text>You gain blindsight with a range of 15 feet. When affected by the Blinded condition for more than a minute the range of this sight is doubled while under that effect.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Twin Mystery</name>
+    <prerequisite>12th level, Tradition of the Oracle</prerequisite>
+    <text>When you cast a spell that invokes a mystery, you can invoke two different mysteries at the same time, as long as a spell fulfills both Mystery's requirements.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: All Living Things</name>
+    <prerequisite>Revelation of Life, Tradition of the Oracle</prerequisite>
+    <text>When you expend a spell slot to cast a spell that restores hit points a creature, you regain hit points equal to your Wisdom modifier. If you kill a creature or are within 10 feet of a creature as it dies, you take necrotic damage equal to its CR or character level if it has no CR (minimum 1). This is not triggered if the creature an undead or construct.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Avatar of the Elements</name>
+    <prerequisite>11th level, Tradition of the Shaman</prerequisite>
+    <text>You learn the investiture of fire, investiture of ice, and investiture of stone spells. These are Occultist spells for you. When you cast one of these spells, you can choose to shorten the duration of the spell to to 1 minute. When you do so, these spells do not require concentration.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Dance of the Spirits</name>
+    <prerequisite>5th level, Tradition of the Shaman</prerequisite>
+    <text>When you cast spirit guardians, you can choose what damage type it does from any of Fire, Cold, Lightning, Radiant or Necrotic, regardless of your alignment.</text>
+    <text>Additionally, you have advantage on Constitution saves to maintain concentration on spirit guardians and healing spirit.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Detonate Spirit</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>As an action while you have a manifested spirit, you can cause it to erupt in a massive burst of power. All creatures within 10 feet of it must make a Dexterity saving throw. A target takes damage equal to twice the manifested damage of spirit on a failed save. If the spirit was empowered with a spell slot, a target takes half as much damage on a successful one.</text>
+    <text>The spirit is immediately released and disappears.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Energized Weapon</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>You gain the ability to infuse your weapon with the power granted to you by the spirits. While you have an empowered spirit bonded, you can pour all of it's energy into your weapon (recalling it if it is manifested). The next attack with that weapon adds twice the additional damage from the spirit, but the bond immediately expires.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Fury of the Flames</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>You learn the fists of fire spell. When you cast this spell, the damage of your fists as natural weapons becomes 1d8 instead of 1d6.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Mistwalker</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>You can see through heavy obscurement when the obscurement is caused by fog, mist, or smoke, natural or otherwise. While you are shrouded by fog, mist, or smoke, you have half cover.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Piercing Cold</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>You learn the ice weapon spell. When you cast this spell, the size of the damage die of any weapon it creates is increased by d2 (for example, from a d6 to a d8).</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Piercing Cold</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>You learn the ice weapon spell. When you cast this spell, the size of the damage die of any weapon it creates is increased by d2 (for example, from a d6 to a d8).</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Primal Earth</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>You harness the primal elemental powers of the earth and stone to your call, you learn the following spells at the following list, but they do not count against your spells known. These are Occultist spells for you.</text>
+    <text>Occultist Level |	Spells Learned</text>
+    <text>1st | earth tremor</text>
+    <text>3rd | eartbind</text>
+    <text>5th | erupting earth</text>
+    <text>7th | orbital stones</text>
+    <text>9th | wall of stone</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Primal Fire</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>You harness the primal elemental powers of fire to your call, you learn the following spells at the following list, but they do not count against your spells known. These are Occultist spells for you.</text>
+    <text>Occultist Level |	Spells Learned</text>
+    <text>1st | burning hands</text>
+    <text>3rd | pyrotechnics</text>
+    <text>5th | fireball</text>
+    <text>7th | wall of fire</text>
+    <text>9th | immolation</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Primal Fire</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>You harness the primal elemental powers of ice to your call, you learn the following spells at the following list, but they do not count against your spells known. These are Occultist spells for you.</text>
+    <text>Occultist Level |	Spells Learned</text>
+    <text>1st | ice knife</text>
+    <text>3rd | snowball storm</text>
+    <text>5th | sleet storm</text>
+    <text>7th | ice storm</text>
+    <text>9th | cone of cold</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Primal Storms</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>You harness the primal elemental powers of storms and lightning to your call, you learn the following spells at the following list, but they do not count against your spells known. These are Occultist spells for you.</text>
+    <text>Occultist Level |	Spells Learned</text>
+    <text>1st | thunderwave</text>
+    <text>3rd | gust of wind</text>
+    <text>5th | lightning bolt</text>
+    <text>7th | storm sphere</text>
+    <text>9th | control winds</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Radiate Power</name>
+    <prerequisite>15th level, Tradition of the Shaman</prerequisite>
+    <text>While you have a spirit bonded to you, as a bonus action you can cause it to emanate power, causing all creatures within 5 feet of you (or it if it is manifested at another location) to make a Wisdom saving throw against your spell save DC, or take damage equal to its manifested damage.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Rites of the Moon</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>You learn the ancient rites of the moon and the powers that holds, opening new pathways of magic to you. You learn the following spells at the following levels. This are Occultist spells for you.</text>
+    <text>Occultist Level |	Spells Learned</text>
+    <text>1st | faerie fire</text>
+    <text>3rd | moonbeam</text>
+    <text>5th | tidal wave</text>
+    <text>7th | control water</text>
+    <text>9th | wall of light</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Shaman's Touch</name>
+    <prerequisite>7th level, Tradition of the Shaman</prerequisite>
+    <text>When you take the attack action, you can replace one attack with a cantrip with a range of touch.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Warding Power</name>
+    <prerequisite>Tradition of the Shaman</prerequisite>
+    <text>You learn the spell shield, and it becomes an Occultist spell for you.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Animate Broom</name>
+    <prerequisite>12th level, Tradition of the Witch</prerequisite>
+    <text>You infuse an object - traditionally a broom, but can be any vaguely broom-shaped object (like a spear, staff, or similar) - with flying magic, turning it into a Broom of Flying (basic rules, pg. 156). If your broom is lost or destroyed, you can create a new one during 8 hours of work. If a previous broom still exists when you make a new one, it loses its magic upon the completion of the new one.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Animate Hair</name>
+    <prerequisite>Tradition of the Witch</prerequisite>
+    <text>As a bonus action, you can expend a 1st level spell slot to cause your hair to lengthen, strengthen, and spring to life for 1 minute. While it is animated, you can use your action to make a melee spell attack with a range of 5 feet with it, dealing 1d8 bludgeoning damage on hit. This increases by 1d8 when you reach 5th Level (2d8), 11th level (3d8), and 17th level (4d8). If you hit a Large or smaller creature with this attack, as a bonus action you can attempt to grapple the creature with your hair. The creature must make a Strength saving throw, or become grappled by your hair.</text>
+    <text>A grappled creature can contest the grapple against your spell save DC, or deal 5 slashing, fire, or acid damage to the hair to free themselves. The hair has an AC of 12, and you take no damage when it is attacked.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Companion Coven</name>
+    <prerequisite>Tradition of the Witch</prerequisite>
+    <text>As a ritual that takes 1 hour, you can form a coven bond with one willing creature that has spell slots. While both of your are conscious and within 120 feet of each other, you gain the ability to share spell slots up to a spell slot level of your Witch level divided by four (rounded down), minimum of 1st level slots. While this bond is active, you can use your Spellcasting feature to cast using their spell slots (consuming them as normal), and they can use their Spellcasting feature (if they have one) to cast using your qualifying spell slots (consuming them as normal).</text>
+    <text>Additionally, you know their location at all times while they are part of your coven and within 120 feet of you. You can only be bonded to one creature with this bond at a time. You can end this coven at any time.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Evil Eye</name>
+    <prerequisite>Tradition of the Witch</prerequisite>
+    <text>You gain the ability to lay the most unsettling of gaze upon a creature. As a reaction to a creature hitting you with a melee attack, you can unleash a terrifying glare at them. The target creature must make a Wisdom saving throw or become frightened of you until the end of your next turn. Once a creature has passed a save against this ability, they are immune to it for 24 hours.</text>
+    <text>Additionally, you gain proficiency in the Intimidation skill.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Familiar Swap</name>
+    <prerequisite>Tradition of the Witch</prerequisite>
+    <text>If your familiar is within 60 feet of you, as an action, you can swap places with your familiar. If you cannot fit into the space where your familiar is, the ability fails and you take 1d6 force damage. Once you do this, you cannot do so again until you complete a short or long rest.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Riding Familiar</name>
+    <prerequisite>Tradition of the Witch</prerequisite>
+    <text>If you have a familiar without a flying speed, as an action you can make them become a creature one size larger than you (up to Large sized) for 8 hours. As an action, you can revert your familiar to it's normal size. At 12th level, you can use this ability on familiar with flying speed. Once you do this, you cannot do so again until you complete a short or long rest.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Riding Familiar</name>
+    <prerequisite>Tradition of the Witch</prerequisite>
+    <text>If you have a familiar without a flying speed, as an action you can make them become a creature one size larger than you (up to Large sized) for 8 hours. As an action, you can revert your familiar to it's normal size. At 12th level, you can use this ability on familiar with flying speed. Once you do this, you cannot do so again until you complete a short or long rest.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Skulking Familiar</name>
+    <prerequisite>Tradition of the Witch</prerequisite>
+    <text>Any familiar summoned by you gains proficiency in the Stealth skill, and its movement doesn't provoke opportunity attacks.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Witch's Brew</name>
+    <prerequisite>Tradition of the Witch</prerequisite>
+    <text>During a short or long rest, you can infuse a spell with a casting time of one action or bonus action into a concoction, expending the spell slot on completion of the rest.</text>
+    <text>This spell can subsequently be cast by anyone carrying the potion by drinking the potion as an action, with the drinker as the target, acting as the caster of the spell, but using the Witch's spell casting ability modifier.</text>
+    <text>The potion remains potent until you complete a long rest and recharge the spell slot expended to create the potion.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Witch's Claws</name>
+    <prerequisite>Tradition of the Witch</prerequisite>
+    <text>You learn the cantrip primal savagery. When you deal damage to a creature with primal savagery, you can apply the effect of Witch's Touch to it.</text>
+  </feat>
+  <feat>
+    <name>Occult Rite: Witch's Hat</name>
+    <prerequisite>Tradition of the Witch</prerequisite>
+    <text>You invest some of your magic, turning a hat (traditionally a floppy wide brimmed black witch's hat) into a hat of disguise. If your hat is lost or destroyed, you can create a new one with 2 hours of work. If a previous hat still exists when you make a new one, it loses its magic upon the completion of the new one.</text>
+  </feat>
+  <spell>
+    <name>Burn</name>
+    <classes>Druid, Occultist, Sorcerer</classes>
+    <level>0</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>Touch</range>
+    <components>V, S</components>
+    <duration>Instantaneous</duration>
+    <text>You ignite a brilliant flame around your hand that sears anything you touch. Make a melee spell attack against the target. You have advantage if the target creature type is plant, or if it has a vulnerability to fire damage. On hit, the target takes 1d12 fire damage.</text>
+    <text>The spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).</text>
+    <roll>1d12</roll>
+    <roll>2d12</roll>
+    <roll>3d12</roll>
+    <roll>4d12</roll>
+  </spell>
+  <spell>
+    <name>Decaying Touch</name>
+    <classes>Druid, Occultist, Sorcerer</classes>
+    <level>0</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>Touch</range>
+    <components>V, S, M (powdered remains of a dead animal)</components>
+    <duration>Instantaneous</duration>
+    <text>You wreath your hand in necrotic decay that causes anything you touch to wither and die. Make a melee spell attack against the target. On hit, the targets takes 1d6 necrotic damage is starts to flake and decay. The first time they take damage from another source before the start of your next turn, they take an additional 1d6 necrotic damage. Targets immune to diseases are immune to this effect.</text>
+    <text>The both the initial and secondary damage of the spell increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
+    <roll>1d6</roll>
+    <roll>2d6</roll>
+    <roll>3d6</roll>
+    <roll>4d6</roll>
+  </spell>
+  <spell>
+    <name>Fists of Fire</name>
+    <classes>Druid, Occultist, Sorcerer</classes>
+    <level>0</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 bonus action</time>
+    <range>Self</range>
+    <components>V, S, M (powdered remains of a dead animal)</components>
+    <duration>Instantaneous</duration>
+    <text>You cause your fists to erupt in flames. For the duration, your fists become a set of simple natural weapons that deal 1d6 fire damage. You are proficient in these weapons, and they have the Light property.</text>
+    <text>For the duration, any flammable object you attempt to hold catches fire. If you end your turn grappling another creature with your hands, it takes 1d4 fire damage.</text>
+    <text>You can end the spell early (no action required).</text>
+    <roll>1d6</roll>
+    <roll>1d4</roll>
+  </spell>
+  <spell>
+    <name>Freeze</name>
+    <classes>Druid, Occultist, Sorcerer</classes>
+    <level>0</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>Touch</range>
+    <components>V, S, M (powdered remains of a dead animal)</components>
+    <duration>Instantaneous</duration>
+    <text>You instill a deadly chill into your hand. Make a melee spell attack against the target. On hit, the target takes 1d8 cold damage, and the target's movement speed is reduced by 10 feet until the end of their turn.</text>
+    <text>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+    <roll>1d8</roll>
+    <roll>2d8</roll>
+    <roll>3d8</roll>
+    <roll>4d8</roll>
+  </spell>
+  <spell>
+    <name>Ice Weapon</name>
+    <classes>Druid, Occultist</classes>
+    <level>0</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 bonus action</time>
+    <range>Self</range>
+    <components>V, S, M (powdered remains of a dead animal)</components>
+    <duration>1 minute</duration>
+    <text>You conjure a weapon formed from magical ice from the air. You have proficiency with this weapon. When you form it and as a bonus action while wielding it, you can morph the weapon into different forms that take on the following properties. If you lose or discard the weapon, you can reform it in your hand as a bonus action.</text>
+    <text>Weapon |	Damage |	Properties</text>
+    <text>Ice Spear  |	1d6  |	Thrown (30/90)</text>
+    <text>Ice Sword  |	1d6  |	Versatile (1d8)</text>
+    <text>Ice Lance  |	1d8  |	Two-Handed, Reach</text>
+    <text>Ice Hammer |	1d10 | Two-Handed, Heavy</text>
+    <text>Ice Dagger |	1d4  | Finesse Thrown (30/90)</text>
+    <text>You can end the spell early (no action required).</text>
+    <text>Regardless of it's form, the weapon deals cold damage. You can end the spell early, letting the weapon melt to a harmless splash of water (no action required). You can have up to three ice weapons formed from this spell at a time. After forming a fourth, the first created one melts away.</text>
+    <text>The weapons can be found in the equpment section.</text>
+  </spell>
+  <spell>
+    <name>Befuddling Curse</name>
+    <classes>Occultist, Occultist (Witch; Green)</classes>
+    <level>1</level>
+    <school>EN</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S, M (something from the target creature (such as blood, hair, or scales) which the spell consumes)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You befuddle a creature's mind, swapping the position of two things it can see that are of the same size and category (for example, two medium creatures or two gargantuan buildings). The target creature must make a Wisdom saving throw. On failure, it is unaware the two things have been swapped.</text>
+    <text>Each time the creature interacts with, attacks, or is attacked by a swapped targets, it can repeat its saving throw against the effect.</text>
+  </spell>
+  <spell>
+    <name>Binding Curse</name>
+    <classes>Occultist, Occultist (Witch; White)</classes>
+    <level>1</level>
+    <school>EN</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S, M (something from the target creature (such as blood, hair, or scales) which the spell consumes)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You bind a creature to a point within 5 feet of it, causing a glowing chains of light to connect it to that point. For the duration of the spell, if the creature attempts to move away from that point, the must make a Wisdom saving throw, or be unable to move more than 5 feet away from from that point until the start of their next turn.</text>
+    <text>If a creature starts its turn more than 10 feet from the binding point, they must make a Strength saving throw or be dragged 5 feet toward the binding point.</text>
+  </spell>
+  <spell>
+    <name>Crippling Agony</name>
+    <classes>Occultist</classes>
+    <level>1</level>
+    <school>N</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S, M (a joint bone)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You can inflict crippling agony on a foe. Choose one creature that you can see within range to make a Constitution saving throw. If the target fails, it becomes crippled with horrific pain. Whenever the creation moves more than half of it's movement speed or takes an action, the crippling pain causes it to take 1d6 necrotic damage.</text>
+    <text>It can repeat the saving throw at the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.</text>
+    <roll>1d6</roll>
+  </spell>
+  <spell>
+    <name>Electrify</name>
+    <classes>Occultist, Sorcerer, Wizard</classes>
+    <level>1</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 bonus action</time>
+    <range>Self</range>
+    <components>V, S, M (a pair of singed gloves)</components>
+    <duration>1 round</duration>
+    <text>You channel lightning into your hands. After casting this spell, if you make a successful melee spell attack, unarmed strike or a melee weapon attack with a weapon made of a conductive material (such as metal), the target takes 1d10 lightning damage and must make a Constitution saving throw. On a failed save, the target becomes stunned until the start of their next turn. The spell ends after dealing damage, or at the start of your next turn, whichever occurs first.</text>
+    <text>For the duration of the spell, you can cast the spell shocking grasp.</text>
+    <roll>1d10</roll>
+  </spell>
+  <spell>
+    <name>Grip of the Dead</name>
+    <classes>Occultist</classes>
+    <level>1</level>
+    <school>N</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>Touch</range>
+    <components>V, S, M (a joint bone)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You channel unholy strength into you hand, and reach out to grab a creature. The creature must make a Strength saving throw or become restrained by your deathly iron grasp. As an action on its turn, the creature can attempt to escape using a Strength (Athletics) or Dexterity (Acrobatics) check against your Spell Save DC.</text>
+    <text>At the start of the creatures turn while you maintain the grip and the spell, it takes 1d8 necrotic damage as you drain the life from it, and regain hit points equal to half the damage dealt.</text>
+    <text>At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
+    <roll>1d8</roll>
+    <roll>2d8</roll>
+    <roll>3d8</roll>
+    <roll>4d8</roll>
+    <roll>5d8</roll>
+    <roll>6d8</roll>
+    <roll>7d8</roll>
+    <roll>8d8</roll>
+    <roll>9d8</roll>
+  </spell>
+  <spell>
+    <name>Induce Headache</name>
+    <classes>Bard, Occultist, Wizard</classes>
+    <level>1</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S, M (a bad pun written on a scrap of parchment)</components>
+    <duration>1 round</duration>
+    <text>Targeting a creature with 6 or more intelligence, you inflict an instantaneous headache on it. The target takes 1 psychic damage at the start of its turn, and has disadvantage on Constitution saving throws to maintain Concentration or Intelligence ability checks.</text>
+    <roll>1d10</roll>
+  </spell>
+  <spell>
+    <name>Nauseating Poison</name>
+    <classes>Druid, Occultist, Warlock</classes>
+    <level>1</level>
+    <school>N</school>
+    <ritual>NO</ritual>
+    <time>1 bonus action</time>
+    <range>Self</range>
+    <components>V, S, M (a bad pun written on a scrap of parchment)</components>
+    <duration>1 round</duration>
+    <text>You shroud your hand, a weapon you are holding, or a natural weapon in dark ichorous miasma. After casting this spell, if you make a successful melee spell attack, unarmed strike or a melee weapon attack, the target takes an additional 1d8 poison damage and must make a Constitution saving throw. On a failed save, the target becomes poisoned until the end of your next turn.</text>
+    <text>The spell ends after dealing damage, or at the start of your next turn, whichever occurs first.</text>
+    <roll>1d8</roll>
+  </spell>
+  <spell>
+    <name>Rotting Curse</name>
+    <classes>Occultist, Occultist (Witch; Black)</classes>
+    <level>1</level>
+    <school>N</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>Self</range>
+    <components>V, S, M (something from the target creature (such as blood, hair, or scales) which the spell consumes)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You inflicting a rotting decay on a creature, causing it to to begin to rot. For the duration of the spell, every time the creature takes damage, it takes an additional 1d4 necrotic damage, and the effect of all healing on the creature is reduced by half.</text>
+    <text>The target creature has disadvantage on any Charisma checks for social interaction during the effect of the spell.</text>
+    <roll>1d4</roll>
+  </spell>
+  <spell>
+    <name>Spiritual Consultation</name>
+    <classes>Occultist</classes>
+    <level>1</level>
+    <school>N</school>
+    <ritual>NO</ritual>
+    <time>1 minute</time>
+    <range>Self</range>
+    <components>V, S, M (1 gp worth of incense, which the spell consumes)</components>
+    <duration>10 minutes</duration>
+    <text>You call forth a spirit that is proficient in a skill from Arcana, Animal Handling, History, Investigation, Medicine, Nature, Perception, Religion, or Survival. The spirit is ethereal and ephemeral and cannot interact with physical objects, but can provide guidance on matters relating to the skill selected when you summon it.</text>
+    <text>You can treat any check you make in the skill as if you have proficiency with it so long as the spirit can communicate with you. Alternatively, if the ability check is an Intelligence or Wisdom check you can have the spirit make the check, and it has a +8 modifier for the skill was summoned for.</text>
+    <text>The spirit will follow you and cannot stray more than 5 feet from you. You can choose to release it early, dismissing it back from whence it came.</text>
+  </spell>
+  <spell>
+    <name>Alacrity</name>
+    <classes>Bard, Occultist, Sorcerer, Wizard</classes>
+    <level>2</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 minute</time>
+    <range>Self</range>
+    <components>V, S, M (the hand of a broken clock)</components>
+    <duration>1 round</duration>
+    <text>Until the spell ends, your speed is doubled, you gain a +2 bonus to AC, you have advantage on Dexterity saving throws, and you gain an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.</text>
+    <text>If you are under the effect of haste, you gain no benefit from this spell.</text>
+  </spell>
+  <spell>
+    <name>Animate Object</name>
+    <classes>Bard, Occultist, Sorcerer, Wizard</classes>
+    <level>2</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 bonus action</time>
+    <range>60 feet</range>
+    <components>V, S</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You bring a small or smaller object to life. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. The object has the following stats: HP: 20, AC: 18, Str: 4, Dex: 18. The object has an attack modifier equal to your spell attack modifier. If the object is a weapon, it deals damage equal to the weapon's damage dice + your Wisdom modifier on hit dealing that weapons damage type, otherwise it deals 1d4 + your Wisdom modifier bludgeoning damage on hit.</text>
+    <text>As a bonus action, you can mentally command the animated object as long as it is within 60 feet of you. You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.</text>
+    <text>If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.</text>
+    <roll>1d20+SPELL+PROF</roll>
+    <roll>1d4+SPELL</roll>
+  </spell>
+  <spell>
+    <name>Boil Blood</name>
+    <classes>Occultist</classes>
+    <level>2</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>Targeting a creature that has taken slashing or piercing damage in the last minute, make it's blood heat and boil. The target creature must make a Constitution saving throw. On failure, it's blood begins to heat. At the start of it's turn while effected, it takes 3d4 fire damage and is crippled with agony, all terrain is difficult terrain for it.</text>
+    <text>At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target.</text>
+    <text>At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.</text>
+    <roll>3d4</roll>
+    <roll>5d4</roll>
+    <roll>7d4</roll>
+    <roll>9d4</roll>
+    <roll>11d4</roll>
+    <roll>13d4</roll>
+    <roll>15d4</roll>
+    <roll>17d4</roll>
+  </spell>
+  <spell>
+    <name>Earth Ripple</name>
+    <classes>Druid, Occultist, Sorcerer, Wizard</classes>
+    <level>2</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S</components>
+    <duration>Instantaneous</duration>
+    <text>You cause the earth to deform and ripple, a target creature must make a Dexterity saving throw or suffer one of the following effects (your choice):</text>
+    <text>The target is pulled into the earth, taking 1d8 damage and reducing its movement speed to zero until a creature spends an action to dig it free.</text>
+    <text>It is slammed in a direction, taking 2d8 bludgeoning damage, is moved 5 feet in a direction of your choosing, and knocked prone.</text>
+    <text>It is impaled by a spike of earth, taking 4d8 piercing damage.</text>
+    <roll>1d8</roll>
+    <roll>2d8</roll>
+    <roll>4d8</roll>
+  </spell>
+  <spell>
+    <name>Form of Familiar</name>
+    <classes>Occultist, Wizard</classes>
+    <level>2</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 minute</time>
+    <range>60 feet</range>
+    <components>V, S, M (a piece of fur, feather, or scale from your familiar, which the spell consumes)</components>
+    <duration>1 hour</duration>
+    <text>You assume the form of the familiar that provided the material component to the spell. The transformation lasts for the duration, or until you drop to 0 hit points or die. Your game Statistics are replaced by the Statistics of the chosen creature, though you retain your Alignment and Intelligence, Wisdom, and Charisma scores.</text>
+    <text>You assume the Hit Points and Hit Dice of the new form. When you revert to your normal, you return to the number of Hit Points you had before you transformed. If you revert as a result of Dropping to 0 Hit Points, any excess damage carries over to your normal form. As long as the excess damage doesn't reduce your normal form to 0 Hit Points, you aren't knocked Unconscious. You can use an action to revert to your normal form at any time.</text>
+    <text>You are limited in the actions you can perform by the nature of your new form, and you can't speak, cast spells, or take any other action that requires hands or speech. Your gear melds into the new form. You cannot activate, use, wield, or otherwise benefit from any of your equipment.</text>
+  </spell>
+  <spell>
+    <name>Animate Shadow</name>
+    <classes>Occultist, Occultist (Witch; Black)</classes>
+    <level>3</level>
+    <school>N</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S, M (a smoke stained mirror)</components>
+    <duration>Concentration, up to 1 hour</duration>
+    <text>Targeting a creature you can see within range, you bring it's shadow to life under your control. If the creature has a CR of more than 3 or the creature has no shadow (either from the nature of the creature or from the lack of a light source to cast one) the spell fails.</text>
+    <text>Otherwise a copy of the creature is created using its game statistics is created adjacent to the creature (on the side away from the brightest light near it). The shadow has no legendary actions, legendary resistance, and cannot cast spells. The shadow creature has hit points equal to half the target's hit points, and looks like mirrored version of the creature it was summoned from formed from inky black smoke. The creature is resistant to bludgeoning, piercing, and slashing damage from non-magical sources while in darkness. The creature is vulnerable to all damage while in bright light, and always vulnerable to fire, lightning, and radiant damage. If the shadow is killed, the target creature it was summoned from casts no shadows for the next 8 hours.</text>
+    <text>The shadow acts immediately after the creature's turn, and without further direction it attempts to follow and takes the attack action against it was summoned from. As a reaction to the shadow starting it's turn, the caster can exert control over it and cause it to move and take its action as the caster directs.</text>
+    <text>At Higher Levels. When you cast this spell using a 5th- or 6th-level spell slot, the maximum CR of the target increases to CR 4. When you cast it using a 7th- or 8th-level spell slot, the maximum CR of the target increases to CR 5. When you cast it using a spell slot of 9th level or higher, the maximum CR of the target increases to CR 6.</text>
+  </spell>
+  <spell>
+    <name>Cruel Puppetry</name>
+    <classes>Occultist</classes>
+    <level>3</level>
+    <school>N</school>
+    <ritual>YES</ritual>
+    <time>1 action</time>
+    <range>120 feet</range>
+    <components>V, S, M (a small humanoid doll worth at least 5 gp and something from the target creature (such as blood, hair, or scales) both of which the spell consumes)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You attempt to bind a creatures soul to a doll, linking the creature to the doll in a sympathetic link. The target must make a Charisma saving throw. On failure, the creature becomes bound to the doll. On a successful save, the creature is not bound and the spell ends.</text>
+    <text>As part of casting the spell when the creature fails the save, and on subsequent turns using your action until the spell ends, you can perform one of the following actions:</text>
+    <text>Hold the doll still, causing the creature to be Restrained until start of your next turn.</text>
+    <text>Force the doll to move, causing the creature to move 15 feet in a direction of your choice that it can move.</text>
+    <text>Smash the doll, causing it take 4d6 bludgeoning damage.</text>
+    <text>Rip the doll in half, ending the spell, destroying the doll, and dealing 4d12 necrotic damage.</text>
+    <text>Each time after the first you use an action to manipulate the doll, after the effect takes place, the creature can repeat the Charisma with disadvantage, ending the effect on a successful save.</text>
+    <text>Once a creature has been targeted by this spell, they cannot be targeted again for 24 hours.</text>
+    <text>At Higher Levels. When cast with a 5th level spell slot or above, the range of the spell becomes unlimited, as long as the target is on the same plane as the caster.</text>
+  </spell>
+  <spell>
+    <name>Rain of Spiders</name>
+    <classes>Druid, Occultist, Sorcerer, Warlock, Wizard</classes>
+    <level>3</level>
+    <school>C</school>
+    <ritual>NO</ritual>
+    <time>1 bonus action</time>
+    <range>60 feet</range>
+    <components>V, S, M (a spider leg)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>A vertical column of spiders begins to rain down in 20 foot radius, 40 foot high cylinder, centered on a location you specify. A Swarm of Spiders (Monster Manual, pg 334) descends onto each creature within the cylinder when the spell is cast.</text>
+    <text>This swarm is considered to be climbing on the target creature and moves with it, even if they leave the affected area, and takes its turn immediately after that creature's turn. A creature can make use its action to attempt to get it off, making a Strength (Athletics) or Dexterity (Acrobatics) check against the spell save DC of the caster.</text>
+    <text>A swarm will attack the creature it fell on if it can, or move to chase it if it has been knocked off of it. Any spiders that remain when the spell ends disappear.</text>
+  </spell>
+  <spell>
+    <name>Wither</name>
+    <classes>Occultist, Occultist (Witch; Black)</classes>
+    <level>3</level>
+    <school>N</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S, M (a pinch of powdered bone and sand)</components>
+    <duration>1 round</duration>
+    <text>Dark energy tears the moisture from a body, sapping of life and vitality. The target must make a Constituion saving throw. The target takes 4d10 necrotic damage on a failed save and becomes withered until the start of your next turn, or half as much on a successful one and does not become withered. A withered creature gains vulnerability to fire damage if they are not resistance to fire damage, or loses their resistance to fire if they were resistant to fire.</text>
+    <text>At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d10 for each slot level above 5th.</text>
+    <roll>4d10</roll>
+    <roll>5d10</roll>
+    <roll>6d10</roll>
+    <roll>7d10</roll>
+    <roll>8d10</roll>
+    <roll>9d10</roll>
+    <roll>10d10</roll>
+  </spell>
+  <spell>
+    <name>Curse of Impotence</name>
+    <classes>Occultist, Occultist (Witch; White)</classes>
+    <level>5</level>
+    <school>EN</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S, M (something from the target creature (such as blood, hair, or scales) which the spell consumes)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You curse a target creature, causing an overwhelming sense of powerlessness to wash over it. Any time the target creature attempts to attack, cast a spell that deals damage, or use an action that deals damage, it must make a Wisdom saving throw. On failure, they complete their action, but their action does no damage to any target.</text>
+  </spell>
+  <spell>
+    <name>Deglove Creature</name>
+    <classes>Occultist</classes>
+    <level>5</level>
+    <school>N</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S, M (a finger bone)</components>
+    <duration>Instantaneous</duration>
+    <text>You point at a creature within range, and attempt to make it's skeleton rip free of it's body. The creature must make a Constitution saving throw. The target takes 7d10 + 7 necrotic damage on a failed save, or half as much damage on a successful one.</text>
+    <text>If this damage kills the target creature, it's flesh sloughs of it's skeleton, collapsing a pile, and the skeleton becomes a Skeleton (Basic Rules, pg. 152), hostile to all living creatures that attacks the closest target.</text>
+    <roll>7d10+7</roll>
+  </spell>
+  <spell>
+    <name>Killing Curse</name>
+    <classes>Druid, Occultist, Occultist (Witch; Black), Sorcerer, Warlock, Wizard</classes>
+    <level>5</level>
+    <school>EN</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S, M (something from the target creature (such as blood, hair, or scales) which the spell consumes)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You curse a target to die. The targets current and maximum hit points is reduced by 3d10 + 10. If this causes a creatures to have zero hit points, the creature dies.</text>
+    <text>For the duration of the spell, the target cannot regain hit points unless from a magical effect cast by a spell slot of higher level than this spell slot this curse was cast with, and any death saving throw they roll is automatically considered a 1.</text>
+    <text>At the start of a creatures turn while they are under the effect of this spell, they make a Charsima saving throw. On failure, their current and maximum hit points is reduced by 1d10 + 10. On a successful save, the spell ends. A creature's maximum hit points are restored when it takes a long rest.</text>
+    <roll>3d10+10</roll>
+    <roll>1d10+10</roll>
+  </spell>
+  <spell>
+    <name>Swapping Curse</name>
+    <classes>Occultist, Occultist (Witch; Green)</classes>
+    <level>5</level>
+    <school>EN</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S, M (something from the target creature (such as blood, hair, or scales) which the spell consumes)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You cast a curse targeting two individuals. Both targets must make a Charisma saving throw (which they can choose to fail). If both targets fail their saving throws, for the duration of the spell their souls are swapped. A soul controls the body it inhabits. It gains any ability score or action the body had (besides legendary actions or legendary resistance), but retains it's own spell casting (if it has the spellcasting, innate or otherwise), and has disadvantage on all attack rolls and strength, dexterity, and constitution saving throws for 1d4 turns after swapping bodies.</text>
+    <text>At the end of a swapped creatures turn, it can choose to repeat the saving throw, ending the effect on a successful save. It its CR (or character level if it has no CR) is higher than the body of the creature it is, it has advantage on the save.</text>
+    <text>If a creature dies while while it's soul is swapped, the souls return to their original bodies. If a soul was in a dying creature that returns to a living body, that creature takes 5d10 necrotic damage.</text>
+  </spell>
+  <spell>
+    <name>Baba's Walking Hut</name>
+    <classes>Occultist</classes>
+    <level>6</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>10 minutes</time>
+    <range>60 feet</range>
+    <components>V, S, M (a chicken leg)</components>
+    <duration>24 hours</duration>
+    <text>You touch a hut, cabin, or other building no more than 15 feet by 15 feet by 10 feet. On completion of the spell, the building grows legs large enough to support it, as well as the structural integrity needed stand and move, and becomes a gargantuan creature. It has 250 hit points, an AC of 12, and a walking speed of 20 feet. If it drops to 0 hit points, the spell ends.</text>
+    <text>On your turn, you can direct it to move (no action required) and it will continue to move as directed until you direct it to stop or reaches its destination. It can take no actions, but if it walks over a large or smaller creature, you can direct it to attempt to step on that creature, and that creature must succeed a Dexterity saving throw, or take 2d10 bludgeoning damage and be knocked prone.</text>
+    <text>If you cast this spell on the same building every day for a year, the spell lasts until dispelled.</text>
+    <roll>2d10</roll>
+  </spell>
+  <spell>
+    <name>Twisting Eruption</name>
+    <classes>Occultist</classes>
+    <level>7</level>
+    <school>C</school>
+    <ritual>NO</ritual>
+    <time>10 minutes</time>
+    <range>120 feet</range>
+    <components>V, S, M (a handful of dead plants)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You target a point and call forth tendrils, twisted vines, and gnarled roots of dark energy that erupt from the ground in a 60 foot radius. All creatures of your choice must make a Dexterity saving throw or be restrained as the shadowy plant tendrils grasp and drain the life from it.</text>
+    <text>At start of a creature's turn, if it is restrained by the spell, it takes 2d10 bludgeoning damage, and 2d10 necrotic damage. Each time a creature takes necrotic damage from this spell, the caster regains 1d4 hit points.</text>
+    <text>A creature restrained by the tendrils can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself. A tendril can be destroyed, freeing a creature from its grasp. They have an AC of 10, 20 hit point, and are immune to all damage besides radiant and fire. Spells that deal radiant or fire damage to creatures in an area of effect also affect tendrils in that area.</text>
+    <text>Creatures that end their turn within the radius while not restrained must make a Dexterity saving throw or become restrained by the tendrils.</text>
+    <roll>2d10+2d10</roll>
+    <roll>1d4</roll>
+  </spell>
+  <spell>
+    <name>Manipulate Fate</name>
+    <classes>Occultist</classes>
+    <level>9</level>
+    <school>D</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>Self</range>
+    <components>V, S, M (a spool of silk thread)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You reach out and grasp the imperceptible threads of fate, subtly manipulating them. Whenever a creature within 60 feet of you makes an attack roll, saving throw, or ability check, you can use your reaction to tweak their fate, altering the value of the roll. You can choose to manipulate fate after the die is rolled, but before the outcome is determined.</text>
+    <text>You can alter the roll of the die to an adjacent number to the number rolled (outcomes listed on the table below).</text>
+    <text>d20 |	Tweaked Fates</text>
+    <text>1   | 7, 13, or 19</text>
+    <text>2   | 12, 18, 20</text>
+    <text>3   | 17, 16, or 19</text>
+    <text>4   | 11, 14, or 18</text>
+    <text>5   | 13, 15, or 18</text>
+    <text>6   | 9, 14, or 16</text>
+    <text>7   | 1, 15, or 17</text>
+    <text>8   | 10, 16, or 20</text>
+    <text>9   | 6, 11, or 19</text>
+    <text>10  | 8, 12, or 17</text>
+    <text>11  | 4, 9, or 13</text>
+    <text>12  | 2, 10, or 15</text>
+    <text>13  | 1, 5, or 11</text>
+    <text>14  | 4, 6, or 20</text>
+    <text>15  | 5, 7, 12</text>
+    <text>16  | 3, 6, or 8</text>
+    <text>17  | 3, 7, or 10</text>
+    <text>18  | 2, 4, or 5</text>
+    <text>19  | 1, 3, or 9</text>
+    <text>20  | 2, 8, or 14</text>
+    <text>When you alter a roll, you can choose to cast aside subtlety and yank the thread of fate, and select any value of the d20 as the outcome of the result, but the backlash causes you to take a number d6 equal to the difference in the value selected from the value rolled in necrotic damage. The spell immediately ends after the result is changed in this more drastic way.</text>
+  </spell>
+  <spell>
+    <name>Acid Splash</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Chill Touch</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Create Bonfire</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Dancing Lightings</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Druidcraft</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Frostbite</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Guidance</name>
+    <classes>Occultist, Occultist (Oracle)</classes>
+  </spell>
+  <spell>
+    <name>Gust</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Infestation</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Light</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Lightning Lure</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Magic Stone</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Mending</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Message</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Minor Illusion</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Mold Earth</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Poison Spray</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Primal Savagery</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Produce Flame</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Shape Water</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Thaumaturgy</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Thorn Whip</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Absorb Elements</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Animal Friendship</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Arms of Hadar</name>
+    <classes>Occultist (Witch; Black)</classes>
+  </spell>
+  <spell>
+    <name>Bane</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Beast Bond</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Burning Hands</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Cause Fear</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Ceremony</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Comprehend Languages</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Cure Wounds</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Detect Magic</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Detect Poison and Disease</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Disguise Self</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Dissonant Whispers</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Entangle</name>
+    <classes>Occultist, Occultist (Witch; Green)</classes>
+  </spell>
+  <spell>
+    <name>Feather Fall</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Find Familiar</name>
+    <classes>Occultist (Witch)</classes>
+  </spell>
+  <spell>
+    <name>Fog Cloud</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Hail of Thorns</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Healing Word</name>
+    <classes>Occultist (Witch; White)</classes>
+  </spell>
+  <spell>
+    <name>Ice Knife</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Identify</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Illusory Script</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Inflict Wounds</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Ray of Sickness</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Speak with Animals</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Tasha's Hideous Laughter</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Unseen Servant</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Witch Bolt</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Alter Self</name>
+    <classes>Occultist, Occultist (Witch; Green)</classes>
+  </spell>
+  <spell>
+    <name>Animal Messenger</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Augury</name>
+    <classes>Occultist, Occultist (Oracle)</classes>
+  </spell>
+  <spell>
+    <name>Barkskin</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Blindness/Deafness</name>
+    <classes>Occultist, Occultist (Witch; Black)</classes>
+  </spell>
+  <spell>
+    <name>Calm Emotions</name>
+    <classes>Occultist, Occultist (Witch; White)</classes>
+  </spell>
+  <spell>
+    <name>Darkness</name>
+    <classes>Occultist, Occultist (Witch; Black)</classes>
+  </spell>
+  <spell>
+    <name>Darkvision</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Detect Thoughts</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Enhance Ability</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Enlarge/Reduce</name>
+    <classes>Occultist, Occultist (Witch; Green)</classes>
+  </spell>
+  <spell>
+    <name>Gentle Repose</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Healing Spirit</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Heat Metal</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Hold Person</name>
+    <classes>Occultist, Occultist (Witch; White)</classes>
+  </spell>
+  <spell>
+    <name>Invisibility</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Lesser Restoration</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Locate Object</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Melf's Acid Arrow</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Mirror Image</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Misty Step</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Protection from Poison</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Scorching Ray</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>See Invisibility</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Shadow Blade</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Silence</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Spider Climb</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Spike Growth</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Suggestion</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Web</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Animate Dead</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Bestow Curse</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Blink</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Catnap</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Clairvoyance</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Counterspell</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Dispel Magic</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Fear</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Fly</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Gaseous Form</name>
+    <classes>Occultist, Occultist (Witch; Green)</classes>
+  </spell>
+  <spell>
+    <name>Hypnotic Pattern</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Life Transference</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Magic Circle</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Major Image</name>
+    <classes>Occultist (Witch; Green)</classes>
+  </spell>
+  <spell>
+    <name>Mass Healing Word</name>
+    <classes>Occultist (Witch; White)</classes>
+  </spell>
+  <spell>
+    <name>Nondetection</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Plant Growth</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Remove Curse</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Revivify</name>
+    <classes>Occultist, Occultist (Witch; White)</classes>
+  </spell>
+  <spell>
+    <name>Sending</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Sleet Storm</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Slow</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Spirit Guardians</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Vampiric Touch</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Wall of Water</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Water Breathing</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Water Walk</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Wind Wall</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Arcane Eye</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Banishment</name>
+    <classes>Occultist, Occultist (Witch; White)</classes>
+  </spell>
+  <spell>
+    <name>Blight</name>
+    <classes>Occultist, Occultist (Witch; Black)</classes>
+  </spell>
+  <spell>
+    <name>Charm Monster</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Compulsion</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Confusion</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Conjure Minor Elementals</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Conjure Woodland Beings</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Control Water</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Divination</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Elemental Bane</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Evard's Black Tentacles</name>
+    <classes>Occultist, Occultist (Witch; Black)</classes>
+  </spell>
+  <spell>
+    <name>Giant Insect</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Greater Invisibility</name>
+    <classes>Occultist, Occultist (Witch; Green)</classes>
+  </spell>
+  <spell>
+    <name>Hallucinatory Terrain</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Ice Storm</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Leomund's Secret Chest</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Locate Creature</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Otiluke's Resilient Sphere</name>
+    <classes>Occultist (Witch; White)</classes>
+  </spell>
+  <spell>
+    <name>Polymorph</name>
+    <classes>Occultist, Occultist (Witch; Green)</classes>
+  </spell>
+  <spell>
+    <name>Shadow of Moil</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Vitriolic Sphere</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Wall of Fire</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Watery Sphere</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Animate Objects</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Awaken</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Cloudkill</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Commune with Nature</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Conjure Elemental</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Contact Other Plane</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Contagion</name>
+    <classes>Occultist, Occultist (Witch; Black)</classes>
+  </spell>
+  <spell>
+    <name>Danse Macabre</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Dominate Person</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Dream</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Enervation</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Geas</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Greater Restoration</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Hold Monster</name>
+    <classes>Occultist, Occultist (Witch; White)</classes>
+  </spell>
+  <spell>
+    <name>Insect Plague</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Mass Cure Wounds</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Mislead</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Modify Memory</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Negative Energy Flood</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Reincarnate</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Scrying</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Seeming</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Skill Empowerment</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Transmute Rock</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Wall of Stone</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Wrath of Nature</name>
+    <classes>Occultist, Occultist (Witch; Green)</classes>
+  </spell>
+  <spell>
+    <name>Bones of the Earth</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Conjure Fey</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Contingency</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Create Homunculus</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Eyebite</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Find the Path</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Flesh to Stone</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Forbiddance</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Harm</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Heal</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Magic Jar</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Mass Suggestion</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Mental Prison</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Move Earth</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Otiluke's Freezing Sphere</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Primordial Ward</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Soul Cage</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Sunbeam</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>True Seeing</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Wall of Ice</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Wall of Thorns</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Wind Walk</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Finger of Death</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Fire Storm</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Mirage Arcane</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Plane Shift</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Power Word Pain</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Prismatic Spray</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Project Image</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Regenerate</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Resurrection</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Sequester</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Teleport</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Whirlwind</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Abi-Dalzim's Horrid Wilting</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Animal Shapes</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Antipathy/Sympathy</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Clone</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Control Weather</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Demiplane</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Dominate Monster</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Earthquake</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Feeblemind</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Incendiary Cloud</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Maddening Darkness</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Maze</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Mind Blank</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Power Word Stun</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Tsunami</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Astral Projection</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Foresight</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Imprisonment</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Invulnerability</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Power Word Heal</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Power Word Kill</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Psychic Scream</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>True Polymorph</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>True Resurrection</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Shapechange</name>
+    <classes>Occultist</classes>
+  </spell>
+  <spell>
+    <name>Weird</name>
+    <classes>Occultist</classes>
+  </spell>
+</compendium>

@@ -1,0 +1,1114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<compendium version="5" auto_indent="NO">
+  <class>
+    <name>Soul Binder (Int)</name>
+    <hd>6</hd>
+    <proficiency>Constitution, Intelligence, Animal Handling, History, Nature, Insight, Arcana, Persuasion, Intimidation.</proficiency>
+    <numSkills>2</numSkills>
+    <spellAbility>Intelligence</spellAbility>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Starting Paladin</name>
+        <text>As a 1st-level Soul Binder, you begin play with 6+your Constitution modifier hit points.</text>
+        <text></text>
+        <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+        <text>• Armor: light armor</text>
+        <text>• Weapons: simple</text>
+        <text>• Tools: Choose one type of artisan’s tools or one musical instrument</text>
+        <text>• Skills: Choose 2 from Animal Handling, History, Nature, Insight, Arcana, Persuasion, Intimidation</text>
+        <text></text>
+        <text>You begin play with the following equipment, in addition to any equipment provided by your background.</text>
+        <text>• (a) two daggers (b) any simple weapon or (c) any martial weapon (if proficient)</text>
+        <text>• (a) a priest's pack or (b) a scholar's pack</text>
+        <text>• (a) a set of leather armor or (b) a set of scale mail (if proficient)</text>
+        <text>• a set of tools of your choice</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Multiclass Soul Binder</name>
+        <text>To multiclass as a Soul Binder, you must meet the following prerequisites:</text>
+        <text>• Intelligence 13</text>
+        <text></text>
+        <text>You gain the following proficiencies:</text>
+        <text>• light armor, simple weapons</text>
+      </feature>
+    </autolevel>
+    <armor>light</armor>
+    <weapons>simple</weapons>
+    <tools>one type of artisan’s tools or one musical instrument</tools>
+    <wealth>0</wealth>
+    <autolevel level="1">
+      <feature>
+        <name>Soul Bond</name>
+        <text>TAt 1st level, you have chosen to sacrifice a piece of your own soul to gain the aid of a creature stronger than you. You can choose one of several bonds detailed at the end of the class description. Your choice grants you additional features when you reach 3rd level and again at 7th, 11th and 15th levels.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature>
+        <name>Bonded Companion</name>
+        <text>At 1st level, you gain a companion that will serve and aid you in every way it possibly can. The companion gains bonuses from being linked to your essence. In combat, the companion moves and acts on your turn in initiative. You can command it verbally (no action needed) and if you are incapacitated, it will do its best to protect you and itself from harm.</text>
+        <text>You and your companion both become empowered from the bond you share, but only one of you can take full advantage of that power at first. If you take the Attack action or cast a spell with a casting time of one action, your companion can't take the Attack action on the same turn, and if your companion takes the Attack action, you can't take the Attack action or cast a spell with a casting time of one action on the same turn.</text>
+        <text>More details about your companion can be found in the "Soulbound Traits" feature.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature>
+        <name>Soulbound Traits</name>
+        <text>Your soulbound companion has its own hit dice, and can spend them during a short rest. At first level, its hit points are equal to the maximum value of its hit dice + its Constitution modifier. Whenever you gain a level in this class, your companion also levels up, and it can increase its hit point maximum using its hit dice as normal.</text>
+        <text>Whenever you gain the Ability Score Improvement class feature in this class, your companion's abilities also improve. You can increase one of its ability scores of your choice by 2, or you can increase two of its ability scores of your choice by 1. At the DM's discretion you can forgo increasing the companion's ability scores and instead take one feat of your choice for it. As normal, you can’t increase an ability score above 20 using this feature unless its description specifies otherwise.</text>
+        <text>Your companion aids you in and out of battle, as it gains bonuses for being linked to your essence. It gains proficiency in two skills of your choice. In areas where it would use its proficiency bonus, it uses your proficiency bonus instead. It also uses your proficiency bonus when calculating its AC</text>
+        <text>Your companion will always use Strength for its attack and damage rolls (unless otherwise specified), and its damage dice is shown in the companion's stat block. If a feature for your companion requires another creature to make a saving throw, the DC is equal to your Spell Save DC.</text>
+        <text>If your companion is reduced to 0 hit points, it falls unconscious and makes death saving throws. When it is reduced to 0 hit points, the soul binder will take any excess damage from the attack. If it is killed, you can return it to life as part of a long rest. The process of reviving can be very hard on your soul, gaining one level of exhaustion at the end of the rest when you revive your companion.</text>
+        <text>If you die your companion will gain 1 level of exhaustion for each minute you are dead until you are revived again or the companion dies too.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature>
+        <name>Hidden Form</name>
+        <text>You have learned how to reduce your companion's size or hide them on another plane for an easy way to hide or carry it. At 1st level you learn one of the following features.</text>
+        <text>At the end of a long rest you can choose to swap out your hidden form feature for a different one</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Hidden Form: Shrink</name>
+        <text>You can use your bonus action to change your companion's size to Tiny or back to its full size if it is within 30 feet of you. If there isn't enough space for it to grow to its original size, it instead takes 1d10 force damage and stays Tiny. While in Tiny form, the companion can't attack in any way</text>
+      </feature>
+      <feature optional="YES">
+        <name>Hidden Form: Pocket Dimension</name>
+        <text>As an action, you can temporarily dismiss your companion as long as it is within 5 feet of you. It disappears into a pocket dimension where it awaits your summons. As an action, while it is dismissed, you can cause it to reappear in any unoccupied space within 5 feet of you. If you go unconscious while your companion is in its pocket dimension, it reappears within 5 feet on you.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Hidden Form: Disguise</name>
+        <text>As an action you can create an illusion around your companion that makes it looks like another beast or humanoid of similar build and size, such as making a drake look like a dog, or a demon look like a farmer. The disguise end if your companion takes any damage, deals damage to another creature or you end it as an action.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="2">
+      <slots>2, 2</slots>
+    </autolevel>
+    <autolevel level="2">
+      <feature>
+        <name>Edict</name>
+        <text>You have gotten better control over your companion and can give it more complicated commands. You can use a bonus action to speak a command to your companion. It must be able to hear you for the command to take effect.</text>
+        <text>At 2nd level, you learn the following commands: Strike, Toughen Up, Block, Move. They are available as Soul Binder Edict spells</text>
+        <text>You can use this feature a number of times equal to your Intelligence modifier (minimum of 1), regaining all uses on a long rest.</text>
+        <text>The amount of dice for the "Strike" and "Toughen Up" edict increase as you gain levels in this class, increasing to 3d6 at 5th level, 4d6 at 11th level and 5d6 at 17th level.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="2">
+      <feature>
+        <name>Spellcasting</name>
+        <text>By 2nd level, you are now more used to being bonded to a magical creature, and have started to be able to use some magic to help your allies or bolster your companion. See Chapter 10 in the Player's Handbook for the general rules of spellcasting and Chapter 11 for the soul binder spell list.</text>
+        <text></text>
+        <text>Cantrips:</text>
+        <text>   At 2nd level, you know two cantrips of your choice from the soul binder spell list. You learn an additional soul binder cantrip of your choice at 4th level and another at 10th level</text>
+        <text></text>
+        <text>Preparing and Casting Spells:</text>
+        <text>   The Paladin table shows how many spell slots you have to cast your paladin spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+        <text>   The Soul Binder table shows how many spell slots you have to cast your soul binder spells. To cast one of your soul binder spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest</text>
+        <text>   You prepare the list of soul binder spells that are available for you to cast, choosing from the soul binder spell list. When you do so, choose a number of soul binder spells equal to your Intelligence modifier + half your soul binder level (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+        <text>   For example, if you are a 5th-level soul binder, you have four 1st-level and two 2nd-level spell slots. With a Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell heroism, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</text>
+        <text>You can change your list of prepared spells when you finish a long rest. Preparing a new list of soul binder spells requires time spent in meditation with your companion: at least 1 minute per spell level for each spell on your list.</text>
+        <text></text>
+        <text>Spellcasting Ability:</text>
+        <text>   Intelligence is your spellcasting ability for your soul binder spells, since the power of your magic relies on you being able to communicate with your companion and the bond that you share. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a soul binder spell you cast and when making an attack roll with one</text>
+        <text></text>
+        <text>Spellcasting Focus:</text>
+        <text>   You can use an arcane focus as a spellcasting focus for your soul binder spells.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <slots>2, 3</slots>
+    </autolevel>
+    <autolevel level="3">
+      <feature>
+        <name>Divine Health</name>
+        <text>By 3rd level, the divine magic flowing through you makes you immune to disease.</text>
+        <text></text>
+        <text>Source: Player's Handbook p. 82</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature>
+        <name>Magic Item Absorption</name>
+        <text>When you reach 3rd level, the soul binder can perform a special ritual to merge a magic item into its companion during a short rest. Merging with an item requires physical contact between the soul binder, the item and the companion.</text>
+        <text>Certain items have prerequisites. The companion must meet any prerequisite for the item to successfully merge with it. Your companion cannot merge with items requiring a class prerequisite. If the short rest is interrupted, the merging fails. Otherwise, at the end of the short rest, the item merges into the companion.</text>
+        <text>While merged, the companion gains an intuitive understanding of how to activate any magical properties of the item, including any necessary Command words. Your companion can use the magical properties of the item and apply the effects to its natural weapons and natural armor, but doesn't get the benefit of the armor or weapon itself. It can only have one weapon merged at a time, and one piece of armor. The companions natural weapons can only benefit from one of the merged items, and you can change this on a short rest, the same goes for it's natural armor. If it absorbs a weapon, its attacks becomes magical</text>
+        <text>Example: if you bind a +1 Plate armor to your companion it gains +1 to its AC, but not the benefits of wearing Plate armor. Each merged item within the creature counts as an attunement for the soul binder, regardless if whether the item required attunement. Attempting to merge with more than three items fails automatically. The soul binder can voluntarily end the merge by spending another short rest focused on the item, unless the item is cursed. If the companion dies, all the merges items are expelled from its corpse on the ground around it.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="4">
+      <slots>3, 3</slots>
+    </autolevel>
+    <autolevel level="4" scoreImprovement="YES">
+      <feature>
+        <name>Ability Score Improvement</name>
+        <text>When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+        <text>If your DM allows the use of feats, you may instead take a feat.</text>
+        <text></text>
+        <text>Source: Player's Handbook p. 82</text>
+      </feature>
+    </autolevel>
+    <autolevel level="5">
+      <slots>3, 4, 2</slots>
+    </autolevel>
+    <autolevel level="5">
+      <feature>
+        <name>Advanced Offense</name>
+        <text>Beginning at 5th level, you and your companion have improved your skill in combat and work even better together. You gain one of the following features of your choice.</text>
+        <text>At 11th level you get the other feature that you didn't pick at 5th level.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Companion Extra Attack</name>
+        <text>Your companion can attack twice instead of once, whenever it takes the Attack action on its turn.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Expert Commanding</name>
+        <text>There is no longer any restrictions for whenever you or your companion can take the Attack action or cast a spell with a casting time of 1 action as long as it is a soul binder spell.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="5">
+      <feature>
+        <name>Soul Linked Casting</name>
+        <text>You and your companion are of the same soul, and you can channel magic through your link</text>
+        <text>At 5th level, when you cast a spell targeting yourself, you can choose to also have the spell affect your companion if the companion is within 60 feet of you. If you lose concentration on the spell, you both lose the effect, and you must make concentration checks also if your companion takes damage, as if you took that amount of damage.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <slots>3, 4, 2</slots>
+    </autolevel>
+    <autolevel level="6">
+      <feature>
+        <name>Soul Infused Attacks</name>
+        <text>Starting at 6th level, your companions attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <feature>
+        <name>Companion's Protection</name>
+        <text>When you reach 6th level your companion's defense is better than ever, avoiding everything from traps to spells. It gains proficiency in all saving throws. Additionally, it has advantage on Intelligence and Charisma saving throws when you are within 100 feet of it and it can see you.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="7">
+      <slots>3, 4, 3</slots>
+    </autolevel>
+    <autolevel level="7">
+      <feature>
+        <name>Project Senses</name>
+        <text>Beginning at 7th level you can project your mind into your companion. As an action, you can see through your companion’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the companion has. During this time, you are deaf and blind with regard to your own senses. While you are seeing with your companion's eyes you can also choose to speak though it with your own voice being projected from it's mouth.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="8">
+      <slots>3, 4, 3</slots>
+    </autolevel>
+    <autolevel level="8" scoreImprovement="YES">
+      <feature>
+        <name>Ability Score Improvement</name>
+        <text>When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+        <text>If your DM allows the use of feats, you may instead take a feat.</text>
+        <text></text>
+        <text>Source: Player's Handbook p. 82</text>
+      </feature>
+    </autolevel>
+    <autolevel level="9">
+      <slots>2, 4, 3, 2</slots>
+    </autolevel>
+    <autolevel level="9">
+      <feature>
+        <name>Project Senses</name>
+        <text>Beginning at 9th level you now regain all uses of your edicts on a short or long rest.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="10">
+      <slots>4, 4, 3, 2</slots>
+    </autolevel>
+    <autolevel level="10">
+      <feature>
+        <name>Countermeasure</name>
+        <text>At 10th level, your companion is very protective of you and will harm anyone who seeks to hurt you. When you are targeted by an attack, your companion can take one of the following reactions, also detailed as Soul Binder Countermeasures:</text>
+        <text>At 18th level, the range of this aura increases to 30 feet.</text>
+        <text></text>
+        <text>Source: Player's Handbook p. 82</text>
+      </feature>
+      <feature optional="YES">
+        <name>Revenge</name>
+        <text>The companion can use its reaction to make one attack against the enemy if it is within range.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Roar</name>
+        <text>It uses its reaction to let out a frightful roar to impose disadvantage on the attack roll as long as the attacker is within 30 feet of it and is not deafened.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Body Shield</name>
+        <text>If your companion is within 5 feet of you when the attack is made, it can use its reaction to redirect the attack to target the companion instead.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="11">
+      <slots>2, 4, 3, 3</slots>
+    </autolevel>
+    <autolevel level="11">
+      <feature>
+        <name>Advanced Offense Improvement</name>
+        <text>At 11th level you get the other feature that you didn't pick at 5th level.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Companion Extra Attack</name>
+        <text>Your companion can attack twice instead of once, whenever it takes the Attack action on its turn.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Expert Commanding</name>
+        <text>There is no longer any restrictions for whenever you or your companion can take the Attack action or cast a spell with a casting time of 1 action as long as it is a soul binder spell.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="12">
+      <slots>2, 4, 3, 3</slots>
+    </autolevel>
+    <autolevel level="12" scoreImprovement="YES">
+      <feature>
+        <name>Ability Score Improvement</name>
+        <text>When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+        <text>If your DM allows the use of feats, you may instead take a feat.</text>
+        <text></text>
+        <text>Source: Player's Handbook p. 82</text>
+      </feature>
+    </autolevel>
+    <autolevel level="13">
+      <slots>2, 4, 3, 3, 1</slots>
+    </autolevel>
+    <autolevel level="14">
+      <slots>2, 4, 3, 3, 1</slots>
+    </autolevel>
+    <autolevel level="14">
+      <feature>
+        <name>Soul Purification</name>
+        <text>When you reach 14th level you can use your soul energy to flush out any negative effects currently impeding your companion.</text>
+        <text>If your companion is affected by a magical effect that allows it to make a saving throw at the start or end of its turns, or as an action, you can use your action to allow your companion to immediately attempt to make the saving throw even if it has already done so on said turn.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="15">
+      <slots>2, 4, 3, 3, 2</slots>
+    </autolevel>
+    <autolevel level="16">
+      <slots>2, 4, 3, 3, 2</slots>
+    </autolevel>
+    <autolevel level="16" scoreImprovement="YES">
+      <feature>
+        <name>Ability Score Improvement</name>
+        <text>When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+        <text>If your DM allows the use of feats, you may instead take a feat.</text>
+        <text></text>
+        <text>Source: Player's Handbook p. 82</text>
+      </feature>
+    </autolevel>
+    <autolevel level="17">
+      <slots>2, 4, 3, 3, 3, 1</slots>
+    </autolevel>
+    <autolevel level="18">
+      <slots>2, 4, 3, 3, 3, 1</slots>
+    </autolevel>
+    <autolevel level="18">
+      <feature>
+        <name>Resonating Voice</name>
+        <text>At 18th level you use your magic to command your companion with a voice that resonates with your shared soul bond.</text>
+        <text>When you use an edict you can select another edict you know and have that affect your companion as well.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="19">
+      <slots>2, 4, 3, 3, 3, 2</slots>
+    </autolevel>
+    <autolevel level="19" scoreImprovement="YES">
+      <feature>
+        <name>Ability Score Improvement</name>
+        <text>When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+        <text>If your DM allows the use of feats, you may instead take a feat.</text>
+        <text></text>
+        <text>Source: Player's Handbook p. 82</text>
+      </feature>
+    </autolevel>
+    <autolevel level="20">
+      <slots>2, 4, 3, 3, 3, 2</slots>
+    </autolevel>
+    <autolevel level="20">
+      <feature>
+        <name>Soul Infused Giant</name>
+        <text>When you reach 20th level you can infuse your companion with all your energy to make it into a behemoth of raw power</text>
+        <text>As an action while your companion is within 120 feet, you can choose to transform it, while it is transformed it gains the following benefits:</text>
+        <text>• It increases its size by two category – from Medium to Huge, for example</text>
+        <text>• Its attacks deals an extra 2d10</text>
+        <text>• It deals double damage to structures</text>
+        <text>• Its current and maximum hit points are increased by 50</text>
+        <text>• Its movement speed is doubled.</text>
+        <text>The transformation ends after 1 hour has passed, the companion goes unconscious or you end it as an action. Once you have used this feature you must finish a long rest before you can use it again.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature>
+        <name>Soul Bond Feature</name>
+        <text>At 3rd level, you gain a feature from your Primal Path.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="7">
+      <feature>
+        <name>Soul Bond Feature</name>
+        <text>At 7th level, you gain a feature from your Primal Path.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="11">
+      <feature>
+        <name>Soul Bond Feature</name>
+        <text>At 11th level, you gain a feature from your Primal Path.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="15">
+      <feature>
+        <name>Soul Bond Feature</name>
+        <text>At 15th level, you gain a feature from your Primal Path.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Bond of the Split Soul</name>
+        <text>Some Soul Binders don't bind their soul to another creature, but instead split their own soul into two pieces and creates a body for their split soul, one with martial skills and the original is a caster</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Twin Companion</name>
+        <text>At 1st level you have split yourself in two and now has a twin companion, it is the same race as you and use the "Twin Companion" statblock. Your twin companion start with: a longsword, a chain shirt and a shield as it's equipment.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Expanded Spell List</name>
+        <text>When you choose this bond at 1st level, your arcane knowledge is expanded. You gain access to additional spells. These spells are always prepared and don't count against the number of spells you can prepare each day. They are soul binder spells for you.</text>
+        <text></text>
+        <text>Bond of the Split Soul Spells</text>
+        <text>Spell   Level Spells</text>
+        <text> 1st    Command</text>
+        <text> 2nd    Alter Self</text>
+        <text> 3rd    Tongues</text>
+        <text> 4th    Charm Monster</text>
+        <text> 5th    Dominate Person</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Specialized Twin</name>
+        <text>At 3rd level your twin has trained in combat and is beginning to develop it's own style, choose one of the following features below:</text>
+      </feature>
+      <feature optional="YES">
+        <name>Striker</name>
+        <text>When you use the "Strike" Edict, your twin will have advantage on it's next attack this round.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Commander</name>
+        <text>When you use the "Toughen Up" Edict, your twin can give an ally within 5 feet of it temporary hit points equal half the amount it gained from the edict.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Skirmisher</name>
+        <text>When you use the "Move" edict, the twin can take both the disengage and dash action as part of the same bonus action</text>
+      </feature>
+      <feature optional="YES">
+        <name>Guardian</name>
+        <text>When you use the "Block" Edict all allies within 5 feet of the twin also gets the additional AC for the duration.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="7">
+      <feature optional="YES">
+        <name>Undying Determination</name>
+        <text>When you reach 7th level your twin has gained an undying determination to stay in battle and fight for you and itself.</text>
+        <text>When your twin's HP is reduced to 0 and it is not killed outright, it can move up to half its speed and make one melee attack as a reaction, before falling unconscious. This movement doesn't provoke opportunity attacks, and if the attack hits, the twin regains hit points equal to the damage dealt</text>
+        <text>Once it has used this feature it must finish a long rest before it can do so again.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="11">
+      <feature optional="YES">
+        <name>Edict of Self</name>
+        <text>Beginning at 11th level you know how to guide your twin in combat to help them survive. Helping Hands and Quick Attacks commands are added to your Edict options.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="15">
+      <feature optional="YES">
+        <name>Specialization Mastery</name>
+        <text>At 15th level your twin has mastered whatever style it choose earlier.</text>
+        <text>Depending on which style you chose at 3rd level your twin get one of the following features:</text>
+      </feature>
+      <feature optional="YES">
+        <name>Striker</name>
+        <text>Once per turn if your twin hits a creature that is within 5 feet of one of it's allies, it can add it's proficiency modifier to the damage roll.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Commander</name>
+        <text>Your twin can take the "Help" action as a bonus action.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Skirmisher</name>
+        <text>Whenever your twin gets a critical hit with a weapon attack or reduce a creature to 0 hit points on it's turn, it can immediately move 10 feet without provoking opportunity attacks.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Guardian</name>
+        <text>Your twin can use it's "Countermeasure" feature on all allies instead of only on you.</text>
+      </feature>
+    </autolevel>
+  </class>
+  <spell>
+    <name>Acid Splash</name>
+    <classes>Sorcerer, Wizard</classes>
+    <level>0</level>
+    <school>C</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S</components>
+    <duration>Instantaneous</duration>
+    <text>You hurl a bubble of acid. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.
+This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+Source: Player's Handbook p. 211</text>
+    <roll>1d6</roll>
+    <roll>2d6</roll>
+    <roll>3d6</roll>
+    <roll>4d6</roll>
+  </spell>
+
+  <spell>
+    <name>Imbued Strike</name>
+    <classes>Soul Binder</classes>
+    <level>0</level>
+    <school>T</school>
+    <range>60 feet</range>
+    <time>1 action</time>
+    <components>V, S</components>
+    <duration>1 round</duration>
+    <text>You imbue a creature with soul magic to make their strike hit extra hard. You target a creature within range that you can see, the first time that creature hits another creature with a weapon attack before the start of your next turn, that attack will deal an extra 1d4 force damage, or 1d6 extra if you targeted your companion.</text>
+    <text>The spell's damage increases by one die when you reach 5th level (2d4 or 2d6), 11th level (3d4 or 3d6), and 17th level (4d4 or 4d6)</text>
+    <roll>1d6</roll>
+    <roll>1d4</roll>
+    <roll>2d6</roll>
+    <roll>2d4</roll>
+    <roll>3d6</roll>
+    <roll>3d4</roll>
+    <roll>4d6</roll>
+    <roll>4d4</roll>
+  </spell>
+  <spell>
+    <name>Focus Bolt</name>
+    <classes>Soul Binder</classes>
+    <level>0</level>
+    <school>EV</school>
+    <time>1 action</time>
+    <range>120 feet</range>
+    <components>V, S</components>
+    <duration>Instantaneous</duration>
+    <text>You create a bolt of pure soul energy and fire it towards a creature within range. Make a ranged spell attack against the creature to mark it with your energy. On hit the target takes 1d4 force damage, and if your companion is within 30 feet of the creature, your companion can use it's reaction to move up to 15 feet towards that creature without provoking opportunity attacks.</text>
+    <text>The spell's damage increases by one die when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4)</text>
+    <roll>1d4</roll>
+    <roll>2d4</roll>
+    <roll>3d4</roll>
+    <roll>4d4</roll>
+  </spell>
+  <spell>
+    <name>Soul Switch</name>
+    <classes>Soul Binder</classes>
+    <level>1</level>
+    <school>C</school>
+    <time>1 bonus action</time>
+    <range>30 feet</range>
+    <components>V, S</components>
+    <duration>Instantaneous</duration>
+    <text>You and your companion switch positions as you step through the Ethereal plane. You appear in your companion's space and it appears in your previous location.</text>
+    <text>At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the range of this spell increases by 30 feet for each slot level above 1st.</text>
+  </spell>
+  <spell>
+    <name>Soul Punch</name>
+    <classes>Soul Binder</classes>
+    <level>1</level>
+    <school>T</school>
+    <time>1 reaction (which you take when your companion hits a creature with an attack within range)</time>
+    <range>Touch</range>
+    <components>V, S</components>
+    <duration>Instantaneous</duration>
+    <text>After your companion attacks a creature, you are ready to follow through with an infused punch that the target will feel in their very soul.</text>
+    <text>Make a melee spell attack against the creature your companion just hit. On a hit, the target takes 2d6 force damage</text>
+    <text>At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</text>
+  </spell>
+  <spell>
+    <name>Thrashing Tether</name>
+    <classes>Soul Binder</classes>
+    <level>1</level>
+    <school>EV</school>
+    <time>1 action</time>
+    <range>30 feet</range>
+    <components>V, S</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You send a pulse of energy through the bond that links you and your companion, damaging any enemy that stands between you.</text>
+    <text>Any creature caught in a 5 feet wide line leading from you to your companion, must make a Dexterity saving throw. A creature takes 1d12 force damage on a failed save, or half as much damage on a successful one. On subsequent turns, you can use an action to send another pulse though the tether, and repeat the effect from when the spell was cast. If you or your companion move more than 30 feet apart, the spell ends.</text>
+    <text>At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.</text>
+    <roll>1d12</roll>
+    <roll>2d12</roll>
+    <roll>3d12</roll>
+    <roll>4d12</roll>
+    <roll>5d12</roll>
+  </spell>
+  <spell>
+    <name>Transfer Vitality</name>
+    <classes>Soul Binder</classes>
+    <level>1</level>
+    <school>N</school>
+    <time>1 bonus action</time>
+    <range>30 feet</range>
+    <components>S</components>
+    <duration>Instantaneous</duration>
+    <text>You transfer some of your own vitality to restore your companion life.</text>
+    <text>You spend one of your own hit dice, roll it and add your Constitution modifier to the roll, your companion then regain hitpoints equal to the total.</text>
+    <text>At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can use 1 more hit dice for each slot level above 1st.</text>
+  </spell>
+  <spell>
+    <name>Energy Eruption</name>
+    <classes>Soul Binder</classes>
+    <level>2</level>
+    <school>EV</school>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S</components>
+    <duration>Instantaneous</duration>
+    <text>You flush the area around your companion with soul energy damaging any creature who dare stands too close.</text>
+    <text>Any number of creatures of your choice within 10 feet of your companion must make a Dexterity saving throw. A creature takes 3d8 force damage on a failed save, or half as much damage on a successful one.</text>
+    <text>At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</text>
+    <roll>3d8</roll>
+    <roll>4d8</roll>
+    <roll>5d8</roll>
+    <roll>6d8</roll>
+  </spell>
+  <spell>
+    <name>Soul Shackles</name>
+    <classes>Soul Binder</classes>
+    <level>2</level>
+    <school>C</school>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>Ribbons of soul energy springs from your companion and wraps themselves around nearby enemies.</text>
+    <text>Any number of creatures of your choice within 15 feet of your companion must make a Strength saving throw, on a failed saving throw a creature is restrained. A restrained creature can use its action to repeat the saving throw ending the effect on a success.</text>
+  </spell>
+  <spell>
+    <name>Companion Recall</name>
+    <classes>Soul Binder</classes>
+    <level>3</level>
+    <school>C</school>
+    <time>1 action</time>
+    <range>Self</range>
+    <components>V, S, M (a old and rusty compass)</components>
+    <duration>Instantaneous</duration>
+    <text>You call your companion back to you though the Ethereal plane. Your soulbound appears in a space within 10 feet of you. If your companion is on a different plane than you, there is a 50% chance the spell will fail.</text>
+  </spell>
+  <spell>
+    <name>Soul Leech</name>
+    <classes>Soul Binder</classes>
+    <level>4</level>
+    <school>N</school>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S, M (a dried up leech)</components>
+    <duration>Instantaneous</duration>
+    <text>You try to drain energy from a creature and transfer it to your companion.</text>
+    <text>Make a ranged spell attack against a creature within range, on hit you deal 4d8 necrotic damage to that creature, your companion then regains hitpoints equal to half the damage dealt.</text>
+    <text>At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.</text>
+    <roll>4d8</roll>
+    <roll>5d8</roll>
+  </spell>
+  <spell>
+    <name>Unbreakable Skin</name>
+    <classes>Soul Binder</classes>
+    <level>5</level>
+    <school>A</school>
+    <time>1 bonus action</time>
+    <range>60 feet</range>
+    <components>V, S, M (a shard of obsidian worth at least 200gp)</components>
+    <duration>1 round</duration>
+    <text>You cover your companion with a thin layer of impenetrable, magically infused obsidian. Until the end of your next turn, your companion is immune to all damage.</text>
+  </spell>
+  <spell>
+    <name>Blade Ward</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Control Flames</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Dancing Lights</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Friends</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Gust</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Light</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Mage Hand</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Message</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Mending</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Minor Illusion</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Mold Earth</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Prestidigitation</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Shape Water</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>True Strike</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Bane</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Bless</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Cause Fear</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Command</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Charm Person</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Cure Wounds</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Detect Magic</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Disguise Self</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Grease</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Heroism</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Jump</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Longstrider</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Sanctuary</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Sleep</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Shield of Faith</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Silent Image</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Aid</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Blur</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Blind/Deafness</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Continual Flame</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Calm Emotions</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Darkvision</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Detect Thought</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Dust Devil</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Earthbind</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Enlarge/Reduce</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Gust of Wind</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Invisibility</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Knock</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Misty Step</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Maximilian’s Earthen Grasp</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Pass Without Trace</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>See invisibility</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Spider Climb</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Suggestion</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Warding Bond</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Web</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Blink</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Clairvoyance</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Catnap</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Dispel Magic</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Fly</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Fear</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Gaseous Form</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Hypnotic Pattern</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Life Transference</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Magic Circle</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Stinking Cloud</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Sending</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Tidal Wave</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Tongues</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Wall of Sand</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Wall of Water</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Water Walk</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Water Breathing</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Arcane Eye</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Banishment</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Blight</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Charm Monster</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Confusion</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Compulsion</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Death Ward</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Evard’s Black Tentacles</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Fire Shield</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Greater Invisibility</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Hallucinatory Terrain</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Locate Creature</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Stoneskin</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Watery Sphere</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Awaken</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Circle of Power</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Control Winds</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Creation</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Dominate Person</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Dream</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Maelstrom</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Legend Lore</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Far Step</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Geas</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Teleportation Circle</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Telekinesis</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Skill Empowerment</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Scrying</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Planar Binding</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Wall of Stone</name>
+    <classes>Soul Binder</classes>
+  </spell>
+  <spell>
+    <name>Strike</name>
+    <classes>Soul Binder Edict</classes>
+    <text>You command your companion to attack with extra ferocity. The next time your companion hits another creature with an attack this turn, that attack deals extra 2d6 damage.</text>
+  </spell>
+  <spell>
+    <name>Toughen Up</name>
+    <classes>Soul Binder Edict</classes>
+    <text>You command your companion to toughen up and be ready to withstand even more blows. Your companion gains 2d6 temporary hit points that last for 10 minutes.</text>
+  </spell>
+  <spell>
+    <name>Block</name>
+    <classes>Soul Binder Edict</classes>
+    <text>You command your companion to evade or block incoming attacks rather than taking them. Until the end of your next turn your companion can add your Intelligence modifier to any saving throw it has to make, and add half your Intelligence modifier (rounded up) to its AC</text>
+  </spell>
+  <spell>
+    <name>Move</name>
+    <classes>Soul Binder Edict</classes>
+    <text>You tell your companion that it needs to move fast, or move safely. When given this command your companion can take the Disengage or Dash action as a bonus action on this turn.</text>
+  </spell>
+  <spell>
+    <name>Revenge</name>
+    <classes>Soul Binder Countermeasure</classes>
+    <text>The companion can use its reaction to make one attack against the enemy if it is within range.</text>
+  </spell>
+  <spell>
+    <name>Roar</name>
+    <classes>Soul Binder Countermeasure</classes>
+    <text>It uses its reaction to let out a frightful roar to impose disadvantage on the attack roll as long as the attacker is within 30 feet of it and is not deafened.</text>
+  </spell>
+  <spell>
+    <name>Body Shield</name>
+    <classes>Soul Binder Countermeasure</classes>
+    <text>If your companion is within 5 feet of you when the attack is made, it can use its reaction to redirect the attack to target the companion instead.</text>
+  </spell>
+  <spell>
+    <name>Helping Hand</name>
+    <classes>Soul Binder Edict of Self</classes>
+    <text>This turn your twin can take the "Use an Object" or the "Help" action as a bonus action.</text>
+  </spell>
+  <spell>
+    <name>Quick Attacks</name>
+    <classes>Soul Binder Edict of Self</classes>
+    <text>If your companion takes the "Attack" action this turn it can make three attacks instead of two.</text>
+  </spell>
+  <monster>
+    <name>Twin Companion</name>
+    <size>M</size>
+    <type>humanoid</type>
+    <alignment>your alignment</alignment>
+    <ac>16 (chain shirt + shield)</ac>
+    <hp>11 (1d10+1)</hp>
+    <speed>walk 30 ft.</speed>
+    <str>15</str>
+    <dex>13</dex>
+    <con>12</con>
+    <int>10</int>
+    <wis>11</wis>
+    <cha>9</cha>
+    <save></save>
+    <skill></skill>
+    <passive>10</passive>
+    <languages>depending on race</languages>
+    <cr>0</cr>
+    <resist></resist>
+    <immune></immune>
+    <vulnerable></vulnerable>
+    <conditionImmune></conditionImmune>
+    <senses></senses>
+    <trait>
+      <name>Race Features</name>
+      <text>The Twin companion get the same racial features and racial ability score improvements as the soul binder.</text>
+    </trait>
+    <trait>
+      <name>Martial Mind</name>
+      <text>The Twin is proficient in shields, light armor, medium armor, simple weapons and martial weapons.</text>
+      <text>(Note, it doesn't add your proficiency bonus to its AC if it is wearing armor.)</text>
+    </trait>
+    <action>
+      <name>Longsword</name>
+      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 8 (1d10 + 2) slashing damage.</text>
+      <attack>Longsword|+4|1d10+2</attack>
+    </action>
+    <description></description>
+    <environment></environment>
+  </monster>
+</compendium>

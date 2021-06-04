@@ -276,4 +276,8 @@
     
     <!-- Homebrew -->
     <doc href="../FightClub5eXML/Sources/Homebrew.xml" />
+    <doc href="../FightClub5eXML/Sources/ThirdParty/Occultist_1_0_mergeable.xml" />
+    <doc href="../FightClub5eXML/Sources/ThirdParty/Ranger_Specialist.xml" />
+    <doc href="../FightClub5eXML/Sources/ThirdParty/OdysseyOfTheDragonlordsSubclasses.xml" />
+    <doc href="../FightClub5eXML/Sources/ThirdParty/SoulBinderInt.xml" />
 </collection>

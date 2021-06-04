@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<compendium version="5" auto_indent="NO">
+  <race>
+    <name>Thylean Centaur</name>
+    <size>M</size>
+    <speed>40</speed>
+    <ability>Str 2, Wis 1</ability>
+    <proficiency></proficiency>
+    <spellAbility></spellAbility>
+    <trait>
+      <name>Age</name>
+      <text>Centaurs mature at the same rate as humans.</text>
+    </trait>
+    <trait>
+      <name>Alignment</name>
+      <text>Centaurs have a tendency toward good. As a tribal people, they don’t lean toward the freedom of a chaotic alignment, but they don’t obey laws that they feel are unjust or ineffective. They lean toward neutral.</text>
+    </trait>
+    <trait>
+      <name>Size</name>
+      <text>Centaurs range from 6’6” to 7 feet in height and weigh between 700 and 900 pounds. Your size is Medium, but you tower over most other races.</text>
+    </trait>
+    <trait>
+      <name>Charge</name>
+      <text>If you move 30 feet straight toward a target and then hit them with a melee attack on the same turn, the target takes an extra 1d6 damage from the first attack.</text>
+    </trait>
+    <trait>
+      <name>Mountable</name>
+      <text>As a bonus action on your turn, you may allow a single willing ally within 5 feet of you to hitch a brief ride on your back. They are carried on your back until the end of your turn, at which point they must dis- embark within 5 feet of you. While being carried, your rider is not considered to be mounted and they are not vulnerable to attacks of opportunity. Your rider must be a bipedal creature of your size or smaller.</text>
+    </trait>
+    <trait>
+      <name>Quadrapedal Stride</name>
+      <text>Climbing or maneuvering in tight spaces is considered difficult terrain for you.</text>
+    </trait>
+    <trait>
+      <name>Languages</name>
+      <text>You can speak, read, and write Common and Sylvan.
+      </text>
+    </trait>
+  </race>
+  <race>
+    <name>Thylean Medusa</name>
+    <size>M</size>
+    <speed>30</speed>
+    <ability>Dex 2, Int 1</ability>
+    <proficiency></proficiency>
+    <spellAbility>Cha</spellAbility>
+    <trait>
+      <name>Age</name>
+      <text>Medusae are not born—they are made. When a humanoid is afflicted by the curse of the medusa, they gradually transform into a snake-haired monstrosity. Once transformed, they may live for a thousand years, but most are hunted down and killed long before then.</text>
+    </trait>
+    <trait>
+      <name>Alignment</name>
+      <text>Civilized medusae tend toward neutral or lawful evil alignments, because they must find ways to survive on the fringes of society. They must be careful to cooperate with others who will suffer the company of one who is cursed by the gods. Medusae who give into their anger eventually lose control of themselves and become true monsters.</text>
+    </trait>
+    <trait>
+      <name>Size</name>
+      <text>Medusae are the same size and build as humans. Your size is Medium.</text>
+    </trait>
+    <trait>
+      <name>Darkvision</name>
+      <text>Your eyes are adapted to dark places, giving you darkvision out to 60 ft.</text>
+    </trait>
+    <trait>
+      <name>Cursed</name>
+      <text>You are afflicted by the curse of the medusa, but your transformation is already complete. Your curse can only be ended with the wish spell. If your curse ends, then your race changes to whichever race you were before you became cursed (usually a human).</text>
+    </trait>
+    <trait>
+      <name>Snake Hair</name>
+      <text>You can attack with your snake hair. This is a melee weapon attack with an attack bonus equal to your proficiency modifier + your Dexterity modifier. It does 1d6 piercing damage on a hit, and your target must make a DC 12 Constitution saving throw or else they are poisoned until the beginning of your next turn.</text>
+    </trait>
+    <trait>
+      <name>Snake Blood</name>
+      <text>You have advantage on saving throws against spells and abilities that inflict the poisoned condition.</text>
+    </trait>
+    <trait>
+      <name>Petrifying Gaze</name>
+      <text>Starting at 5th level, you can use your action to force a creature within 30 feet that can see your eyes to make a DC 8 Constitution saving throw. On a failure, the creature is paralyzed until the end of its next turn. On your turn, you can use your bonus action to force the same creature to repeat this saving throw with disadvantage. Each time it fails, it is paralyzed again until the end of its next turn. When a creature is paralyzed in this way for the third time in a span of 10 minutes, it is instantly petrified.</text>
+      <text>Starting at 10th level, the DC for this saving throw increases to 10. At 15th level, the DC increases to 12. At 20th level, the DC increases to 14.</text>
+    </trait>
+    <trait>
+      <name>Languages</name>
+      <text>You can speak, read, and write Common and one language of your choice.</text>
+    </trait>
+  </race>
+  <race>
+    <name>Thylean Satyr</name>
+    <size>M</size>
+    <speed>30</speed>
+    <ability>Dex 2, Cha 1</ability>
+    <proficiency></proficiency>
+    <spellAbility>Cha</spellAbility>
+    <trait>
+      <name>Age</name>
+      <text>Satyrs mature quickly, reaching adulthood by their early teens. They can live for several centuries.</text>
+    </trait>
+    <trait>
+      <name>Alignment</name>
+      <text>Most satyrs are chaotic neutral. They live for pleasure, sensual experience, and excitement. There are some satyrs who have developed empathy for others and tend toward good. Other satyrs have grown cruel and enjoy causing painful emotions.</text>
+    </trait>
+    <trait>
+      <name>Size</name>
+      <text>Satyrs range from 4 to 5 feet in height. They weigh between 100 and 150 pounds. Your size is Medium.</text>
+    </trait>
+    <trait>
+      <name>Fey Heritage</name>
+      <text>You have advantage on saving throws against being charmed or frightened, and spells can’t put you to sleep.</text>
+    </trait>
+    <trait>
+      <name>Memory for Music</name>
+      <text>You have proficiency with one instrument of your choice. You have advantage on Performance checks made with the selected instrument. You can also memorize and perform any song after hearing it only once.</text>
+    </trait>
+    <trait>
+      <name>Enchanting Music</name>
+      <text>You can cast the minor illusion cantrip. When you reach 3rd level, you can cast the sleep spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can also cast the suggestion spell with this trait and regain the ability to do so when you finish a long rest. Casting these spells requires access to an instrument that you are proficient with. Charisma is your spellcasting ability for these spells.</text>
+    </trait>
+    <trait>
+      <name>Languages</name>
+      <text>You can speak, read, and write Common and Sylvan.</text>
+    </trait>
+  </race>
+  <class>
+    <name>Barbarian</name>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Primal Path: Herculean Path</name>
+        <text>Some individuals are born with seemingly impossible strength, exhibiting rippling muscles even before they learn to speak or walk. Such men and women quickly learn that every good thing in this world may be obtained through the exercise of overwhelming might. Others may scorn them and call them “barbaric,” but what are words but useless noise to be choked out of the speaker’s windpipe?</text>
+        <text>As one such individual, you know that strength is what determines one’s worth in the world: strength to crush your enemies—and to impress your allies. You savor the opportunity to show off your great strength, whether it be in battle or in friendly competition. Your incredible strength allows you to accomplish Herculean feats that will leave your foes wailing in anguish.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Herculean Path: Precocious Wrestler</name>
+        <text>Starting at 3rd level, you have learned to take advantage of your innate strength to wrestle foes into submission. You are proficient in the Athletics skill, and you are capable of grappling and shoving creatures that are up to two sizes larger than you. On your turn, you may use a bonus action to attempt to grapple a creature. While you are grappling a creature with one hand, you may use your free hand to attack that creature with two-handed weapons as if you were using both hands.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <feature optional="YES">
+        <name>Herculean Path: Mighty Marksman</name>
+        <text>Starting at 6th level, you leverage your immense strength when using ranged weapons. You can use heavy weapons without incurring disadvantage due to your size. Additionally, you may choose to use your Strength modifier for attack and damage rolls with longbows. When you make ranged attacks with longbows or thrown weapons while raging, you may add your rage damage bonus to the damage rolls.</text>
+        <text>If a spell requires concentration, it uses your concentration as normal.</text>
+        <text>Thunderous Shot. When you make a ranged attack, you may choose to add the effect of thunderwave to the projectile, centered on the location that the projectile hits. The DC for this effect is 8 + your proficiency bonus + your Strength modifier. Once you have used this feature, you may not use it again until you complete a short or long rest.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="10">
+      <feature optional="YES">
+        <name>Herculean Path: Herculean Rage</name>
+        <text>Starting at 10th level, your rages take on legendary qualities and grow more powerful the longer they endure. At
+          the beginning of each of your turns, if you are already raging, your rage damage bonus increases by +1, up to a maximum of your Strength modifier. Additionally, while raging, you are immune to poison damage and you cannot be frightened.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="14">
+      <feature optional="YES">
+        <name>Herculean Path: Earthshaker</name>
+        <text>Starting at 14th level, your colossal strength causes the ground itself to tremble and quake. On your turn, you can use your action to strike the ground and create the effects of an earthquake with a 40 ft. radius, centered on your location. This area becomes difficult terrain.</text>
+        <text>Each creature on the ground in the affected area that is concentrating must make a Constitution saving throw with a DC of 8 + your proficiency bonus + your Strength modifier. On a failed save, the creature's concentration is broken. At the end of your turn, each creature on the ground in the area must make a Dexterity saving throw with the same DC as the previous one. On a failed save, the creature is knocked prone. You have advantage on this saving throw.</text>
+        <text>At the beginning of each of your subsequent turns, you may use your bonus action to stomp the ground and continue the effects of the earthquake until the beginning of your next turn, for a maximum duration of 1 minute. Once you have used this feature, you may not use it again until you complete a long rest.</text>
+      </feature>
+    </autolevel>
+  </class>
+  <class>
+    <name>Paladin</name>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Sacred Oath: Oath of the Dragonlord</name>
+        <text>Dragonlords are paladins who seek to extend their reach across the land by binding a dragon into their service. Such a task should never be undertaken lightly. Forming a true bond with a dragon requires a paladin to hatch a dragon egg and raise the wyrmling from the first moment it draws breath. Raising a dragon in this way requires the paladin to lay their life on the line by swearing an oath. This oath creates a reciprocal bond between the paladin’s soul and the soul of the dragon.</text>
+        <text>But finding a dragon egg is no easy task either. For this reason, Dragonlords summon pseudodragon familiars and train them to seek out the perfect egg. This process may take years, and many paladins come to view the pseudodragon as a partner in the oath. When an egg is finally discovered, the paladin and the pseudodragon may share an almost parental pride in the hatchling.</text>
+        <text>Once the paladin’s dragon is grown, its master becomes a true Dragonlord. But the paladin is as much a servant to the dragon as the dragon is to its master. The two are one—their destinies are interlinked—and whatsoever pain is suffered by one is also felt by the other.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Oath of the Dragonlord: Oath Spells</name>
+        <text>Starting when you swear your oath at 3rd level, you gain Oath Spells at the listed levels and always have them prepared.</text>
+        <text> • Level 3: hunter's mark, find familiar</text>
+        <text> • Level 5: gust of wind, levitate</text>
+        <text> • Level 9: fly, haste</text>
+        <text> • Level 13: freedom of movement, stoneskin</text>
+        <text> • Level 17: hold monster, telepathic bond</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Oath of the Dragonlord: Pseudodragon Familiar</name>
+        <text>When you cast the find familiar spell, you summon a pseudodragon instead of one of the normal forms described in the spell. The pseudodragon's primary purpose is to find you a dragon egg. The pseudodragon can smell dragon eggs if they are within one mile.</text>
+        <text>The pseudodragon is likely to find a dragon egg by the time you are 5th level, but it might be earlier. If your pseudodragon hasn’t found a dragon egg by 6th level, then it departs in search of one. In 3d6 days, the pseudodragon returns to you with a dragon egg of your choice from this list: brass, bronze, copper, or silver.</text>
+        <text>If at any time your dragon egg is lost or destroyed, your pseudodragon will depart in search of another one. It will return in 3d6 days with the lost egg or a suitable replacement. If you deliberately lose or destroy your egg, then your pseudodragon refuses to perform this service.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Oath of the Dragonlord: Channel Divinity</name>
+        <text>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</text>
+        <text>Dragon’s Wrath. As an action, you can mimic the frightful presence of a dragon, using your Channel Divinity. You issue a roar as loud as an adult dragon. Each creature of your choice that is within 60 ft. of you and aware of you must succeed on a DC 14 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+        <text>Scorn the Unworthy. Your dragonlord oath elevates you above the multitudes of the corrupt and the weak. As an action, you can intone the Dragonlord’s oath, using your Channel Divinity. Enemy creatures within 30 feet that are Large or smaller in size must make a Charisma saving throw. On a failed save, the creature falls prone and loses concentration on any spells that it has active.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="7">
+      <feature optional="YES">
+        <name>Oath of the Dragonlord: Dragonlord’s Bond</name>
+        <text>At 7th level, your dragon egg will hatch. You must cast the spell bond of the dragonlords while touching the newborn wyrmling within 24 hours of it hatching. The dragon wyrmling is now bonded to you. Additionally, you may cast the spells bond of the dragonlords and dirge of the dragonlords, and they require no material components when you cast them. Your wyrmling has hit points equal to 40 + twice your paladin level, and it adds your proficiency bonus to its saving throws</text>
+      </feature>
+    </autolevel>
+    <autolevel level="15">
+      <feature optional="YES">
+        <name>Oath of the Dragonlord: Young Dragon</name>
+        <text>By 15th level, your dragon grows into a young dragon of the appropriate type if five years have not yet passed since its hatching. The dragon will now allow itself to be used as a mount. In addition, while mounted on a dragon, you gain that dragon’s damage resistances, damage immunities, and senses (blindsight, darkvision, and its passive Perception if it is greater than yours).</text>
+      </feature>
+    </autolevel>
+    <autolevel level="20">
+      <feature optional="YES">
+        <name>Oath of the Dragonlord: Earthshaker</name>
+        <text>By 20th level, you and your dragon have learned to fight in unison on the battlefield. Your dragon gains access to its Multiattack feature, and its breath weapon now recharges using the normal rules each round instead of using the restriction outlined in bond of the dragonlords.</text>
+        <text>Additionally, when your dragon fails a saving throw, you may choose to have it succeed instead. This ability recharges after you and the dragon complete a long rest.</text>
+      </feature>
+    </autolevel>
+  </class>
+  <class>
+    <name>Sorcerer</name>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Sorcerous Origin: Demigod</name>
+        <text>Your magic springs from the divine blood that flows through your veins. The gods have often been known to consort with mortals, and such unions sometimes produce half-divine offspring. These individuals are called demigods, and many of them are born with a powerful aptitude for magic.</text>
+        <text>Demigods exhibit powers that are related to the domain of their godly ancestor, but their magic is not constrained by this association. Rather, they may channel the power in their blood to improve the efficacy of any spell, regardless of its type. Additionally, the divine power that courses through their blood makes demigods impressive specimens of both physical fitness and beauty.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Demigod: Godly Ancestor</name>
+        <text>Starting at 1st level, choose the divine domain of your godly ancestor from the following list. You can cast each of the associated spells once without using any spell slots, and you regain the ability to do so after completing a short or long rest.</text>
+        <text>Additionally, whenever you make a Charisma check when interacting with gods or celestials, your proficiency bonus is doubled if it applies to the check.</text>
+        <text></text>
+        <text>Demigod Domains and Spells</text>
+        <text>Divine Domain | Associated Spells</text>
+        <text>Death         | bane, ray of sickness</text>
+        <text>Knowledge     | command, guiding bolt</text>
+        <text>Life          | cure wounds, bless</text>
+        <text>Nature        | entangle, healing word</text>
+        <text>Light         | burning hands, faerie fire</text>
+        <text>Tempest       | fog cloud, thunderwave</text>
+        <text>Trickery      | charm person, hideous laughter</text>
+        <text>War           | shield of faith, thunderous smite</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Demigod: Inherited Strength</name>
+        <text>Starting at 1st level, your godly lineage bestows you with extraordinary strength for someone without martial training. You are proficient in Strength saving throws. Additionally, you may choose to add your Charisma modifier to melee attack and damage rolls instead of your Strength.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <feature optional="YES">
+        <name>Demigod: Empowered Magic</name>
+        <text>Starting at 6th level, echoes of divine power flow through your spells. When you cast a spell, you may spend 1 sorcery point to increase the spell's level by 1. You cannot use this feature to increase a spell’s level by more than 1. For example, if you use a 5th-level spell slot to cast fireball as a 5th-level spell, you may spend 1 sorcery point to cast the spell at 6th level instead.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="14">
+      <feature optional="YES">
+        <name>Demigod: Divine Resistance</name>
+        <text>Starting at 14th level, your divine blood allows you to shrug off effects that would destroy mere mortals. When you fail a saving throw, you may choose to succeed instead. You may use this feature once, and you regain the ability to do so after completing a long rest.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="18">
+      <feature optional="YES">
+        <name>Demigod: Ascendant Sorcery</name>
+        <text>Starting at 18th level, your power has begun to rival your divine ancestor’s. When you use the Empowered Magic feature, you may increase the spell’s level by more than 1. You must spend 1 sorcery point for each level that you add to the spell.</text>
+      </feature>
+    </autolevel>
+  </class>
+  <spell>
+    <name>Hunter's Mark</name>
+    <classes>Paladin (Dragonlord)</classes>
+  </spell>
+  <spell>
+    <name>Find Familiar</name>
+    <classes>Paladin (Dragonlord)</classes>
+  </spell>
+  <spell>
+    <name>Gust of Wind</name>
+    <classes>Paladin (Dragonlord)</classes>
+  </spell>
+  <spell>
+    <name>Levitate</name>
+    <classes>Paladin (Dragonlord)</classes>
+  </spell>
+  <spell>
+    <name>Fly</name>
+    <classes>Paladin (Dragonlord)</classes>
+  </spell>
+  <spell>
+    <name>Haste</name>
+    <classes>Paladin (Dragonlord)</classes>
+  </spell>
+  <spell>
+    <name>Freedom of Movement</name>
+    <classes>Paladin (Dragonlord)</classes>
+  </spell>
+  <spell>
+    <name>Stoneskin</name>
+    <classes>Paladin (Dragonlord)</classes>
+  </spell>
+  <spell>
+    <name>Hold Monster</name>
+    <classes>Paladin (Dragonlord)</classes>
+  </spell>
+  <spell>
+    <name>Telepathic Bond</name>
+    <classes>Paladin (Dragonlord)</classes>
+  </spell>
+  <spell>
+    <name>Minor Illusion</name>
+    <classes>Thylean Satyr</classes>
+  </spell>
+  <spell>
+    <name>Sleep</name>
+    <classes>Thylean Satyr</classes>
+  </spell>
+  <spell>
+    <name>Suggestion</name>
+    <classes>Thylean Satyr</classes>
+  </spell>
+</compendium>
