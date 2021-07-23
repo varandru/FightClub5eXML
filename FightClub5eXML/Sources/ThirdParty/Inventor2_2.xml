@@ -247,6 +247,7 @@
         <text> 3rd    blink, water breathing, stinking cloud, haste</text>
         <text> 4th    stoneskin, confusion</text>
         <text> 5th    cloudkill, skill empowerment</text>
+<text></text>
         <text>When you cast spells in this way, the spell does not take effect immediately, but is infused into the potion.</text>
         <text>If the spell grants an effect or restores health, a creature can consume it or administrator it to another creature as an action.</text>
         <text>If a spell targets an area of effect, you can accurately throw a vial up to 30 feet, dealing no inherent damage, but breaking the vial in impact. The area of effect takes place when the vial is broken, with the effect centered on where the vial breaks. If the spell targets a creature, you can treat the vial as a ranged weapon you have proficiency with the Thrown (20/60) property. You replace the spell attack with making a weapon attack made with the vial</text>
@@ -274,6 +275,265 @@
       </feature>
     </autolevel>
   </class>
+<!-- Feats -->
+<!-- Potionsmith Upgrades -->
+<feat>
+  <name>INV:PSM00 Alchemical Fire</name>
+  <prerequisite></prerequisite>
+  <text>Instant Reaction</text>
+  <text></text>
+  <text>As an action you can produce a reaction causing a searing flame. At a point within 20 feet, you can a toss quick combination of reagents that will cause searing fire to flare up in a 5 foot radius. Creatures in that area have to make a Dexterity saving throw against your spell save DC, or take 1d8 fire damage.</text>
+  <text>The damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+  <text>Alternatively, you can use a bonus action to prepare it as a ranged weapon you have proficiency in lasting until the end of your turn with the Thrown (20/60) and Finesse property that deals damage equal to failing the save against the effect (but does not add your Strength or Dexterity modifier).</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Alchemical Acid</name>
+  <prerequisite></prerequisite>
+  <text>Instant Reaction</text>
+  <text></text>
+  <text>You can produce a reaction causing a caustic acid to form. As an action, you can throw this combination of ingredients at a point within 20 feet, causing acid to splatter within a 5 foot radius. Creatures in that area have to make a Dexterity saving throw against your spell save DC, or take 2d4 acid damage. Damage from this acid deals double damage against structures and objects.</text>
+  <text>The damage increases by 2d4 when you reach 5th level (4d4), 11th level (6d4), and 17th level (8d4).</text>
+  <text>Alternatively, you can use a bonus action to prepare it as a ranged weapon you have proficiency in lasting until the end of your turn with the Thrown (20/60) and Finesse property that deals damage equal to failing the save against the effect (but does not add your Strength or Dexterity modifier).</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Dragon Draught</name>
+  <prerequisite></prerequisite>
+  <text>Instant Reaction (upgrade only)</text>
+  <text></text>
+  <text>As an action you quaff a vial of highly reactive liquid, allow you to immediately belch a blast of devastating elemental energy. You can select between cold, fire, acid, or lightning. Cold or Fire effect a 10 foot cone. Lightning or Acid effect at 15 foot line. Creatures in that area have to make a Dexterity saving throw against your Spell Save DC, or take 1d8 damage of the elemental type chosen.</text>
+  <text>The damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Explosive Reaction</name>
+  <prerequisite></prerequisite>
+  <text>Instant Reaction (upgrade only)</text>
+  <text></text>
+  <text>You formulate a new instant reaction, a devastating minor explosion. Targeting a point within 20 feet, as an action, you cause an explosion. Creatures within 10 feet of the target point must make a Constitution saving throw against your spell save DC, or take 1d10 thunder damage from the shockwave of the explosion.</text>
+  <text>The damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</text>
+  <text>Alternatively, you can use a bonus action to prepare it as a ranged weapon you have proficiency in lasting until the end of your turn with the Thrown (20/60) and Finesse property that deals damage equal to failing the save against the effect (but does not add your Strength or Dexterity modifier).</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Fortifying Fumes Reaction</name>
+  <prerequisite></prerequisite>
+  <text>Instant Reaction</text>
+  <text></text>
+  <text>You formulate a new instant reaction, a powerful fortifying stimulus. Targeting a point within 20 feet, as an action, you cause fumes to erupt. Creatures within 10 feet of the target point can choose to hold their breath and not inhale, but creatures that inhale the fumes gain 1d4 temporary hit points, deal 1d4 additional damage on their next melee weapon attack, and have advantage on their next Constitution saving throw. Any remaining benefits fade at the end of your next turn.</text>
+  <text>Both the temporary hit points and damage bonus increase by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4)</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Delivery Mechanism</name>
+  <prerequisite></prerequisite>
+  <text>You modify the stability of your reagents and develop a better delivery mechanism. You can target a point within 40 feet for your instant reactions (including ones gained from Upgrades, such as Explosive Reaction) that target a point. The additional precision allows you to better target the effects, allowing creatures of your choice within the target area to automatically pass a Dexterity saving throw against your effects.</text>
+  <text>Additionally, when making attack rolls using Infused Potions or Instant Reactions, you can use your Intelligence in place of your Dexterity for the attack roll.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Frostbloom Reaction</name>
+  <prerequisite></prerequisite>
+  <text>Instant Reaction (upgrade only)</text>
+  <text></text>
+  <text>You develop an endothermic reaction, a devastating localized cold snap that creates an instant bloom of ice. Targeting a point within 20 feet, as an action, you cause the area to erupt in frost.</text>
+  <text>The area within 5 feet of the target point becomes difficult terrain until the end of your next turn, and any creature in the area must make a Dexterity saving throw against your Spell Save DC, or be caught by the ice taking 1d6 cold damage; a creature entirely in the area of effect that fails also becomes restrained until the end of their next turn. They can use their action to make a Strength saving throw to break free of the ice early.</text>
+  <text>The damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Healing Draught</name>
+  <prerequisite></prerequisite>
+  <text>Instant Reaction</text>
+  <text></text>
+  <text>As a bonus action, you can produce a combination that will provide potent magical healing. After creating the draught, you or another creature can use their action to consume it or administer it to a creature within 5 feet before the start of your next turn. The draught restores 1d8 hit points. If you have the Practiced Quaff feature, you can consume a healing draught as part of the bonus action used to make it.</text>
+  <text>A creature can benefit from a number of these healing draughts equal to their Constitution modifier (minimum 1), after which they provide no additional benefit until they complete a long rest. A Healing Draught that is not consumed by the start of your next turn loses its potency.</text>
+  <text>The healing increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Inoculations</name>
+  <prerequisite></prerequisite>
+  <text>You learn the alchemical process for creating a homunculus minion. You can cast find familiar without expending a spell slot or requiring material components beyond your alchemical reagents and blood (as described in the spell). The familiar's type becomes construct or monstrosity, and can appear in any tiny shape you want, but uses the statistics of any creature that can normally be summoned.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Homunculus Familiar</name>
+  <prerequisite></prerequisite>
+  <text>You gain resistance to poison damage.</text>
+  <text>Additionally, at the end of a long rest you, you can select up  to five people (including yourself) that are inoculated against  the poisonous effects you can produce that require a  Constitution saving throw (such as the Poisonous Gas  instant reaction or the cloudkill infusion), allowing them to  automatically pass the saving throw until the end of your next  long rest.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Long Acting</name>
+  <prerequisite></prerequisite>
+  <text>Your consumed Alchemical Infusions for spells that require concentration have their duration increased by a number of rounds equal to your Proficiency bonus.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Persistent Reactions</name>
+  <prerequisite></prerequisite>
+  <text>Your reactions that affect a target area persist in that area until the start of your next turn. Creatures entering the effect or ending their turn there have to repeat the saving throw against the effect. You can choose to make a reaction not persist at the time of taking the action to cause it.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Persistent Reactions</name>
+  <prerequisite></prerequisite>
+  <text>Your reactions that affect a target area persist in that area until the start of your next turn. Creatures entering the effect or ending their turn there have to repeat the saving throw against the effect. You can choose to make a reaction not persist at the time of taking the action to cause it.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Poisonous Gas</name>
+  <prerequisite></prerequisite>
+  <text>Instant Reaction</text>
+  <text></text>
+  <text>As an action you can produce a reaction causing noxious fumes. At a point within 20 feet, you can toss a quick combination of reagents that will cause a whiff of poisonous gas to erupt spreading to a radius of 10 feet. Creatures in that area have to make a Constitution saving throw against your Spell Save DC, or take 1d4 poison damage and become poisoned until the end of their next turn.</text>
+  <text>The damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Persistent Reactions</name>
+  <prerequisite></prerequisite>
+  <text>Your reactions that affect a target area persist in that area until the start of your next turn. Creatures entering the effect or ending their turn there have to repeat the saving throw against the effect. You can choose to make a reaction not persist at the time of taking the action to cause it.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Poisoner's Proficiency</name>
+  <prerequisite></prerequisite>
+  <text>You delve into the secrets of the darkest secrets of herb lore, learning the potent secrets of poison. You gain Proficiency in poisoner's kits; if you already have proficiency in them, you gain expertise in them and can add twice your proficiency to ability checks using them. Additionally, during a long rest, you can create one of the three following poisons:</text>
+  <text>• Contact poison. You can apply this to a melee weapon or up to ten pieces of ammunition, that weapon or ammunition deals an additional 1d4 and poison damage; the weapon can deal poison damage 10 times before the poison wears off.</text>
+  <text>• Ingested poison: this a simple flavorless powder. If a creature consumes a full dose of this poison before the end of your next long rest they must make a Constitution saving throw with disadvantage against your spell save DC. After one minute, if the saving throw was a failure then the creature takes poison damage equal to a d10 per your artificier level, and becomes poisoned until they complete a long rest.</text>
+  <text>• Inhaled poison. This poison can be used to modify your poisonous gas reaction. You can use this dose of poison to make your poisonous gas instant reaction have a radius of 20 feet and deal twice as much damage on a failed save.</text>
+  <text>A poison that has not been used by the time you complete your next long rest loses its potency and has no effect if used.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Secrets of Acid</name>
+  <prerequisite></prerequisite>
+  <text>You learn the secrets of infusing acid into your Alchemical Infusions. You can add the following spells to your list of available spells for alchemical infusions:</text>
+  <text></text>
+  <text>Spell   Infusion Spells</text>
+  <text> 1st    caustic brew</text>
+  <text> 2nd    acid arrow</text>
+  <text> 3rd    erode</text>
+  <text></text>
+  <text>You can create one infused potion of caustic brew at the end of a long rest without expending a spell slot.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Secrets of Flight</name>
+  <prerequisite></prerequisite>
+  <text>You learn the secrets of infusing the ability to escape the shackles of gravity into your Alchemical Infusions. You can add the following spells to your list of available spells for alchemical infusions:</text>
+  <text></text>
+  <text>Spell   Infusion Spells</text>
+  <text> 1st    feather fall</text>
+  <text> 2nd    levitate</text>
+  <text> 3rd    fly</text>
+  <text></text>
+  <text>You can create one infused potion of feather fall at the end of a long rest without expending a spell slot.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Secrets of Fire</name>
+  <prerequisite></prerequisite>
+  <text>You learn the secrets of infusing fire into your Alchemical Infusions. You can add the following spells to your list of available spells for alchemical infusions:</text>
+  <text></text>
+  <text>Spell   Infusion Spells</text>
+  <text> 1st    faerie fire</text>
+  <text> 2nd    dragon's breath</text>
+  <text> 3rd    fireball</text>
+  <text></text>
+  <text>You can create one infused potion of faerie fire at the end of a long rest without expending a spell slot.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Secrets of Fire</name>
+  <prerequisite></prerequisite>
+  <text>You learn the secrets of infusing fire into your Alchemical Infusions. You can add the following spells to your list of available spells for alchemical infusions:</text>
+  <text></text>
+  <text>Spell   Infusion Spells</text>
+  <text> 1st    faerie fire</text>
+  <text> 2nd    dragon's breath</text>
+  <text> 3rd    fireball</text>
+  <text></text>
+  <text>You can create one infused potion of faerie fire at the end of a long rest without expending a spell slot.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Secrets of Frost</name>
+  <prerequisite></prerequisite>
+  <text>You learn the secrets of infusing frost into your Alchemical Infusions. You can add the following spells to your list of available spells for alchemical infusions: </text>
+  <text></text>
+  <text>Spell   Infusion Spells</text>
+  <text> 1st    freezing shell</text>
+  <text> 2nd    cold snap</text>
+  <text> 3rd    flash freeze</text>
+  <text></text>
+  <text>You can create one infused potion of freezing shell at the end of a long rest without expending a spell slot.</text>
+</feat>
+<feat>
+  <name>INV:PSM00 Weapon Coating</name>
+  <prerequisite></prerequisite>
+  <text>You learn how to coat a weapon or piece of ammunition with one of your instant reactions to take effect on hit. As a bonus action, you can apply your instant reaction to a melee weapon or piece of ammunition. Until the end of your turn, the next hit with that weapon or with a coated piece of ammunition will cause the effect of the instant reaction to the target. The creature automatically takes the damage or healing associated with the reaction, but makes a saving throw as normal against any additional effects.</text>
+</feat>
+<feat>
+  <name>INV:PSM05 Adrenaline Serum</name>
+  <prerequisite>Inventor(Potionsmith) level 5</prerequisite>
+  <text>You create a potent serum. As a bonus action on your turn, you can consume a dose of this serum. Consuming this concoction increases your Strength and Dexterity ability score modifier by your Intelligence ability score modifier (up to a maximum of +5) for a number of rounds equal to your Constitution modifier. While you are under the effect of Adrenaline Serum, you gain the benefits of heroism. After which all effects of the serum fade at the start of your next turn. When the effect ends, your speed is reduced by half and you cannot benefit from Adrenaline Serum until the start of your next turn.</text>
+</feat>
+<feat>
+  <name>INV:PSM05 Explosive Powder</name>
+  <prerequisite>Inventor(Potionsmith) level 5, Explosive Reaction</prerequisite>
+  <text>You've manage to stabilize and refine your Explosive Reaction. You can prepare up to your Intelligence modifier in Explosive Reactions that do not detonate instantly. They will only detonate when exposed to fire. These Explosive Reactions last 1 minute before losing potency. The maximum damage a creature can take from the detonation of multiple Explosive Reactions is twice the damage of an Explosive Reaction, but structures take the full damage of multiple Explosive Reactions.</text>
+</feat>
+<feat>
+  <name>INV:PSM09 Aroma Therapies</name>
+  <prerequisite>Inventor(Potionsmith) level 9</prerequisite>
+  <text>You expand your alchemical knowledge to be able to produce incense and simmering reagents that grant effects to those that inhale their fumes. If creatures spend a long rest inhaling fumes from a concoction you devise with this feature, creatures regain an extra 2d4 hit dice, recover from 1d4 levels of exhaustion and are cured of any non-magical diseases they are suffering from.</text>
+</feat>
+<feat>
+  <name>INV:PSM09 Infusion Stone</name>
+  <prerequisite>Inventor(Potionsmith) level 9</prerequisite>
+  <text>You use the secrets of Alchemy to create an Infusion Stone. You can use this stone in the process of infusing potions in place of a spell slot level less than or equal to the highest level spell slot you can cast.</text>
+  <text>You can use this stone to replace a spell slot for an infusion once. It regains this charge after you complete a long rest.</text>
+</feat>
+<feat>
+  <name>INV:PSM09 Mana Potion</name>
+  <prerequisite>Inventor(Potionsmith) level 9</prerequisite>
+  <text>During a short rest, you can create a mana potion. A mana potion loses its potency if it is not consumed within 1 hour. As an action, a creature can consume a mana potion to restore a spell slot of its choice, up to third level.</text>
+</feat>
+<feat>
+  <name>INV:PSM09 Potent Reactions</name>
+  <prerequisite>Inventor(Potionsmith) level 9</prerequisite>
+  <text>You refine your reactions increasing their potency. The die you roll to determine the damage or healing effect of your reactions is increased by one. A d4 becomes a d6, a d6 becomes a d8, a d8 becomes a d10, and a d10 becomes a d12.</text>
+</feat>
+<feat>
+  <name>INV:PSM09 Rocketry</name>
+  <prerequisite>Inventor(Potionsmith) level 9, Explosive Reaction, Delivery Mechanism</prerequisite>
+  <text>Combining the knowledge of explosive with advances in delivery and stabilization, you produce the logical extreme - powering the payload and delivery with your devastating knowledge.</text>
+  <text>You can select any instant reaction you know as the payload of your rocket. Rockets must be prepared ahead of time, and you can prepare a number of equal to your Intelligence modifier at the end of a short or long rest; any rockets not used must be remade during a rest due to volatile components, though an alternate payload used to create them can be salvaged.</text>
+  <text>A rocket targets a point within 500 feet, but the DC of the saving throw is reduced by 2 for each 100 feet it travels; the rocket then has the effect of the instant reaction selected as a payload at the target point.</text>
+  <text>You can load alternative payloads of up to one pound into your rocket, replacing the effect of instant reaction.</text>
+</feat>
+<feat>
+  <name>INV:PSM11 True Homunculus</name>
+  <prerequisite>Inventor(Potionsmith) level 11, Homunculus Familiar</prerequisite>
+  <text>As your expertise grows, you can create a true wonder of alchemy. Instead of casting *find familiar* you can cast *create homunculus*, but when casting in this way it requires material components as normal.</text>
+</feat>
+<feat>
+  <name>INV:PSM11 Panacea</name>
+  <prerequisite>Inventor(Potionsmith) level 11</prerequisite>
+  <text>When you create a Healing Draught, you can add a more potent concoction. That Healing Draught heals the maximum value of the dice rolled when restoring health and has the effect of *greater restoration*. Once you make an improved Healing Draught like this, you cannot make one again until you complete a long rest.</text>
+</feat>
+<feat>
+  <name>INV:PSM11 Field Infusion</name>
+  <prerequisite>Inventor(Potionsmith) level 11</prerequisite>
+  <text>You can create an infused potion as an action. Once you do so, you cannot do so again until you complete a short or long rest.</text>
+</feat>
+<feat>
+  <name>INV:PSM13 Mutation Mixture</name>
+  <prerequisite>Inventor(Potionsmith) level 13</prerequisite>
+  <text>You concoct an infused potion that warps your body, rapidly and temporary mutating it in extreme ways. You gain the polymorph spell as an option for Alchemical Infusion, and when when you consume this Infused Potion, the duration of the potion is one hour, though it can be ended early by the creature that consumed it as an action.</text>
+  <text>A creature cannot undergo the effect of this Infused Potion again until they complete a long rest.</text>
+</feat>
+<feat>
+  <name>INV:PSM15 Mutation Mixture</name>
+  <prerequisite>Inventor(Potionsmith) level 15, Adrenaline Serum</prerequisite>
+  <text>While under the effect of Adrenaline Serum, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+</feat>
+<feat>
+  <name>INV:PSM15 Mad Alchemy</name>
+  <prerequisite>Inventor(Potionsmith) level 15, Adrenaline Serum</prerequisite>
+  <text>You can combine the effects of two Infused Potions into a single potion.</text>
+</feat>
+<feat>
+  <name>INV:PSM15 Philosopher's Stone</name>
+  <prerequisite>Inventor(Potionsmith) level 15, Adrenaline Serum</prerequisite>
+  <text>You create a Philosopher's Stone allowing you to recreate wonders of alchemy. So long as you have a supply of non-gold metal, you can create up to one pound of gold a day (50 gold pieces worth). Additionally, the Philosopher's Stone can be used in place of a diamond costing 500gp or less as spell's Material Component, and is not consumed when used in such a way, but loses its powers for 24 hours.</text>
+  <text>You can brew a special potion using your Philosopher stone called an Elixir of Life. Brewing this potion takes 8 hours and requires crushing a diamond worth at least 2,000 gold pieces. An Elixir of Life causes a creature that drinks it ceases to age for 4d4 years. A creature drinks this Elixir gains a *death ward* effect that lasts until triggered.</text>
+  <text>A more potent elixir can be created, adding an additional 1d4 years for regained for each diamond spent.</text>
+</feat>
   <!-- General Spellist -->
   <spell>
     <name>Arcane Ablation</name>
@@ -793,4 +1053,17 @@
     <classes>Inventor</classes>
   </spell>
   <!-- Potionsmith Upgrades, coded as cantrips -->
+<spell>
+  <name>Alchemical Fire</name>
+  <classes>Instant Reaction</classes>
+  <level>0</level>
+  <time>1 action</time>
+  <text>As an action you can produce a reaction causing a searing flame. At a point within 20 feet, you can a toss quick combination of reagents that will cause searing fire to flare up in a 5 foot radius. Creatures in that area have to make a Dexterity saving throw against your spell save DC, or take 1d8 fire damage.</text>
+  <text>The damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+  <text>Alternatively, you can use a bonus action to prepare it as a ranged weapon you have proficiency in lasting until the end of your turn with the Thrown (20/60) and Finesse property that deals damage equal to failing the save against the effect (but does not add your Strength or Dexterity modifier).</text>
+  <roll>1d8</roll>
+  <roll>2d8</roll>
+  <roll>3d8</roll>
+  <roll>4d8</roll>
+</spell>
 </compendium>

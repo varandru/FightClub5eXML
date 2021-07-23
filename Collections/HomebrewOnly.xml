@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+    <!-- Core Rulebooks -->
+    <doc href="../FightClub5eXML/Sources/PlayersHandbook/class-ranger-phb.xml" />
+    <doc href="../FightClub5eXML/Sources/XanatharsGuideToEverything/class-ranger-xge.xml" />
+    <doc href="../FightClub5eXML/Sources/TashasCauldronOfEverything/class-ranger-tce.xml" />
+    <doc href="../FightClub5eXML/Sources/PlayersHandbook/spells-phb.xml" />
+    <doc href="../FightClub5eXML/Sources/DungeonMastersGuide/spells-phb+dmg.xml" />
+    <doc href="../FightClub5eXML/Sources/XanatharsGuideToEverything/spells-xge.xml" />
+    <doc href="../FightClub5eXML/Sources/SwordCoastAdventurersGuide/spells-scag.xml" />
+    <doc href="../FightClub5eXML/Sources/GuildmastersGuideToRavnica/spells-ggr.xml" />
+    <doc href="../FightClub5eXML/Sources/EberronRisingFromTheLastWar/spells-phb+erlw.xml" />
+    <doc href="../FightClub5eXML/Sources/EberronRisingFromTheLastWar/spells-xge+erlw.xml" />
+    <doc href="../FightClub5eXML/Sources/AcquisitionsIncorporated/spells-ai.xml" />
+    <doc href="../FightClub5eXML/Sources/ExplorersGuideToWildemount/spells-egw.xml" />
+    <doc href="../FightClub5eXML/Sources/MythicOdysseysOfTheros/spells-phb+mot.xml" />
+    <doc href="../FightClub5eXML/Sources/TashasCauldronOfEverything/spells-tce.xml" />
+    <doc href="../FightClub5eXML/Sources/TashasCauldronOfEverything/spells-phb+tce.xml" />
+    <doc href="../FightClub5eXML/Sources/LostLaboratoryOfKwalish/spells-llk.xml" />
+    <doc href="../FightClub5eXML/Sources/IcewindDaleRimeOfTheFrostmaiden/spells-idrotf.xml" />
+
+    <!-- Homebrew -->
+    <doc href="../FightClub5eXML/Sources/Homebrew.xml" />
+    <doc href="../FightClub5eXML/Sources/ThirdParty/Occultist_1_0_mergeable.xml" />
+    <doc href="../FightClub5eXML/Sources/ThirdParty/Ranger_Specialist.xml" />
+    <doc href="../FightClub5eXML/Sources/ThirdParty/OdysseyOfTheDragonlordsSubclasses.xml" />
+    <doc href="../FightClub5eXML/Sources/ThirdParty/SoulBinderInt.xml" />
+    <doc href="../FightClub5eXML/Sources/ThirdParty/Inventor2_2.xml" />
+</collection>
