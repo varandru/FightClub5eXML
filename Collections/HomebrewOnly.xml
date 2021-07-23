@@ -17,12 +17,12 @@
     <doc href="../FightClub5eXML/Sources/TashasCauldronOfEverything/spells-tce.xml" />
     <doc href="../FightClub5eXML/Sources/TashasCauldronOfEverything/spells-phb+tce.xml" />
     <doc href="../FightClub5eXML/Sources/LostLaboratoryOfKwalish/spells-llk.xml" />
-    <doc href="../FightClub5eXML/Sources/IcewindDaleRimeOfTheFrostmaiden/spells-idrotf.xml" />
+    <doc href="../FightClub5eXML/Sources/IcewindDaleRimeOfTheFrostmaiden/spells-idrotf.xml" /> 
 
     <!-- Homebrew -->
     <doc href="../FightClub5eXML/Sources/Homebrew.xml" />
     <doc href="../FightClub5eXML/Sources/ThirdParty/Occultist_1_0_mergeable.xml" />
-    <doc href="../FightClub5eXML/Sources/ThirdParty/Ranger_Specialist.xml" />
+    <doc href="../FightClub5eXML/Sources/ThirdParty/Ranger_Specialist.xml" /> 
     <doc href="../FightClub5eXML/Sources/ThirdParty/OdysseyOfTheDragonlordsSubclasses.xml" />
     <doc href="../FightClub5eXML/Sources/ThirdParty/SoulBinderInt.xml" />
     <doc href="../FightClub5eXML/Sources/ThirdParty/Inventor2_2.xml" />
