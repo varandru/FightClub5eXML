@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<compendium version="5" auto_indent="NO">
+  <race>
+    <name>Cinder Goliath</name>
+    <size>M</size>
+    <speed>40</speed>
+    <ability>Str 1</ability>
+    <proficiency></proficiency>
+    <spellAbility></spellAbility>
+    <trait>
+      <name>Description</name>
+      <text>Once, the gods, in the form of men, walked upon the earth and blessed it. They climbed mountains in passing, and waded kraken filled seas in their baths. Once. These legends circle and grow around mountain fires, on snow-streaked ridges and barren arctic wastelands, fires that warm the chilled skin of a people who are but a shell of their ancestors: the giants, who now weep and shiver in their graves and halls. These people are all that are left of the great striders of the world.</text>
+    </trait>
+    <trait>
+      <name>Age</name>
+      <text>The age of any goliath is an unpredictable variable. Due to the harsh climate and general danger, goliaths over 100 are rare, but it is conceivable a sustained goliath could live for a handful of centuries. They enter real adulthood in their late twenties, but are often considered mature mentally by their earlier twenties.
+      </text>
+    </trait>
+    <trait>
+      <name>Alignment</name>
+      <text>The goliath society with its defined duty and roles has a pure lawful bent, over anything else. Neutral is the most common, but good, neutral, or evil, the law is more important to any goliath than their altruism or lack thereof.
+      </text>
+    </trait>
+    <trait>
+      <name>Size</name>
+      <text>Goliaths are between 11 and 14 feet tall and weigh between 1000 and 1400 pounds. Your size is Large.
+      </text>
+    </trait>
+    <trait>
+      <name>Speed</name>
+      <text>Your base walking speed is 40 feet. The legs and stature of the giants of old still hold true in their walk.
+      </text>
+    </trait>
+    <trait>
+      <name>Mountain Born</name>
+      <text>You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.
+      </text>
+    </trait>
+    <trait>
+      <name>Jörmungandr</name>
+      <text>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift, in addition to grappling and shoving.
+      </text>
+    </trait>
+    <trait>
+      <name>Caramunda</name>
+      <text>You gain a fighting style of your choice from the Paladin's list in its class page of the Player's Handbook.
+      </text>
+    </trait>
+    <trait>
+      <name>Ghost of the Anvil</name>
+      <text>You gain proficiency in smith's tools.
+      This was not taught to you, but came innately as a child, as it comes to all cinder goliaths, like all children knowing how to breathe.
+      </text>
+    </trait>
+    <trait>
+      <name>Languages</name>
+      <text>You can speak, read, and write Common and Giant.
+      </text>
+    </trait>
+  </race>
+</compendium>
