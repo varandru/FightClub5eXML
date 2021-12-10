@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<compendium version="5" auto_indent="NO">
+  <spell>
+    <name>Crackle</name>
+    <classes>Druid, Occultist, Sorcerer, Warlock, Wizard</classes>
+    <level>2</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V,S</components>
+    <duration>Instantaneous</duration>
+    <text>You create three arcs of lightning striking targets in range. You can direct them at one target or several.
+      Make a ranged spell attack for each arc. On a hit, the target takes 1d12 lightning damage. If three or more arcs hit a single target, they must make a Constitution saving throw or become shocked, stunning them until the start of their next turn.
+      At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you create one additional arc for each slot level above 2nd.</text>
+  </spell>
+  <spell>
+    <name>Electrocute</name>
+    <classes>Sorcerer, Wizard</classes>
+    <level>3</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V,S</components>
+    <duration>Instantaneous</duration>
+    <text>A massive arc of lightning leaps from your hand to a target you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 4d12 lightning damage and is stunned until the start of your next turn. On a successful save, the target takes half as much damage and isn't stunned.
+At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d12 for each slot level above 3rd.</text>
+  </spell>
+  <spell>
+    <name>Electrify</name>
+    <classes>Occultist, Ranger, Sorcerer, Wizard</classes>
+    <level>3</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 bonus action</time>
+    <range>60 feet</range>
+    <components>V,S</components>
+    <duration>1 round</duration>
+    <text>You channel lightning into your hands. The next time you hit a creature with a melee attack (including a melee spell attack) before the start of your next turn, the target takes 1d12 lightning damage and must make a Constitution saving throw. On a failed save, the target becomes stunned until the start of their next turn.
+The spell ends after dealing damage, or at the start of your next turn, whichever occurs first.</text>
+  </spell>
+  <spell>
+    <name>Lightning Tendril</name>
+    <classes>Druid, Occultist, Sorcerer, Warlock, Wizard</classes>
+    <level>1</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 bonus action</time>
+    <range>Self (20 feet)</range>
+    <components>V,S,M (a twig from a tree that has been struck by lightning)</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>Crackling beams of blue energy leap from your hands. For the duration of the spell, as an action, you can direct them toward a creature within range, dealing 1d12 lightning damage to that creature.
+At Higher Levels. When you cast this spell using a 3rd- or 4th-level spell slot, the damage increases to 2d12 and the range increases to 30 feet. When you cast it using a 5th- or 6th-level spell slot, the damage increases to 3d12 and the range increases to 60 feet. When you cast it using a spell slot of 7th level or higher, the damage increases to 4d12 and the range increases to 120 feet.</text>
+  </spell>
+  <spell>
+    <name>Jumping Jolt</name>
+    <classes>Sorcerer, Wizard</classes>
+    <level>1</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range> 60 feet</range>
+    <components>V,S</components>
+    <duration>Instantaneous</duration>
+    <text>You release an arc of lighting at a creature within range. Make a ranged spell attack roll against the target. On hit, the target takes 4d12 lightning damage, and you can cause the spell to jump to another target within 20 feet of the first target making a new attack roll for each target. The spell cannot hit the same target twice, or jump to a target out of the spells range. The spell can jump a maximum of five times.
+On a miss, the target takes half as much damage and the spell does not jump to a new target.
+At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the starting damage increases by 1d12 for each slot level above 4th.</text>
+  </spell>
+  <spell>
+    <name>Sky Burst</name>
+    <classes>Druid, Sorcerer, Wizard</classes>
+    <level>5</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>120 feet</range>
+    <components>V,S</components>
+    <duration>Instantaneous</duration>
+    <text>Five bolts of lightning strike five points of your choice that you can see within range. Each creature within 5 feet of the chosen points must make a Dexterity saving throw. A creature takes 4d12 lightning damage on a failed save, or half as much on a successful one. A creature in the area of more than one lightning burst is affected only once.
+At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, you can call down an additional bolt of lightning targeting another point within range for each slot level above 5th.</text>
+  </spell>
+  <spell>
+    <name>Echoing Lance</name>
+    <classes>Bard, Occultist, Sorcerer, Wizard</classes>
+    <level>4</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V,S</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You emit a targeted burst of intense sonic energy at a creature within range. The target must make a Constitution saving throw. On a failure, they take 3d8 thunder damage and become stunned for the duration by the intense sound. On a successful save, the target takes half as much damage and isn't stunned.
+At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends, on failure, they take an additional 1d8 thunder from the echoes within their mind.
+At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.</text>
+  </spell>
+  <spell>
+    <name>Sonic Shriek</name>
+    <classes>Bard, Occultist, Sorcerer, Wizard</classes>
+    <level>5</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>Self (120-foot cone)</range>
+    <components>V,S</components>
+    <duration>Instantaneous</duration>
+    <text>You emit a sonic blast covering a huge area. Each creature in a 120-foot cone must make a Constitution saving throw. On a failed save, a creature takes 6d8 thunder damage. On a successful save, a creature takes half as much damage. A creature automatically succeed on its saving throw if it is more than 60 feet from you.
+At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</text>
+  </spell>
+  <spell>
+    <name>Thunder Pulse</name>
+    <classes>Bard, Sorcerer, Wizard</classes>
+    <level>3</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>Self (15-foot cone)</range>
+    <components>V,S</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <text>You gather sonic energy and can expel as a shockwave in a 15 foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 thunder damage is knocked 10 feet away. On a successful save, the creature takes half as much damage and not being knocked away.
+You can create a new shockwave as your action on subsequent turn until the spell ends.</text>
+  </spell>
+  <spell>
+    <name>Thunder Punch</name>
+    <classes>Bard, Sorcerer, Wizard</classes>
+    <level>1</level>
+    <school>EV</school>
+    <ritual>NO</ritual>
+    <time>1 action</time>
+    <range>Touch</range>
+    <components>V,S</components>
+    <duration>Instantaneous</duration>
+    <text>You charge your hand (or similar appendage) with thunder power. Make a melee spell attack against a creature. On a hit, there is a thunderous crash audible from up to 300 feet of you and the target takes 3d8 thunder damage, and is knocked 10 feet away from you.
+At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
+  </spell>
+</compendium>

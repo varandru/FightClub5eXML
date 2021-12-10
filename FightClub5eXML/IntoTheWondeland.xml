@@ -1,0 +1,395 @@
+<?xml version="1.0"?>
+<compendium xmlns:exsl="http://exslt.org/common" version="5" auto_indent="NO">
+  <item>
+    <name>Bard-in-a-Box</name>
+    <type>W</type>
+    <text>This small music box can play songs at the request of the holder. As a bonus action, you can command the box to play a song for which it has music, causing the contraption to emit a slightly tinny rendition of the musical number. The box can know up to 5 songs at a time but can’t recreate lyrics or other creature sounds. The box has a knob on its side to adjust its volume: able to be as quiet as a whisper or as loud as a scream.
+Sheet music can be fed into the box through a narrow slot along the bottom of the device. Sheet music must be labeled with a song title, page number, and instrument in order to be replayed. Pages failing to meet the requirements cause the box to make a sad, discordant noise before being spat back out. Once a sheet is successfully fed into the box, it is consumed and can’t be retrieved.      
+If a new piece of music causes the box to forget an older one, it quickly plays several bars of the now-forgotten number before it slows to a stop.</text>
+  </item>
+  <item>
+    <name>Dryadleaf</name>
+    <type>W</type>
+    <text>This magic plant only grows at the base of trees that are often stepped through by dryads. Its leaves continuously shift as if by a breeze. Touching the plant, even gently, causes its leaves to stop their gentle swaying for 1 minute.
+
+Dryadleaf plants only grow up to 4 leaves at a time and are found in the wild with 1d4 matured leaves. Leaves are fully matured once they have a thin yellow rim. You can use an action to eat a mature leaf. When you do, you can speak to beasts and plants for 1 minute as if you shared a language. Once it’s been picked, a leaf retains this property for 7 days before it wilts.
+
+You can move the plant to a pot over the course of 1 minute. When you do, make a DC 15 Intelligence (Nature) or Wisdom (Survival) check. On a success, the delicate plant survives the transfer to a new pot. On a failure, the plant is irreversibly damaged and dies.
+
+The plant can survive with surprisingly little air, allowing it to survive in an extradimensional space such as a bag of holding or portable hole. So long as it’s watered lightly each day and given a moderate amount of sunlight (weather and environment permitting), the plant grows 1d4 missing mature leaves every 7 days.</text>
+  </item>
+  <item>
+    <name>Firecracker Crystals</name>
+    <type>W</type>
+    <text>These multicolored crystals are usually purchased in small bags at festivals and holiday events. As an action, you can throw 1 of these 1-inch crystals against a solid surface within 20 feet of you to crack it apart. When a crystal breaks, it releases the magic inside. The magic ends at the end of your turn and is entirely sensory.
+
+A bag of the small crystals comes with 10 (1d4 + 8) crystals inside. Roll a number of d8s equal to the number of crystals in the bag and record each number rolled. Use these numbers to determine the kinds of crystals found in the bag using the table below:
+
+d8	Color	Result
+1	Red	Releases a harmless 5-foot tall flame.
+2	Orange	Releases a small flash of bright light in a 5 foot radius and dim light for another 5 feet, followed by the smell of spices and citrus.
+3	Yellow	Releases small spiraling motes of energy that fizz and fly about in a 5-foot radius.
+4	Green	Releases a cloud of bright, verdant smoke that fills a 5-foot sphere and smells both foul and sickly sweet.
+5	Blue	Releases a series of comically large bubbles that float outward from the point of impact in a 5-foot radius.
+6	Purple	Releases the sound of music. The song is random, and plays only enough to make it recognizable as music.
+7	White	Releases a dazzling display of sparkling glitter in a 5-foot radius from the point of impact.
+8	Black	Releases a mystery effect. Roll on the table again when using this crystal to determine its effect. If you roll an 8, roll the d8 again.</text>
+  </item>
+  <item>
+    <name>Grass Carpet</name>
+    <type>W</type>
+    <text>This soft roll of turf is magically fertile. Its soil is 1 inch thick and allows plants of all kinds to grow well within it. Each roll of turf is 5 feet wide and 10 feet long. Its grass and soil are self-containing and will not grow beyond the size of the carpet. The carpet is so fertile that plants growing in its soil require only half the normal amount of sunlight and water they would normally need in order to grow.
+
+For every 1 inch of the soil’s depth, the carpet provides the same amount of nutrition as normal soil does with 1 foot, allowing plants whose roots are normally 1 foot long to grow with only 1 inch of soil. Folding the carpet over for added depth, or layering multiple carpets on top of one another, increases the soil depth to allow for larger plants to grow on the carpet.
+
+The carpet weighs 30 pounds and takes 1 minute to roll up or out. While rolled up, it has a 1-foot diameter. The carpet can be cut into smaller plots using a magical blade, with each plot measuring at least 1 foot long and wide.</text>
+  </item>
+  <item>
+    <name>Gravity Goblet</name>
+    <type>W</type>
+    <text>This glass and silver goblet is enchanted with a harmless, strange magic. A liquid poured in the cup bends gravity in comical ways, often to the surprise and endrenchment of its drinker. When the cup is tilted, as if to drink, the liquid flows in the opposite direction of gravity—sliding up the cup instead of down it. Once the liquid reaches the edge of the cup, it immediately pours down as normal. Swirling the liquid causes it to flow in the opposite direction in which it’s rotated. Any solid object other than ice that floats in the liquid is not affected by the cup’s magic.</text>
+  </item>
+  <item>
+    <name>Orator's Quill</name>
+    <type>W</type>
+    <text>This red feather quill generates its own mundane ink and acts on its own as you speak to it. While holding the quill, you can speak its command word as a bonus action to activate it. While activated, the quill magically floats upright and writes the words you speak to it on whatever stationary, nonliving surface it’s been placed on. When it reaches the edge of that surface, it begins a new line below before continuing. If the quill reaches the end of the surface, such as a piece of parchment, it taps against the surface expectantly until a new one is provided. You must be within 15 feet of the quill in order to speak to it. If the quill is behind total cover, it cannot understand you. If you speak the quill’s command word again, even if you’re not holding it, the quill deactivates and falls down. If the quill doesn’t write anything for 1 minute, it deactivates on its own.</text>
+  </item>
+  <item>
+    <name>Pair of Tiny Violin Rings</name>
+    <type>RG</type>
+    <text>This pair of golden rings play a sad, sad melody when you rub the two fingers wearing them together. Creatures that know the vicious mockery cantrip can use this set of rings as a somatic component instead of the normal verbal component required by the spell.</text>
+  </item>
+  <item>
+    <name>Permanent Parchment</name>
+    <type>W</type>
+    <text>This violet piece of parchment is smooth and pleasant to write on. You can speak either of the parchment’s command words “lock” or “unlock” as a bonus action to lock or unlock the parchment, respectively. While locked, the sheet cannot be torn by hand, damaged by fire, or damaged by immersion in water, and any ink already on the page can’t be removed, smeared, or otherwise changed without the use of magic. New ink added to a locked sheet of permanent parchment runs off the page like water. While unlocked, the parchment behaves like a nonmagical sheet of paper.
+
+While unlocked, you can speak the paper’s other command word, “clear”, to cause any ink on the sheet of parchment to magically evaporate without leaving any marks behind.
+
+The language the parchment’s command words must be spoken in is determined by the creator of the parchment.</text>
+  </item>
+  <item>
+    <name>Pomade of Ten Thousand Styles</name>
+    <type>W</type>
+    <text>This canister of waxy pomade has magical properties, allowing you to change your hair’s color, style, thickness, and length (up to 1 foot longer or shorter per use). The canister steadily replenishes its pomade over time. It can hold up to 4 uses at a time and regains 1d4 expended uses each day at dawn. Using 1 use of the pomade takes 1 minute.
+
+Once you’ve used this product in your hair, it returns to its normal appearance after you finish a long rest. Hair produced by the pomade that’s been cut off turns to dust after 24 hours. If you use the pomade every day for 7 days to make the same changes, the changes become permanent.</text>
+  </item>
+  <item>
+    <name>Seat Belt</name>
+    <type>W</type>
+    <text>While standing on a solid surface, you can begin to sit down in an open space as if there were a chair beneath you. When you would normally crouch or fall to the ground when doing this, you can mentally command the belt to summon an invisible, incorporeal chair as a bonus action instead. The chair can be of any style you choose, such as a stool, recliner, throne, or rocking chair, and can support up to 500 pounds. While it is comfortable, it is nevertheless invisible, and cannot be interacted with beyond simply sitting on. The chair disappears if it is no longer on a solid surface, you stand up, or if you’re pushed or moved while sitting on it.</text>
+  </item>
+  <item>
+    <name>Smash Potatoes</name>
+    <type>W</type>
+    <text>This hearty root vegetable is grown by the clerics and champions of a god of war and combat, whose strength is said to make its way onto the Material Plane through their gardens. Eating one of these vaguely fist-shaped potatoes will cause your hands to itch for the thrill of combat. Eating a potato increases your unarmed damage to 1d4 for 1 hour. Each additional eaten potato increases the duration by 1 hour. You can eat up to 3 potatoes before needing to finish a long rest to benefit from them again. If you already have an unarmed combat die that is 1d4 or higher, this vegetable has no effect but is nevertheless delicious.</text>
+  </item>
+  <item>
+    <name>Weapon of Showmanship</name>
+    <type>M</type>
+    <text>When you reduce a Small or larger creature to 0 hit points or score a critical hit against a target with this weapon, you can create a harmless sensory effect or illusion, as per the prestidigitation spell, as part of that attack. The effect can appear on the target of the attack or in the area immediately surrounding it.</text>
+  </item>
+  <item>
+    <name>Rapier of Showmanship</name>
+    <detail>martial Weapon, Melee Weapon</detail>
+    <type>M</type>
+    <weight>2</weight>
+    <value>25.0</value>
+    <property>F,M</property>
+    <dmg1>1d8</dmg1>
+    <dmgType>P</dmgType>
+    <text>When you reduce a Small or larger creature to 0 hit points or score a critical hit against a target with this weapon, you can create a harmless sensory effect or illusion, as per the prestidigitation spell, as part of that attack. The effect can appear on the target of the attack or in the area immediately surrounding it.</text>
+  </item>
+  <item>
+    <name>Webgrip Rucksack</name>
+    <type>W</type>
+    <text>This spiderskin bag is lined with a thin layer of adhesive web. Items stored inside the bag are held in place by the web, preventing stored items from clattering around or being removed without your knowledge. While you’re wearing the bag, creatures other than you have disadvantage on Dexterity (Sleight of Hand) checks to steal from the bag.
+
+The bag and its eight straps adhere to the surface they’re pressed against, such as your torso or the wall of a tavern. If you’re wearing the bag, you can gently remove the straps from your body as an action. Other creatures that attempt to wrench the bag from you make any Strength checks to do so with disadvantage. The bag can hold up to 8 cubic feet or 80 pounds. Spiderskin is pliable and stretches easily, allowing the bag to shrink and grow to accommodate the objects placed inside to some degree.
+
+Even though the eyes adorning the bag are lifeless and unmoving, they still blink on rare occasion.</text>
+  </item>
+  <item>
+    <name>Barricade Shield</name>
+    <type>S</type>
+    <text>While holding this sturdy iron shield, you can use an action to plant it on the ground and expand its height and width to stretch up to 15 feet across in either direction, potentially becoming a defensive wall or similar platform. The edges of the shield magically conform to fit the shape of an enclosed space, such as the walls of a tunnel or hallway. While holding the expanded shield in place, your speed becomes 0 and you have disadvantage on Dexterity checks and Dexterity saving throws. Regardless of the shield’s size, its weight always remains the same.
+
+The expanded shield is considered a nonmagical structure that has AC 14 and 40 hit points. The shield can remain expanded for up to 1 minute before it reverts back to its normal size. The expanded shield reverts early (but is not destroyed) if it reaches 0 hit points or moves. If you’re holding the expanded shield, you can choose to revert it early using a bonus action.
+
+Once this property has been used, it can’t be used again until the next dawn.</text>
+  </item>
+  <item>
+    <name>Candle of Anti-light</name>
+    <type>W</type>
+    <text>While burning, this dark candle sheds magical darkness in a 10-foot radius. It can be lit for up to 1 hour before it’s consumed and can be snuffed or relit like a normal candle as a bonus action. Completely covering the candle with something opaque contains the darkness. A creature with darkvision can’t see through this darkness, and nonmagical light can’t illuminate it.</text>
+  </item>
+  <item>
+    <name>Charlatan's Wardrobe</name>
+    <type>W</type>
+    <text>This set of plain clothes is exceptionally comfortable and easy to wear. They are always clean and smell freshly washed and lightly perfumed. You can change the appearance of the outfit as an action by twirling in place and speaking the clothes’ command word. The outfit’s appearance is illusory. Physical interaction with the clothes reveals their appearance to be an illusion, because things can pass through it. A creature that uses its action to examine the clothes can determine that it is an illusion with a successful DC 13 Intelligence (Investigation) check. Regardless of their appearance, the clothes offer no additional protection from the elements, and can only appear to be clothes.</text>
+  </item>
+  <item>
+    <name>Devil's Detail Eyepatch</name>
+    <type>W</type>
+    <text>This well-worn leather eyepatch is enchanted with the illusion of an embroidered eye on the front. While wearing this eyepatch over an eye, whether you’re missing one or not, you can magically see from the patch as if it were a working eye. The embroidered eye adorning the front of the patch swivels and moves as you look around while wearing it.
+
+In addition, while wearing the eyepatch over an eye, you can speak its command word as a bonus action to gain darkvision out to a range of 60 feet for 1 hour. If you already have darkvision, this effect increases its range by 60 feet. While this property is in effect, you can see through magical darkness as if it were nonmagical darkness. Once this property of the eyepatch has been used, it can’t be used again until the next dawn.</text>
+  </item>
+  <item>
+    <name>Eye of the Bookwurm</name>
+    <type>W</type>
+    <text>This small, glass sphere is enchanted with weak divination magics to help you find specific words or phrases in writing. It has a stylized iris etched into the glass.
+
+You can use a bonus action to speak the eye’s command word aloud, followed by the word or phrase you’re searching for. The word or phrase magically appears and floats within the sphere. By holding the eye in a free hand, your vision becomes magically enhanced to subconsciously highlight the word or phrase you searched for in a green light wherever you see it. Once you’ve used the eye’s ability for the first time, you can change the word or phrase as many times as you like for the next hour, after which the item can’t be used again until the following dawn.</text>
+  </item>
+  <item>
+    <name>Locksmith's Bane</name>
+    <type>W</type>
+    <text>This silver lockpick twists and reorients itself to more easily open locks. You gain a +3 bonus on ability checks you make with this tool in order to pick open a lock. If you roll a 1 on an ability check in this way, the pick casts the knock spell on the lock before it turns to dust and is destroyed.
+
+If you roll a 1 in this way and use an ability to reroll the die or otherwise change the result, the item becomes a nonmagical, mundane lock pick but does not cast the spell or disintegrate.</text>
+  </item>
+  <item>
+    <name>Peppermince Sugarbomb</name>
+    <type>W</type>
+    <text>This hard, minty sugarbomb slowly dissolves in your mouth over the course of 1 hour. At any point, you can use a bonus action to crunch down and break the sugarbomb into tiny, painful shards. You take 1d6 piercing damage from the shards, but are temporarily enchanted by the candy. While enchanted, your piercing and slashing weapon attacks deal an extra 2 damage to any target hit by them. After 1 minute, the enchantment fades.
+
+Upset Stomach. You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one’s. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</text>
+  </item>
+  <item>
+    <name>Retaliating Shield of Ink</name>
+    <type>S</type>
+    <text>This shield has a hidden compartment inside that can spray thick squid ink at attacking creatures. When a Large or smaller creature within 5 feet of you misses you with a melee attack, you can use your reaction to press a button on the shield’s handle. When you do, ink sprays from the front of the shield at the face of the attacking creature. That creature must succeed on a DC 13 Dexterity saving throw or be blinded until the beginning of its next turn.
+
+The shield can hold up to 3 uses of the ink before needing to be refilled. It takes 1 minute to refill the shield using a vial of squid ink worth at least 20gp. Alternatively, you can use a vial of thinner writing ink worth 5gp. If you do. the save DC becomes 10 instead.
+    
+This is a mechanical item whose purpose and functionality can be understood following a successful Intelligence check (DC 12). On a success, you can interpret what the shield does, how to use it, and how to take care of it. You also understand that filling the shield with other volatile or sticky liquids such as acid, poison, grog, oil, or any other solid material such as sand, will damage the machinery inside and take 8 hours of work to repair.</text>
+  </item>
+  <item>
+    <name>Shielded Turtle Sugarbombs</name>
+    <type>W</type>
+    <text>These sticky chocolate candies are filled with an enchanted molasses and caramel center and come in packs of 2. You can eat one of these sugarbombs as an action. When you do, your movement speed is reduced by 10 feet for 1 minute. If you are proficient with shields and are wearing one on your back, you gain a +1 bonus to your AC while your speed is reduced in this way. If you’re wielding a shield, you don’t gain this bonus to your AC.
+
+Upset stomach. You can only be under the effects of 1 sugarbomb that has this feature at a time. Eating a sugarbomb that has this feature while under the effects of another one causes the effects of the first sugarbomb to immediately end and be replaced by the new one’s. This rapid change is difficult to stomach, forcing you to make a DC 13 Constitution saving throw. On a failed save, you gain the effects of the new sugarbomb, but become poisoned for 1 minute. On a success, you gain the effects of the new sugarbomb and are not poisoned.</text>
+  </item>
+  <item>
+    <name>Snugglebeast (owlbear)</name>
+    <type>W</type>
+    <text>When a creature regains hit points at the end of a short rest by spending one or more of its Hit Dice, that creature can regain extra hit points if it spends that short rest snuggling with one of these enchanted toys. The kind of snugglebeast and the hit points it restores are determined by its rarity: 1d6 hit points (common, owlbear), 2d6 (uncommon, unicorn), 3d6 (rare, dragon), or 4d6 (very rare, tarrasque). Once this property of the snugglebeast has been used by a creature, that creature can’t benefit from the same snugglebeast again in this way until it finishes a long rest.</text>
+  </item>
+  <item>
+    <name>Snugglebeast (unicorn)</name>
+    <type>W</type>
+    <text>When a creature regains hit points at the end of a short rest by spending one or more of its Hit Dice, that creature can regain extra hit points if it spends that short rest snuggling with one of these enchanted toys. The kind of snugglebeast and the hit points it restores are determined by its rarity: 1d6 hit points (common, owlbear), 2d6 (uncommon, unicorn), 3d6 (rare, dragon), or 4d6 (very rare, tarrasque). Once this property of the snugglebeast has been used by a creature, that creature can’t benefit from the same snugglebeast again in this way until it finishes a long rest.</text>
+  </item>
+  <item>
+    <name>Snugglebeast (dragon)</name>
+    <type>W</type>
+    <text>When a creature regains hit points at the end of a short rest by spending one or more of its Hit Dice, that creature can regain extra hit points if it spends that short rest snuggling with one of these enchanted toys. The kind of snugglebeast and the hit points it restores are determined by its rarity: 1d6 hit points (common, owlbear), 2d6 (uncommon, unicorn), 3d6 (rare, dragon), or 4d6 (very rare, tarrasque). Once this property of the snugglebeast has been used by a creature, that creature can’t benefit from the same snugglebeast again in this way until it finishes a long rest.</text>
+  </item>
+  <item>
+    <name>Snugglebeast (tarrasque)</name>
+    <type>W</type>
+    <text>When a creature regains hit points at the end of a short rest by spending one or more of its Hit Dice, that creature can regain extra hit points if it spends that short rest snuggling with one of these enchanted toys. The kind of snugglebeast and the hit points it restores are determined by its rarity: 1d6 hit points (common, owlbear), 2d6 (uncommon, unicorn), 3d6 (rare, dragon), or 4d6 (very rare, tarrasque). Once this property of the snugglebeast has been used by a creature, that creature can’t benefit from the same snugglebeast again in this way until it finishes a long rest.</text>
+  </item>
+  <item>
+    <name>Socks of the Well-Rested</name>
+    <type>W</type>
+    <text>Wearing these comfortable enchanted socks allows you to recover an additional Hit Die (up to your maximum) upon finishing a long rest. You must be wearing both socks on your feet in order to gain this benefit. You can only benefit from wearing one pair of these socks at a time.</text>
+  </item>
+  <item>
+    <name>Spellwoven Robes</name>
+    <type>W</type>
+    <text>These robes are spun from special, magic-sensitive threads, causing arcane glyphs to appear on the robe while you wear it whenever you cast a spell. While wearing these robes and no other armor, your AC is equal to 10 + your spellcasting ability modifier. In addition, whenever you cast a spell of 1st level or higher, you can change the apparent style, color, and apparent material of the robe. Regardless of its appearance, it is always a robe and its weight remains the same.</text>
+  </item>
+  <item>
+    <name>Telescoping Bladelance</name>
+    <detail>major, martial Weapon, Melee Weapon</detail>
+    <type>M</type>
+    <weight>6</weight>
+    <property>R,H,M</property>
+    <dmg1>1d12</dmg1>
+    <dmgType>P</dmgType>
+    <text>This mechanical lance has bladed edges and has the heavy property. You can use a bonus action on your turn to extend or retract the weapon by twisting its handle. The weapon is a normal lance while it’s extended. If the lance is retracted, the end of the weapon rests inside the wider, bladed base and is considered to be a greatsword instead. This greatsword deals 1d12 slashing damage instead of 2d6.
+
+While the weapon is retracted, you can choose to extend it as a bonus action immediately after hitting a target with an attack. If the target is a Large or smaller creature, it’s pushed 5 feet away from you.</text>
+  </item>
+  <item>
+    <name>Tethervine Quiver</name>
+    <type>W</type>
+    <text>This seemingly overgrown quiver keeps a large plant magically concealed inside it. The quiver can store up to 20 arrows or bolts. When you draw a piece of ammunition from the quiver, you can speak the quiver’s command word as a bonus action to magically connect the end of the ammunition to the plant inside the quiver. The plant is a rope-like vine that flies effortlessly behind a fired piece of ammunition. While wearing the quiver, you can use a bonus action to magically retract the vine up to 60 feet back into the quiver. Any object weighing less than 25 pounds hit by a connected piece of ammunition is pulled back toward the quiver when its retracted in this way. Despite the quiver’s limitations, the rope-like vine can hold up to 250 pounds on its own.
+
+If you hit a creature with an arrow or bolt that was connected to the vine, the vine magically disconnects itself and falls from the ammunition. You can disconnect the vine from the ammunition by speaking its command word again or by severing the vine from the quiver as a bonus action. Once severed, the vine is considered to be a mundane length of hemp rope.
+
+You can only fire a connected piece of ammunition as far as you have the vine to. The plant grows up to 120 feet long and regrows up to 30 feet of vine daily at dawn.</text>
+  </item>
+  <item>
+    <name>Necrolace</name>
+    <type>W</type>
+    <text>rare (requires attunement by a spellcaster)
+This necklace allows you to absorb the life energy of creatures you slay. When you reduce a Small or larger creature who is hostile toward you to 0 hit points, the necklace emits a faint glow and gains 1 charge. The necklace can hold up to 3 charges and contains 1d3 charges when found. You can expend 1 or more charges as a bonus action to turn death into life. You take 1d8 necrotic damage for each expended charge and heal another creature you can see within 30 feet of you for twice the amount of necrotic damage you took. This damage ignores resistance and immunity.
+    
+If this damage reduces you to 0 hit points, you’re stable but unconscious. When this happens, the creature is healed for twice the amount of hit points you had remaining before you fell unconscious.</text>
+  </item>
+  <item>
+    <name>Screaming Longbow</name>
+    <detail>martial Weapon, Ranged Weapon</detail>
+    <type>R</type>
+    <weight>2</weight>
+    <value>50.0</value>
+    <property>A,H,2H,M</property>
+    <dmg1>1d8</dmg1>
+    <dmgType>P</dmgType>
+    <range>150/600</range>
+    <text> rare (requires attunement)
+Arrows fired from this sickly longbow let out a screeching howl audible up to 100 feet away as they fly by. Creatures struck by these arrows take an extra 2d4 thunder damage. When you roll a 20 on an attack roll made with this weapon, all creatures within 5 feet of the target must succeed on a DC 15 Constitution saving throw or be deafened for 1 minute.</text>
+  </item>
+  <race>
+    <name>Cinder Goliath</name>
+    <size>M</size>
+    <speed>40</speed>
+    <ability>Str 1</ability>
+    <proficiency/>
+    <spellAbility/>
+    <trait>
+      <name>Description</name>
+      <text>Once, the gods, in the form of men, walked upon the earth and blessed it. They climbed mountains in passing, and waded kraken filled seas in their baths. Once. These legends circle and grow around mountain fires, on snow-streaked ridges and barren arctic wastelands, fires that warm the chilled skin of a people who are but a shell of their ancestors: the giants, who now weep and shiver in their graves and halls. These people are all that are left of the great striders of the world.</text>
+    </trait>
+    <trait>
+      <name>Age</name>
+      <text>The age of any goliath is an unpredictable variable. Due to the harsh climate and general danger, goliaths over 100 are rare, but it is conceivable a sustained goliath could live for a handful of centuries. They enter real adulthood in their late twenties, but are often considered mature mentally by their earlier twenties.
+      </text>
+    </trait>
+    <trait>
+      <name>Alignment</name>
+      <text>The goliath society with its defined duty and roles has a pure lawful bent, over anything else. Neutral is the most common, but good, neutral, or evil, the law is more important to any goliath than their altruism or lack thereof.
+      </text>
+    </trait>
+    <trait>
+      <name>Size</name>
+      <text>Goliaths are between 11 and 14 feet tall and weigh between 1000 and 1400 pounds. Your size is Large.
+      </text>
+    </trait>
+    <trait>
+      <name>Speed</name>
+      <text>Your base walking speed is 40 feet. The legs and stature of the giants of old still hold true in their walk.
+      </text>
+    </trait>
+    <trait>
+      <name>Mountain Born</name>
+      <text>You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.
+      </text>
+    </trait>
+    <trait>
+      <name>Jörmungandr</name>
+      <text>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift, in addition to grappling and shoving.
+      </text>
+    </trait>
+    <trait>
+      <name>Caramunda</name>
+      <text>You gain a fighting style of your choice from the Paladin's list in its class page of the Player's Handbook.
+      </text>
+    </trait>
+    <trait>
+      <name>Ghost of the Anvil</name>
+      <text>You gain proficiency in smith's tools.
+      This was not taught to you, but came innately as a child, as it comes to all cinder goliaths, like all children knowing how to breathe.
+      </text>
+    </trait>
+    <trait>
+      <name>Languages</name>
+      <text>You can speak, read, and write Common and Giant.
+      </text>
+    </trait>
+  </race>
+  <race>
+    <name>Ironwrought (Quadrapedal)</name>
+    <size>M</size>
+    <speed>40</speed>
+    <ability>Con 2</ability>
+    <proficiency/>
+    <spellAbility/>
+    <trait>
+      <name>Description</name>
+      <text>The origins of Ironwrought are many and varied - they can be the artisanal masterpiece of a Golemsmith, or perhaps a relic of a mass production of an ancient lost civilization... or perhaps not-so-lost a civilization. Their source and purpose will vary greatly. Were they made with sapience in mind, or did they gain it later? Were they made for labor or war?</text>
+    </trait>
+    <trait>
+      <name>Age</name>
+      <text>Constructs do not age physically, though their mental abilities may change greatly through their life as they process new information and experiences.
+      </text>
+    </trait>
+    <trait>
+      <name>Alignment</name>
+      <text>Ironwrought tend to be inclined toward Lawful Neutral, following an internal logic and purpose, but player Ironwrought have gained full sapiance, and can make their own decisions. Some opt to rebel entirely against their nature, acting in unpredictable chaotic patterns like any mortals.
+      </text>
+    </trait>
+    <trait>
+      <name>Speed</name>
+      <text>Your base walking speed is 30 feet.
+      </text>
+    </trait>
+    <trait>
+      <name>Living Construct</name>
+      <text>You are immune to disease. You do not need to eat, drink, or breathe. You do not need sleep, and magic can't put you to sleep.
+      </text>
+    </trait>
+    <trait>
+      <name>Construct</name>
+      <text>Your type is construct.
+      </text>
+    </trait>
+    <trait>
+      <name>Power Down</name>
+      <text>You do not need to sleep. When you take a
+        long rest, you must spend at least 4 hours during a long rest in
+        a motionless lower power state. While in this state, you have
+        disadvantage on Wisdom (Perception) checks, but remain
+        aware of your surroundings.
+      </text>
+    </trait>
+    <trait>
+      <name>Arcane Life</name>
+      <text>You can absorb certain types of healing magic, allowing you to recover hit points from magical effects that do not otherwise affect constructs (such as the cure wounds spell).
+      </text>
+    </trait>
+    <trait>
+      <name>Modular Design</name>
+      <text>You can select two of the following specialized traits representing the functionality built into your chassis.
+• Integrated Armor. You gain a +1 bonus to Armor Class.
+• Integrated Weapon. You have a simple or martial weapon handed weapon of your choice built into your frame. You gain proficiency with this weapon. This does not remove the need for ammunition for weapons that have the ammunition property. This weapon is typically integrated into your limbs, and requires hands to use as normal.
+• Language Module. You learn one additional language, and can cast comprehend languages without consuming a spell slot. Once you cast this spell, you cannot cast it again until you finish a long rest. You can cast this spell using spell slots.
+• Natural Armor. You have built in armor, giving you a base AC of 16 (your Dexterity modifier doesn't affect this number). You can use a shield and apply the shield's bonus as normal.
+• Night Mode. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+• Rapid Movement. Your base walking speed increases by 5 feet.
+• Redundant Logic. You process all inputs twice to ensure they are logical. You have advantage on saving throws against becoming frightened or charmed. 
+• Specialized Skill. You gain proficiency in one skill of your choice.
+• Specialized Tool. You gain one tool built into your frame. You gain proficiency with this tool.
+• Terrain Adaption. You gain a climbing or swimming speed equal to your movement speed.
+      </text>
+    </trait>
+    <trait>
+      <name>Languages</name>
+      <text>You can speak, read, and write Common and one other language of your choice (usually the language of your creator if they spoke a language other than common).
+      </text>
+    </trait>
+    <trait>
+      <name>Quadrupedal</name>
+      <text>You do not have hands. You can hold one or grapple one thing using your mouth, but cannot speak when you do so, and any weapons held in this way are wielded with disadvantage. You can perform the somatic components of spells with one of your legs, however doing requires 15 feet of your movement.
+      </text>
+    </trait>
+    <trait>
+      <name>Natural Weapons</name>
+      <text>You gain a selection of natural weapons. You are considered to be holding natural weapons for the purposes of abilities that require you to to hold a weapon (this does not confer disadvantage to them). Select two of the following:
+• Metal Chompers You have metal fangs suitable for chomping. On hit, they deal 1d10 piercing damage.
+• Razor Claws. You have two sets of razor claws integrated into your front limbs. On hit, they deal 1d6 slashing damage and have the light property.
+• Bladed Tail You have a lashing bladed tail. On hit, it deals 1d4 slashing damage. It has the reach property.
+      </text>
+    </trait>
+    <trait>
+      <name>Languages</name>
+      <text>You can only wear armor specially adapted to your unique shape. This custom armor has the same price as normal armor, but may be harder to find or more expensive when custom ordered.
+      </text>
+    </trait>
+  </race>
+</compendium>

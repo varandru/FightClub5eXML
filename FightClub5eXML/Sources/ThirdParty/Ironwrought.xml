@@ -1,12 +1,13 @@
-<?xml version="1.0"?>
-<compendium xmlns:exsl="http://exslt.org/common" version="5" auto_indent="NO">
+<?xml version='1.0' encoding='utf-8'?>
+
+<compendium version="5" auto_indent="NO">
   <race>
     <name>Ironwrought (Quadrapedal)</name>
     <size>M</size>
     <speed>40</speed>
     <ability>Con 2</ability>
-    <proficiency/>
-    <spellAbility/>
+    <proficiency></proficiency>
+    <spellAbility></spellAbility>
     <trait>
       <name>Description</name>
       <text>The origins of Ironwrought are many and varied - they can be the artisanal masterpiece of a Golemsmith, or perhaps a relic of a mass production of an ancient lost civilization... or perhaps not-so-lost a civilization. Their source and purpose will vary greatly. Were they made with sapience in mind, or did they gain it later? Were they made for labor or war?</text>
