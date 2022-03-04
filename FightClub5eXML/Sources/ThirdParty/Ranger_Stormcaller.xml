@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<compendium version="5" auto_indent="NO">
+  <class>
+    <name>Ranger</name>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Ranger Archetype: Stormcaller</name>
+        <text>Experts in fighting in strong winds and heavy rain, Stormcallers draw their power from the rolling clouds and shifting skies. Able to manipulate the weather to their advantage, Stormcallers strike with the might of a hurricane, fracturing and blowing away their adversaries with bursts of windy magic and whirling blades.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Stormcaller: Stormcaller Magic</name>
+        <text>Starting at 3rd level, you learn the druidcraft cantrip, and you learn an additional spell when you reach certain levels in this class, as shown in the Stormcaller Spells table. These spell count as ranger spells for you, but don’t count against the number of ranger spells you know.</text>
+        <text>Stormcaller Spells</text>
+        <text>Ranger Level | Spells</text>
+        <text>  3rd | zephyr strike XGE</text>
+        <text>  5th | warding wind XGE</text>
+        <text>  9th | call lightning</text>
+        <text>  13th | storm sphere XGE</text>
+        <text>  17th | control winds XGE</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Stormcaller: Gale Step</name>
+        <text>Starting at 3rd level, you can channel the power of the wind into your own movements and attacks. When you move for the first time on your turn, you can double your speed until the end of the turn. If you move at least 10 feet straight toward a target and then hit it with a weapon attack before the end of the turn, the attack deals an extra 1d8 thunder damage. When you reach 11th level in this class, the extra damage increases to 2d8.</text>
+        <text>Once you use this feature, you can’t use it again until you move 0 feet on one of your turns.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Stormcaller: Rain Cloak</name>
+        <text>At 3rd level, you learn to cloak yourself under cover of rain. While in light or heavy precipitation, you can use a bonus action on your turn to turn invisible until the start of your next turn, or until you attack, make a damage roll, or force someone to make a saving throw. Additionally, you don’t have disadvantage on Wisdom (Perception) checks made when observing areas that are lightly obscured by heavy rain, falling snow, mist, or other water-based phenomena.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="7">
+      <feature optional="YES">
+        <name>Stormcaller: Darken Skies</name>
+        <text>At 7th level, you gain the ability to draw storm clouds overhead. If you are able to see the sky when you finish a short or long rest, you can cause dark clouds to form in a 1-mile radius directly above you. These dark clouds count as stormy conditions for the purpose of spells such as call lightning, and the weather in the area changes to light rain or light snow.</text>
+        <text>If it is already lightly raining or lightly snowing when you use this feature, you can instead cause the weather in the area to worsen, turning light precipitation into heavy precipitation.</text>
+        <text>Changes in weather caused by this feature persist for a number of hours equal to your ranger level or until dispersed naturally or by magic.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="11">
+      <feature optional="YES">
+        <name>Stormcaller: Cyclone Burst</name>
+        <text>Beginning at 11th level, you can unleash a vicious cyclone of winds around you. When you move for the first time on your turn while using your Gale Step feature, you can force each creature within 10 feet of you to make a Strength saving throw against your ranger spell save DC. On a failed save, a creature takes 2d8 thunder damage and is pushed up to 10 feet away from you and knocked prone. This wind also blows away any smoke, mist, or fog in the area.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="15">
+      <feature optional="YES">
+        <name>Stormcaller: Shielded by Wind and Rain</name>
+        <text>At 15th level, you can bend the winds around you into a barrier against arrows and other missiles. While you aren’t incapacitated, you have half cover against ranged attacks. Additionally, when a creature you can see makes a ranged attack against a target within 30 feet of you, you can use your reaction to grant the target half cover against the attack.</text>
+        <text>If you are standing in light or heavy precipitation, both instances of half cover become three-quarters cover.</text>
+      </feature>
+    </autolevel>
+  </class>
+</compendium>

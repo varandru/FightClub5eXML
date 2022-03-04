@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<compendium version="5" auto_indent="NO">
+  <race>
+    <name>Feathren (Eagle/Cheetah)</name>
+    <size>M</size>
+    <speed>30</speed>
+    <ability>Wis 2, Dex 1</ability>
+    <proficiency></proficiency>
+    <spellAbility></spellAbility>
+    <trait>
+      <name>Description</name>
+      <text>Feathren are the representation of something new from something old. A step beyond their ancestral griffon heritage, these bipedal creatures celebrate their individuality amidst the cries and jeers from common folk. Originally born from the Astral Plane, where all things can be lost, found, and remade, feathren now walk the Material Plane in search of new ideas, materials, and direction. Filled with endless curiosity, many make their way through the world as adventurers and artisans, taking care to learn what they can from their experiences before moving on to the next one.</text>
+    </trait>
+    <trait>
+      <name>Age</name>
+      <text>Young feathren are born from eggs and mature more quickly than humans do, reaching maturity by age 8 and typically living to be around 70.
+      </text>
+    </trait>
+    <trait>
+      <name>Alignment</name>
+      <text>Feathren can be mercurial and admire variety and expression, and as a result tend to lean towards the gentler aspects of chaos. They are more often good than not, although some allow their vanity to turn to greed and evil.
+      </text>
+    </trait>
+    <trait>
+      <name>Speed</name>
+      <text>Your base walking speed is 30 feet.
+      </text>
+    </trait>
+    <trait>
+      <name>Darkvision</name>
+      <text>Your mix of predatory blood has given you eyes that can cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+      </text>
+    </trait>
+    <trait>
+      <name>Natural Creator</name>
+      <text>You have proficiency in two artisan's tools of your choice, and can gain proficiency in a new tool in half the normal amount of time.
+      </text>
+    </trait>
+    <trait>
+      <name>Languages</name>
+      <text>You can speak, read, and write Common and one extra language of your choice. When choosing a language to study, feathren tend to value the sounds they make more highly than their practicality.
+      </text>
+    </trait>
+  </race>
+</compendium>

@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<?xml-model href="../../../Utilities/compendium.xsd"?>
+<compendium version="5" auto_indent="NO">
+  <class>
+    <name>Warlord</name>
+    <hd>8</hd>
+    <proficiency>Wisdom, Charisma</proficiency>
+    <numSkills>3</numSkills>
+    <armor>medium, light</armor>
+    <weapons>simple, marshall</weapons>
+    <autolevel level="1">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Warlord</name>
+      </feature>
+      <feature>
+        <name>Warlord Presences</name>
+        <text> At 1st level, you pick the archetype of Warlord you embody, called a Presence, choosing from Commander, Chieftain, Noble, Packleader, Paragon or Tactician, each of which are detailed at the end of the class description. Your choice grants you features at 1st level, and again at 3rd, 7th, 11th, 15th, and 18th level.
+        </text>
+      </feature>
+      <feature>
+        <name>Battlefield Presence</name>
+        <text> Starting at 1st level, when you take the Attack action, in place of making an attack, you can use your Battlefield Presence to grant a friendly creature that can see or hear you an additional attack the next time they take the Attack action during their turn. Any additional attacks granted that are unused at the start of your next turn are lost. A friendly creature can only gain one additional attack from this feature per round from this feature.
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Noble: Inspiring Leader</name>
+        <text> Additionally at 1st level, a creature with a CR of less than half your Warlord level (or with fewer class levels than you have Warlord levels if the creature does not have a CR) can choose to use your proficiency bonus + Charisma modifier for the attack roll modifier on the first Attack they make in a turn where they have been granted by Battlefield Presence.
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Noble: Call to Arms</name>
+        <text> Starting at 1st level, when you roll initiative you can call out to friendly creatures within 60 feet of you, providing them with a surge of inspiration, they can add your Charisma modifier to their first attack roll made before the end of their turn.
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Noble's Presence</name>
+        <text> A Warlord with a Noble Presence is not inherently one that was born a Noble, though many are. A Noble Presence Warlord is one that serves to drive their retainers and companions onto greater heights through sheer charisma, a shining beacon of what they are fighting for standing beside them. Since time immemorial men have fought twice as hard on a battlefield when their leader takes the field to stand among them, driven to heights that would seem impossible in order to protect their liege - while an adventurer of this path may or may not be their liege, their charisma invokes the same fervor in their companions and retainers. An adventurer on this path is not inherently of noble background, though many often are. A noble reared on the laws of the land is usually lawful, but extraordinary circumstances may have brought about a rebellious streak in one that now seeks to overthrow unfit rulers (or rulers that aren't them, anyway).
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Noble: Destined Leader</name>
+        <proficiency>Persuasion</proficiency>
+        <text> Starting at 1st level when you take this Presence you gain proficiency with rapiers, longswords and the Persuasion skill, or another skill of your choice if you are already proficient. Additionally, you gain an additional Leadership Die at 3rd level, 9th level, and 15th level.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Commander's Presence</name>
+        <text>A Commander on the field can be many things - a trusted sergeant, a weary veteran, or merely a person with an uncommon degree of common sense and a particularly keen eye for how to win a fight.</text>
+        <text>While not as flashy as some of the other Presences on the Battlefield, that just means they are less likely to get themselves skewered. A keen word there and helping hand here, their influence is subtle but effective, inexorably shifting the tides of battle in their favor.</text>
+        <text>A Commander can come from any background, but is usually someone that has acquired their Wisdom the hard way, having seen a bit of what life and battlefields have to offer.</text>
+      </feature>
+      <feature optional="YES">
+        <name>Commander: Martial Proficiency</name>
+        <text> Starting at 1st level when you take this Presence, you gain proficiency in heavy armor, shields, and martial weapons.
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Commander: Form Up!</name>
+        <text> Starting at 1st level, when you roll initiative and are not surprised, any number of friendly creatures within 30 feet of you can move up to their speed a number of feet equal to five times your Wisdom modifier (minimum 5 feet).
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="2">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Leadership Dice</name>
+        <text> Starting at 2nd level, you have access to Leadership Dice. These represent your ability to focus your battlefield presence for powerful results. Your Warlord level determines the number and size of the dice, as shown on the Leadership Dice column of the Warlord table. You can spend these to fuel various features. You know three such features: Rallying Mark, Urgent Orders, and Helpful Word. When you get this feature, you can spend one Leadership Die per turn. Starting at 6th level, you can spend two Leadership Dice per turn. The number you can expend increases to three at 11th level, and to four at 17th level. A Leadership Die is expended when you use it. You regain all of your expended Leadership Dice when you finish a short or long rest. Rallying Mark As a bonus action, you can expend a number of Leadership Dice (up to your per turn limit) to rally your allies to attack a hostile creature within 60 feet of you. The next time damage is rolled against that target by an allied creature before the start of your next turn, they can add the Leadership Dice to the damage roll, and the attacking creature regains hit points equal to the amount rolled on the Leadership Dice. Urgent Orders As a bonus action, you can expend a number of Leadership Dice (up to your per turn limit) to guide your allies in expeditious action. Target an allied creature within 60 feet of you that can see or hear you, that creature can immediately use its reaction to move up to its movement speed (up to a maximum of 30 feet) without provoking opportunity attacks. Roll the leadership dice expended, the target gains temporary hit points equal to the value rolled. Helpful Word As a bonus action, you can spend a Leadership Die to take the Help action. When you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if your ally can see or hear you.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Warlord Expertise</name>
+        <text> Warlord's Expertise Starting at 3rd level, choose one of the following skills: Investigation, Insight, Intimidation, or Persuasion. If you are not proficient in the chosen skill you become proficient. If you are already proficient in the skill you select, your proficiency bonus is doubled for any ability check you make that uses that skill.
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Noble: Divine Right</name>
+        <text>  Starting at 3rd level, you can use Leadership Dice (up to your per turn limit) to cast command. The level of the spell is equal to the number of Leadership Dice spent. The spell save DC for these spells are 8 + your Charisma modifier + your Proficiency bonus. You can also add your Charisma (maximum 2) to your AC so long as you are not wearing heavy armor or using a shield.
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Noble: Charismatic Leadership</name>
+        <text> Additionally at 3rd level, you can add your Charisma modifier to the damage bonus of Rallying Mark, the temporary hit points granted by Urgent Orders, and the attack roll of a creature that gains advantage from Helpful Word.
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Commander: Keen Pointer</name>
+        <text> Starting at 3rd level, you can take the Helpful Word bonus action without expending a Leadership Die if you are within 5 feet of the creature you are taking the Help action against.
+        </text>
+        <text> When you do so, you can expend Leadership Dice to apply Rallying Mark to the creature you are targeting with this Help action.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="4" scoreImprovement="YES">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Ability Score Improvement</name>
+        <text> When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="5">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Extra Attack</name>
+        <text> Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. You can use Battlefield Presence in place of either or both attacks.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Prepare for Battle</name>
+        <text> Starting at 6th level, you can spend a minute preparing up to five allies for combat. You can expend a number of Leadership Dice up to your per turn limit, rolling them and causing your allies to gain temporary hit points equal to the number rolled. Allies that have benefited from this ability can expend a number of hit dice equal to the number of Leadership Dice you expended, using them as they would during a short rest. Any temporary hit points gained from this last until you complete a short or long rest.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="7">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature optional="YES">
+        <name>Noble: Words of Conviction</name>
+        <text> Starting at 7th level, you can use Leadership Dice (Up to your per turn limit) to cast bless or heroism without providing material components. The level of the spell is equal to the number of Leadership Dice spent.
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Noble: Imperative Order</name>
+        <text> Starting at 7th level, when you spend 2 or more Leadership Dice on a target with Urgent Orders, you can allow the target creature to make a single weapon attack with their reaction instead of moving. If you spend 3 or more Leadership Dice on a target, the target creature can both move and make a single weapon attack with their reaction.
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Noble: On Your Feet!</name>
+        <text> Starting at 7th level, you can use a bonus action and expend one Leadership Die to restore the will to fight in an allied creature. Choose a friendly creature within 5 feet of you. That creature regains hit points equal to your Leadership die.
+        </text>
+        <text> When you use this feature to restore hit points to a creature at 0 hit points, you can add your Wisdom modifier to the amount of hit points restored. If the creature is prone, it can choose to stand immediately.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="8" scoreImprovement="YES">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+    </autolevel>
+    <autolevel level="9">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Press the Attack</name>
+        <text> Starting at 9th level, your abilities are further empowered: </text>
+        <text>Rallying Mark: Boost Morale</text>
+        <text> When a creature gains hit points from Rallying Mark, you can expend one Leadership die to cause another creature within 30 feet to regain the same number of hit points.</text>
+        <text>Urgent Orders: Coordinated Movements</text>
+        <text> When you use Urgent Orders, you can target a number of creatures equal to the number of Leadership Dice spent, spending dice on each target individually.</text>
+        <text> Helpful Word: Expert Instructions</text>
+        <text> When a creature benefits from your Help action, you can use your reaction to expend a Leadership Die and add it to their roll. You can use this ability after the original roll, but before the outcome is revealed.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="10" scoreImprovement="YES">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+    </autolevel>
+    <autolevel level="11">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature optional="YES">
+        <name>Noble: Inspired Zeal</name>
+        <text> Starting at 11th level, you are always under the effect of a crusader's mantle spell.
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Commander: Martial Advantage</name>
+        <text>Starting at 11th level, you've learned to leverage fighting alongside an ally. Once per turn, you can deal an extra 2d6 damage to a creature you hit with a weapon attack if that creature is within 5 feet of an ally that isn't incapacitated.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="12" scoreImprovement="YES">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+    </autolevel>
+    <autolevel level="13">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Warlord's Intuition</name>
+        <text> Starting at 13th level, before rolling an ability check you are proficient in, you can exercise this ability, choosing for the d20 to be equal to your Warlord level rather than rolling. Once you do this, you cannot do this until you complete a long rest.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="14">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Shift the Field</name>
+        <text>
+  Starting at 14th level, you gain the ability to relocate friendly creatures. As an action, you can expend one Leadership Die to move up to 5 friendly creatures that can see or hear you up to half their movement speed without provoking attacks of opportunity.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="15">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Noble: Untouchable Presence</name>
+        <text> Starting at 15th level, you are under the effect of sanctuary spell. This effect ends as normal if you take an action that would break it, but returns at the start of your next turn. The spell save DC for this spell is 8 + your Charisma modifier + your Proficiency bonus.
+        </text>
+      </feature>
+      <feature>
+        <name>Commander: Bulwark</name>
+        <text> Starting at 15th level, when you and any number of friendly creatures within 30 feet of you make a Saving Throw against the same effect, your allies gain Advantage on their Saving Throw if you succeed on the saving throw.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="16" scoreImprovement="YES">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+    </autolevel>
+    <autolevel level="17">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Unbreakable Will</name>
+        <text> Starting at 17th level, you are immune to the frightened and charmed, conditions.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="18">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature optional="YES">
+        <name>Noble: Grand Decree</name>
+        <text>  Starting at 18th level, you can use this ability to cast command without expending a spell slot or Leadership Dice. When you do so, the spell affects all creatures of your choice within range that could be affected by the spell. Once you cast command using this ability, you cannot cast it using this ability again until you complete a long rest.
+        </text>
+      </feature>
+      <feature optional="YES">
+        <name>Commander: No One Left Behind!</name>
+        <text> Starting at 18th level, you can move up to your speed to get within 5 feet of a creature while using your On Your Feet feature. During this movement you gain resistance to all damage and the target regains an additional 1d8 hit points for each attack of opportunity made against you during this movement.
+        </text>
+      </feature>
+    </autolevel>
+    <autolevel level="19" scoreImprovement="YES">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+    </autolevel>
+    <autolevel level="20">
+      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+      <feature>
+        <name>Tireless Leader</name>
+        <text> Starting at 20th level, you can roll d4s and use them instead of expending Leadership Dice for Rallying Mark, Urgent Orders, Helpful Word, or Prepare for Battle.
+        </text>
+      </feature>
+    </autolevel>
+  </class>
+</compendium>
