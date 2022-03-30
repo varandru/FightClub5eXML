@@ -31,5 +31,6 @@
     <doc href="../FightClub5eXML/Sources/ThirdParty/GriffonsSaddlebag.xml" />-->
     <!-- <doc href="../FightClub5eXML/Sources/ThirdParty/Feathren.xml" /> -->
     <!-- <doc href="../FightClub5eXML/Sources/ThirdParty/Ranger_Stormcaller.xml" /> -->
-    <doc href="../FightClub5eXML/Sources/ThirdParty/Warlord.xml" />
+    <!-- <doc href="../FightClub5eXML/Sources/ThirdParty/Warlord.xml" /> -->
+    <doc href="../FightClub5eXML/Sources/ThirdParty/DemiDragon.xml" />
 </collection>

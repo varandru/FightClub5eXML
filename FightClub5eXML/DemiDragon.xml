@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<compendium xmlns:exsl="http://exslt.org/common" version="5" auto_indent="NO">
+  <race>
+    <name>Demi-Dragon</name>
+    <size>M</size>
+    <speed>30</speed>
+    <ability>Str 2</ability>
+    <proficiency/>
+    <spellAbility/>
+    <trait>
+      <name>Ability Score Increase</name>
+      <text>Your Strength score increases by 2, and one other ability score of your choice increases by 1.</text>
+    </trait>
+    <trait>
+      <name>Age</name>
+      <text>A demi-dragon can live for roughly four hundred years, starting from when they were first transformed.
+      </text>
+    </trait>
+    <trait>
+      <name>Creature Type</name>
+      <text>You are a Dragon.
+      </text>
+    </trait>
+    <trait>
+      <name>Size</name>
+      <text>Demi-dragons have a body mass that is identical to that of their previous form. At most, a demi-dragon stands 4 feet tall from shoulder to the ground, and measures no longer than 16 feet from snout to tail tip, of which their body accounts for a maximum of 5 feet. Your size is Medium.
+      </text>
+    </trait>
+    <trait>
+      <name>Speed</name>
+      <text>Your base walking speed is 30 feet.
+      </text>
+    </trait>
+    <trait>
+      <name>Speed</name>
+      <text>Your wings provide you with lift. Your maximum jump distance for high and long jumps is doubled, and you do not need to take a running start. This extra distance costs movement as normal.
+      </text>
+    </trait>
+    <trait>
+      <name>Darkvision</name>
+      <text>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+      </text>
+    </trait>
+    <trait>
+      <name>Dragon Scales</name>
+      <text>Your magical essence enhances your protective scales. While you aren't wearing armor, your Armor Class equals 10 + your Constitution modifier + your Charisma modifier.
+      </text>
+    </trait>
+    <trait>
+      <name>Mythic Build</name>
+      <text>You count as one size category larger when determining your carrying capacity and the weight you can push, drag, or lift. </text>
+      <text> 
+      Your claws have enough manual dexterity to manipulate objects as normal, but you have disadvantage on attack rolls made with object weapons, and receive no benefit from wielding shields. In order to wear armor, you must have it specially constructed, costing three times the normal rate.
+      </text>
+    </trait>
+    <trait>
+      <name>Natural Weapons</name>
+      <text>You have access to an arsenal of natural weapons. These natural weapons count as martial melee weapons for you, and you are proficient with them. You can use them to make melee weapon attacks, and you add your Strength modifier to the attack and damage rolls when you attack with them. Your fanged maw deals 1d12 piercing damage on a hit. Your lashing tail has a reach of 10 feet and deals 1d10 bludgeoning damage. Your rending claws deal 1d6 slashing damage. When you take the Attack action and attack with your claw, you can use your bonus action to make an additional claw attack.
+      </text>
+    </trait>
+    <trait>
+      <name>Inheritance</name>
+      <text>Your connection to a particular type of true dragon manifests as a related skill. You gain proficiency with one of the following skills of your choice: Arcana, Acrobatics, Deception, History, and Persuasion.
+      </text>
+    </trait>
+    <trait>
+      <name>Languages</name>
+      <text>You can speak, read, and write Common, Draconic, and one other language of your choice.
+      </text>
+    </trait>
+  </race>
+  <class>
+    <name>Demi-Dragon</name>
+    <hd>10</hd>
+    <proficiency>Constitution, Strength, Athletics, Insight, Intimidation, Investigation, Perception, Persuasion, Stealth, Survival</proficiency>
+    <numSkills>2</numSkills>
+    <spellAbility>Charisma</spellAbility>
+    <autolevel level="1">
+      <feature optional="YES">
+        <name>Starting Demi-Dragon</name>
+        <text>You begin play with the following equipment, in addition to any equipment provided by your background.</text>
+        <text>• a coin pouch containing 2d4 x 5 gp</text>
+        <text>(a) a scholar's pack, (b) a priest's pack, or (c) an explorer's pack. Packs take the form of modified saddlebags</text>
+        <text>• an item from before your transformation. Determine this item for yourself, or use the table below d6 | Item of Personal Significance
+          ---+------------------------------
+          1  | A pair of adjusted spectacles
+          2  | A ring, given as a gift
+          3  | A well-worn book of fairy tales
+          4  | A singed musical instrument
+          5  | A tarnished holy symbol
+          6  | A weighted dice set</text>
+      </feature>
+      <feature>
+        <name>Dragon Spark</name>
+        <text>When you become a demi-dragon, you internalize a spark of inherent magical power that fuels your new form and allows you to mimic the extraordinary abilities of a true dragon. The power of this spark is a measure of the magical essence you have accumulated.</text>
+        <text>Charisma is your ability for specific class features. You use Charisma whenever a feature gained through this class refers to your Dragon Spark. In addition, you use Charisma when setting the saving throw DC for such an effect and when making an attack roll with one.</text>
+        <text/>
+        <text>Dragon Spark save DC = 8 + your proficiency bonus + your Charisma modifier</text>
+        <text/>
+        <text>Dragon Spark attack modifier = your proficiency bonus + your Charisma modifier</text>
+      </feature>
+      <feature>
+        <name>Devour Magic</name>
+        <text>To sustain your new form, you have developed an innate ability that lets you consume magic. As an action, choose one creature, object, or magical effect within a range of 10 feet of you. Any spell of a level lower than or equal to one third your demi-dragon level (minimum 1) on the target is dispelled. For each spell of a level higher than that, make a Charisma check. The DC equals 10 + the spell's level. On a success, the spell is dispelled. Regardless of success, you then regain hit points equal to your demi-dragon level + your Constitution modifier (minimum 1). Effects that refer to dispel magic also apply to this feature, such as wall of force.</text>
+        <text>You can use this feature once, and must finish a long rest before you can use it again. Starting at 5th level, the range increases to 60 feet. At 18th level, you can use it twice before a long rest.</text>
+      </feature>
+      <feature>
+        <name>Dragon's Breath</name>
+        <text>Destructive energy simmers within you, waiting to be released. When you gain this feature, choose between a 30-foot line that is 5 feet wide or a 15-foot cone. Additionally, choose a damage type from among the following: acid, cold, fire, lightning, or poison.</text>
+        <text>As an action, you exhale destructive energy. Each creature in the area you chose must make a saving throw against your Dragon Spark save DC. A creature takes 2d8 damage of the chosen type on a failed save, or half as much damage on a successful one. If you chose acid, fire, or lightning, the target must make a Dexterity saving  throw. If you chose cold or poison, the target must make a Constitution saving throw.</text>
+        <text>The damage and range of this feature increase as you gain demi-dragon levels, as shown in the Dragon's Breath Damage and Range columns of the Demi-Dragon table.</text>
+        <text>You can use this feature twice. You regain all uses of it after finishing a short or long rest. Starting at 13th level, you can use it three times before a rest.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="2">
+      <feature>
+        <name>Glide</name>
+        <text>Your wings can slow your fall. As a reaction you can take when falling while you aren't prone, you can spread your wings and glide, slowing your rate of descent to 20 feet per round. While gliding, you can as part of your movement move up to 40 feet in any horizontal direction, or dive straight down. When you land, you take no falling damage and can land on your feet. You can also start gliding by expending at least 10 feet of movement as part of a high jump.</text>
+        <text>The speed at which you can glide increases as you gain demi-dragon levels, as shown in the Glide and Fly Speed column of the Demi-Dragon table.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="2">
+      <feature>
+        <name>Glide</name>
+        <text>Your wings can slow your fall. As a reaction you can take when falling while you aren't prone, you can spread your wings and glide, slowing your rate of descent to 20 feet per round. While gliding, you can as part of your movement move up to 40 feet in any horizontal direction, or dive straight down. When you land, you take no falling damage and can land on your feet. You can also start gliding by expending at least 10 feet of movement as part of a high jump.</text>
+        <text>The speed at which you can glide increases as you gain demi-dragon levels, as shown in the Glide and Fly Speed column of the Demi-Dragon table.</text>
+      </feature>
+      <feature>
+        <name>Elemental Adaptation</name>
+        <text>Your form continues to change as you adapt to your newly-attained elemental nature. You gain resistance to the damage type you chose for Dragon's Breath.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature>
+        <name>Absorb Magic</name>
+        <text>You gain the ability to absorb the magical enchantment of a weapon or piece of equipment. This grants you access to the magical powers provided by that item, and removes it from the item. The stolen magic harmlessly flows through your veins. You can absorb an enchantment from a magical item as part of a long rest, during which the item must be in your possession. Once absorbed, you can use the item's magical properties as if you were wearing or wielding the item. The stolen magical power follows all rules that would normally apply to it.</text>
+        <text>You can return the enchantment to the original item as part of a short or long rest. When returning an enchantment, you do not need to have the item in your possession. You can have a maximum of 5 such enchantments active at any one time. If the item requires attunement to use, it follows normal attunement rules, and you count as being attuned while the enchantment remains absorbed by you. You can't absorb an item's magic if doing so would cause you to be attuned to more than your maximum attunements.</text>
+        <text>You can't absorb the power of shields or artifacts. Additionally, the Dungeon Master may rule that a specific item's enchantment can't be absorbed. Only enchantments on items that are designed to be equipment (worn or wielded) may be absorbed. You can't combine these enchantments in any way that would not normally be possible—you can't, for instance, benefit from more than one weapon enchantment when making an attack, but if multiple such enchantments are available to you, you can decide which one to use each time you make an attack.</text>
+        <text>Should a cursed item be absorbed, the curse functions as normal. You can rid yourself of the curse after fulfilling its requirements, such as by using the remove curse spell. Doing so temporarily allows you to return the cursed enchantment to its item as part of a short or long rest.</text>
+      </feature>
+      <feature>
+        <name>Draconic Embodiment</name>
+        <text>You choose an aspect of draconic might to dedicate yourself to. Choose between the Embodiment of the Juggernaut, the Scion, the Shadestalker, the Sibilant, the Ascetic, the Fervent Hoarder, the Arbiter, the Metamorph, the Voidmaw, the Protector, the Genesis, and the Dragon Queen, each of which is detailed at the end of the class's description. </text>
+        <text> Your choice grants you features at 3rd, 6th, 10th, and 17th level.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="4" scoreImprovement="YES">
+    </autolevel>
+    <autolevel level="5">
+      <feature>
+        <name>Extra Attack</name>
+        <text>You can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+      </feature>
+      <feature>
+        <name>Stride</name>
+        <text>You've become better used to your still-growing body. Your walking speed increases by 10 feet while you aren't wearing heavy armor.</text>
+        <text>Additionally, a creature that is the same size category as you or smaller can ride on your back if you allow it. In such a situation, you continue to act independently, not as a controlled mount.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <feature>
+        <name>Leeching Strikes</name>
+        <text>Your stolen magic empowers your attacks. All of your natural weapons count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="7">
+      <feature>
+        <name>Flight</name>
+        <text>Your wings have grown powerful enough to sustain flight. You gain a flying speed of 50 feet. You can only use this flying speed if you aren't wearing heavy armor and aren't encumbered.</text>
+        <text>Your flying speed increases as you gain demi-dragon levels, as shown in the Glide and Fly Speed column of the Demi-Dragon table.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="8" scoreImprovement="YES">
+    </autolevel>
+    <autolevel level="9">
+      <feature>
+        <name>Eye of the Dragon</name>
+        <text>Your senses are keenly honed. You gain proficiency in your choice of the Perception or the Investigation skill. If you already have proficiency in the chosen skill, your proficiency bonus is doubled for that skill.</text>
+        <text>Additionally, you gain blindsight out to a range of 10 feet. You faintly sense the location of any magical effect that is within the range of your blindsight, and innately know if such a magical effect can be dispelled.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="11">
+      <feature>
+        <name>Dragon's Might</name>
+        <text>Raw draconic vitality empowers you. Your Strength, Constitution, and Charisma scores each increase by 2. Your maximum for those scores is now 22.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="12" scoreImprovement="YES">
+    </autolevel>
+    <autolevel level="14">
+      <feature>
+        <name>Fabled Resistance</name>
+        <text>The tenacity of dragons is legendary. You have two resistance dice, which are d6s. When you fail a saving throw, you can choose to roll one or more of your resistance dice, adding the result to your saving throw total. You can roll each die one by one. Once a resistance die has turned a failure into a success, the die is expended and cannot be used again until you have finished a long rest.</text>
+        <text>At 20th level, you gain another resistance dice for a total of three, and they each turn into d10s.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="15">
+      <feature>
+        <name>Force of Self</name>
+        <text>Through your perseverance, you've developed a strong
+          sense of self. You gain proficiency in Charisma saving throws.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="16" scoreImprovement="YES">
+    </autolevel>
+    <autolevel level="15">
+      <feature>
+        <name>Rend and Ruin</name>
+        <text>Your savage strikes leave your foes broken and bleeding. Once on each of your turns if you deal damage to a target with at least two natural weapon attacks, the target takes an additional 3d6 damage of the same type, and has its speed reduced by 10 feet until the start of your next turn.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="19" scoreImprovement="YES">
+    </autolevel>
+    <!-- Embodiment of the Scion -->
+    <autolevel level="3">
+      <feature>
+        <name>Bloodline Heritage</name>
+        <text>You grow closer to one of the ten draconic bloodlines, taking on the physical appearance of a dragon of that type.</text>
+        <text>Choose a dragon type from the table below. The type chosen must match the damage type you chose for Dragon's Breath. You gain a climbing, swimming, or burrowing speed depending on your choice. If you choose Silver, you instead gain the Silver Mist morph, detailed under the Embodiment of the Metamorph.</text>
+        <text>If you gain a climbing speed, it is equal to your walking speed and you suffer no ill effects from high altitudes. If you gain a swimming speed, it is equal to your walking speed and you can breathe both air and water. If you gain a burrowing speed, it is equal to half your walking speed and you can tunnel through loose dirt, gravel, and similar materials, but not through solid materials. If you burrow at half speed, you can reinforce your tunnel as you move, letting others safely pass through—otherwise it slowly collapses behind you.</text>
+        <text/>
+        <text>
+          Dragon | Damage | Type | Speed | Ardent Breath
+          -------+--------+------+-------+--------------
+          Black | Acid | Swim | Acid Barrage
+          Blue | Lightning | Burrow | Lightning Lance
+          Green | Poison | Swim | Beguiling Miasma
+          Red | Fire | Climb | Fiery Eruption
+          White | Cold | Burrow | Freezing Mist
+          Brass | Fire | Burrow | Fiery Eruption
+          Bronze | Lightning | Swim | Lightning Lance
+          Copper | Acid | Climb | Acid Barrage
+          Gold | Fire | Swim | Fiery Eruption
+          Silver | Cold | Silver  Mist | Freezing Mist
+        </text>
+      </feature>
+      <feature>
+        <name>Ardent Breath</name>
+        <text>You inherit the unique properties of your bloodline's breath weapon. Depending on your Bloodline Heritage, you gain a unique breath ability. You can use this feature once, and regain the ability to do so once you finish a short or long rest. At 6th level, you can use this feature twice.</text>
+        <text>Each Ardent Breath uses the numbers listed in the Dragon's Breath Range column of the Demi-Dragon class table, and increases in range as you gain levels. It uses the specified line or cone regardless of what you chose for Dragon's Breath.</text>
+        <text>Ardent Breaths are detailed as spells in the Demi-Dragon (Scion) category.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <feature>
+        <name>Ardent Focus</name>
+        <text>You've learned how to get the most out of your Ardent Breath. Depending on your breath weapon damage type, you gain the following benefit:</text>
+        <text>• Corrosion: Before the end of your next turn, the next attack roll made against each target hit by your Acid Barrage has advantage.</text>
+        <text>• Induce Torpor: As an action while the charmed target of your Beguiling Miasma is within 10 feet of you, you can force the target to make a Constitution saving throw against your Dragon Spark save DC or be rendered unconscious for up to 1d4 hours. If the unconscious creature takes any damage, it wakes up.</text>
+        <text>• Explosive Departure: When you use Fiery Eruption, you can use your bonus action to take flight and launch yourself 15 feet into the air. This movement doesn't provoke opportunity attacks.</text>
+        <text>• Glacial Chill: Creatures that fail their saving throw against your Freezing Mist have their speed halved until the end of their next turn.</text>
+        <text>• Sweeping Lightning: As a reaction when Lightning Lance misses its initial target or would end, you can redirect the beam of lightning to another target. Make a Dragon Spark attack against a different target that is within range. On a hit, the target takes no damage, but becomes the new target of your Lightning Lance. Once you use your reaction in this way, you can't do so again until you initiate Lightning Lance again.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="10">
+      <feature>
+        <name>Elemental Suffusion</name>
+        <text>You've grown fully attuned to your bloodline. You are immune to the damage type you chose for Dragon's Breath.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="17">
+      <feature>
+        <name>Elemental Suffusion</name>
+        <text>Your heritage lets you inspire fear in those around you. As an action, each creature of your choice within 60 feet of you is forced to make a Wisdom saving throw against your Dragon Spark save DC. A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes frightened of you for 1 minute. You can use this feature once, and regain the ability to do so after finishing a long rest.</text>
+      </feature>
+    </autolevel>
+  </class>
+  <spell>
+    <name>Beguiling Miasma</name>
+    <classes>Demi-Dragon (Scion)</classes>
+    <time>1 bonus action</time>
+    <range/>
+    <components/>
+    <duration>Instantaneous</duration>
+    <text>As a bonus action, you breathe forth a vaporous poison, which billows around one creature you can see that is within the range of your Line Range. The creature must succeed on a Wisdom saving throw against your Dragon Spark save DC or become charmed by you for 1 minute. If the charmed target takes any damage, it can repeat the saving throw, ending the effect on a success. While charmed in this way, the target is poisoned. At the end of the charmed creature's turn, every creature of your choice within 5 feet of the charmed creature must succeed on a Constitution saving throw against your Dragon Spark save DC or become poisoned until the start of the charmed creature's next turn.</text>
+  </spell>
+  <spell>
+    <name>Fiery Eruption</name>
+    <classes>Demi-Dragon (Scion)</classes>
+    <time>1 action</time>
+    <range/>
+    <components/>
+    <duration>Instantaneous</duration>
+    <text>As an action, you lob a ball of fire at a square that you can see within the range of your Line Range, which explodes into a 5-foot-wide, 20-foot-tall cylinder of fire. Each creature in the eruption's area must make a Dexterity saving throw against your Dragon Spark save DC or take fire damage equal to twice the damage dice of your Dragon's Breath Damage on a failed save, or half as much of the total damage on a successful one.</text>
+    <roll>4d8</roll>
+    <roll>6d8</roll>
+    <roll>8d8</roll>
+    <roll>10d8</roll>
+    <roll>12d8</roll>
+    <roll>14d8</roll>
+    <roll>16d8</roll>
+    <roll>18d8</roll>
+    <roll>20d8</roll>
+    <roll>22d8</roll>
+  </spell>
+  <spell>
+    <name>Freezing Mist</name>
+    <classes>Demi-Dragon (Scion)</classes>
+    <time>1 action</time>
+    <range/>
+    <components/>
+    <duration>Instantaneous</duration>
+    <text>As an action, you breathe a freezing mist forth, which fills a sphere equal in diameter to your Cone Range, centered on a point within range of your Line Range. The mist spreads around corners, and its area is lightly obscured. Each creature other than you in the mist when it appears or which ends its turn in the mist must make a Constitution saving throw against your Dragon Spark save DC or take cold damage on a failed save or half as much damage on a successful one. The damage follows the progression of your Dragon's Breath Damage, but using d4s in place of d8s. The mist lasts until the start of your next turn.</text>
+    <roll>2d4</roll>
+    <roll>3d4</roll>
+    <roll>4d4</roll>
+    <roll>5d4</roll>
+    <roll>6d4</roll>
+    <roll>7d4</roll>
+    <roll>8d4</roll>
+    <roll>9d4</roll>
+    <roll>10d4</roll>
+    <roll>11d4</roll>
+  </spell>
+  <spell>
+    <name>Lightning Lance</name>
+    <classes>Demi-Dragon (Scion)</classes>
+    <time>1 bonus action</time>
+    <range/>
+    <components/>
+    <duration>Instantaneous</duration>
+    <text>As a bonus action, your breath forms a beam of crackling energy between yourself and a target within the range of your Line Range, creating a sustained arc of lightning. Make a Dragon Spark attack against that creature. On a hit, the target takes lightning damage, and on each of your turns for up to 1 minute thereafter, you can use your bonus action to automatically deal further lightning damage to the target. The damage follows the progression of your Dragon's Breath Damage, but using d4s in place of d8s. The effect ends if you use your bonus action to do anything else. The effect also ends if the target is ever outside the range of your Line Range or if it has total cover from you. While the effect lasts, your bite attacks deal lightning damage instead of the piercing damage normal for a bite attack.</text>
+    <roll>2d4</roll>
+    <roll>3d4</roll>
+    <roll>4d4</roll>
+    <roll>5d4</roll>
+    <roll>6d4</roll>
+    <roll>7d4</roll>
+    <roll>8d4</roll>
+    <roll>9d4</roll>
+    <roll>10d4</roll>
+    <roll>11d4</roll>
+  </spell>
+</compendium>
