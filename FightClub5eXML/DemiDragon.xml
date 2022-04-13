@@ -264,7 +264,238 @@
         <text>Your heritage lets you inspire fear in those around you. As an action, each creature of your choice within 60 feet of you is forced to make a Wisdom saving throw against your Dragon Spark save DC. A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes frightened of you for 1 minute. You can use this feature once, and regain the ability to do so after finishing a long rest.</text>
       </feature>
     </autolevel>
+    <!-- Embodiment of the Metamorph -->
+    <autolevel level="3">
+      <feature>
+        <name>Adaptive Morph</name>
+        <text>Your form is an ever-shifting canvas, constantly changing to reflect your circumstances.</text>
+        <text>Morphs. You learn three morph categories of your choice, which are detailed under "Morphs" below.</text>
+        <text>You learn two additional morph categories of your choice at 6th, 10th, and 17th level. Each time you gain a level in this class, you can replace one morph category you know with a different one.</text>
+        <text> Active Category. As part of a short or long rest, you undergo a metamorphosis which grants you new benefits. Choose one morph category that you know. The morph category you choose becomes your Active category, granting you one of its two listed features (your choice). This morph lasts indefinitely, or until you choose to change it again.</text>
+        <text>Waning Morph. When you change your Active Category to a different one, the morph you chose as part of that category becomes "Waning". You keep the benefits of the morph, but you are one step closer to forfeiting it. When you change your Active category again, the effect of the previously Waning morph is lost, and the morph of your previously Active category becomes Waning. In this manner, you are always gaining and discarding new effects.</text>
+      </feature>
+      <feature>
+        <name>Swift Adaptation</name>
+        <text>You can rapidly adjust to new surroundings. If you spend 1 minute in deep focus, you can assume a new morph from among those you have learned. Choose a new Active Category and one of its morphs, and discard old morphs as if you had changed morphs during a rest. Once you use this feature, you can't do so again until you finish a short or long rest.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="6">
+      <feature>
+        <name>Twinned Adaptation</name>
+        <text>Your morphs carry side effects with them. Whenever you choose an Active Category, you gain both the benefits listed in that category. When you choose a new Active Category, you choose one morph from the previously Active Category to keep as a Waning morph and one to discard.</text>
+      </feature>
+      <feature>
+        <name>Fueling the Transformation</name>
+        <text>Your form is so malleable that it only needs a spark of energy to change entirely. When you use Devour Magic, or upon completing the goal of your Resolution (see Optional Class Features), you can additionally choose to immediately change your form. If you do, choose a new Active Category that you know and one of its morphs, and discard old morphs as if you had changed morphs during a rest.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="10">
+      <feature>
+        <name>Remake Self</name>
+        <text>You gain the ability to remake yourself from the ground up. As part of a long rest, you can choose to undergo a metamorphic ritual, during which you cocoon yourself as you rework the nature of your being. This allows you to change your past choices. Change each of the following to your liking:</text>
+        <text>Dragon's Breath Damage Type: acid, cold, fire, lightning, poison</text>
+        <text>Dragon's Breath Area Effect: line or cone</text>
+        <text>Elemental Adaptation Damage Type: acid, cold, fire, lightning, poison</text>
+        <text>Eye of the Dragon Proficiency: perception or investigation</text>
+        <text>Upon completing the ritual, any ability score damage, scars suffered, or limbs lost are restored. Once initiated, the ritual can't be interrupted. You are helpless and unconscious for the full duration, and can only be stopped by an untimely death.</text>
+      </feature>
+      <feature>
+        <name>Essence of Change</name>
+        <text>You understand change like few others. Unless you choose to be affected, your form can't be changed against your will, such as by the polymorph spell or a Medusa's Petrifying Gaze.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="17">
+      <feature>
+        <name>Flawless Metamorphosis</name>
+        <text>You have nigh-total control over your transformation. You can retain one additional Waning morph, and when you change morphs, you can choose to change each of your previously Waning morphs to any morph from any category you know.</text>
+      </feature>
+    </autolevel>
   </class>
+  <feat>
+    <name>Broadened Breath</name>
+    <prerequisite>Demi-dragon or dragonborn, line breath</prerequisite>
+    <text>The width of your elemental breath broadens, spilling forth to wash over your enemies. You gain the following benefits:</text>
+    <text>Increase your Constitution or Charisma score by 1, to a maximum of 20.</text>
+    <text>When you use your Dragon's Breath or Breath Weapon, the width of your breath increases from 5 feet to 10 feet.s</text>
+  </feat>
+  <feat>
+    <name>Misfit's Adaptation</name>
+    <prerequisite>Demi-dragon</prerequisite>
+    <text>Your body continues to change in unexpected ways. You gain the following benefits:</text>
+    <text>Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.</text>
+    <text>Choose one individual feature from among the morphs available to the Embodiment of the Metamorph. You gain the chosen effect, which is permanent. If you already had access to morphs and have learned the associated morph category, you can choose whether to change this or your other Waning morph whenever you change morphs. The effect doesn't stack with itself.</text>
+    <text>You can take this feat multiple times. Each time you do, choose a different morph.</text>
+  </feat>
+  <feat>
+    <name>Natural Ferocity</name>
+    <prerequisite>Demi-dragon</prerequisite>
+    <text>You've grown used to using your body as the weapon it was meant to be. You gain the following benefits:</text>
+    <text>You learn two maneuvers of your choice from among those available to the Embodiment of the Juggernaut. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength modifier. If the maneuver makes use of a horn or wing natural weapon, you add it to your list of natural weapons.</text>
+    <text>You gain 2 points of fury, as described under the Embodiment of the Juggernaut. You can spend them on any Juggernaut maneuver you know and which you can pay the fury cost for. If you already had fury, your total increases by 2. You regain your expended fury when you finish a short or long rest.</text>
+  </feat>
+  <feat>
+    <name>War Plating</name>
+    <prerequisite>Demi-dragon</prerequisite>
+    <text>You've trained in wearing heavy armor into combat. You gain the following benefits:</text>
+    <text>Increase your Strength score by 1, to a maximum of 20.</text>
+    <text>You gain proficiency with heavy armor.</text>
+    <text>When you don a heavy armor, you can choose to forgo using its AC calculation. If you do, bludgeoning, piercing, and slashing damage that you take from nonmagical attacks is reduced by 3.</text>
+  </feat>
+  <spell>
+    <name>Aid: Gold Luck</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>You harness the mystic fortuity of the gold dragon. Whenever you or an ally makes an attack roll, an ability check, or a saving throw, you can choose to roll an additional d20. You can take this action after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw. You can use this feature once, and regain the ability to do so after finishing a short or long rest.</text>
+  </spell>
+  <spell>
+    <name>Aid: Sheltering Wings</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Flexible armor plating grows across your wings, allowing you to use them as shelter for your allies. When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll.</text>
+  </spell>
+  <spell>
+    <name>Courage: Warrior's Will</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>You adorn your form with a symbol of bravery and prepare yourself to face opposition. You gain advantage on Wisdom saving throws.</text>
+  </spell>
+  <spell>
+    <name>Courage: Ivory Charge</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your horns split into a branching crown of antlers, capable of punching holes through hide and armor alike. You gain an antler natural weapon, which counts as a martial melee weapon for you. You can use it to make melee weapon attacks, with which you are proficient. Your antlers deal piercing damage equal to 3d4 + your Strength modifier. If you move at least 10 feet in a straight line during your turn, you gain advantage on the first attack you make with your antlers.
+    </text>
+  </spell>
+  <spell>
+    <name>Creation: Stone Scales</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your horns split into a branching crown of antlers, capable of punching holes through hide and armor alike. You gain an antler natural weapon, which counts as a martial melee weapon for you. You can use it to make melee weapon attacks, with which you are proficient. Your antlers deal piercing damage equal to 3d4 + your Strength modifier. If you move at least 10 feet in a straight line during your turn, you gain advantage on the first attack you make with your antlers.
+    </text>
+  </spell>
+  <spell>
+    <name>Creation: Capable Form</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your body grows better suited to grasping and manipulating objects. You can ignore the disadvantage imposed on attack on attack rolls by Mythic Build. Additionally, you gain proficiency with simple and martial weapons as well as with two tools of your choice. Once chosen, these tool proficiencies can't be changed with subsequent morphs.
+    </text>
+  </spell>
+  <spell>
+    <name>Freedom: Esoteric Ward</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Runic glyphs carved across your body guard you against a variety of magics. You gain advantage on all Intelligence, Charisma, and Strength saving throws against magical effects.
+    </text>
+  </spell>
+  <spell>
+    <name>Freedom: Veiled Wings</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your wings expand, elegantly veiling you from your foes. Your Glide and Fly speed increases by 10 ft, and you can take the Disengage action as a bonus action.
+    </text>
+  </spell>
+  <spell>
+    <name>Heritage: Wyrm Tongue</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your suave voice is affable and soothing. You have advantage on your choice of Charisma (Deception) or Charisma (Persuasion) checks. You can change your choice every time you finish a short or long rest. Additionally, you learn two languages of your choice. Once chosen, these languages can't be changed with subsequent morphs.
+    </text>
+  </spell>
+  <spell>
+    <name>Heritage: Blasting Breath</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your elemental spark is always at the ready. You can use your action to exhale a bolt of elemental energy and spit it at a creature you can see within a range of 120. Make a ranged Dragon Spark attack. On a hit, the target takes 1d10 + your Charisma modifier damage. The damage is the same damage type as your Dragon's Breath. The number of damage dice increases by one at levels 5, 11, and 17.
+    </text>
+  </spell>
+  <spell>
+    <name>Instinct: Rending Jaws</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your jaw muscles grow more powerful, and your fangs grow serrated and cruel, capable of puncturing armor and rending flesh. When you hit with a bite attack, the target suffers a -1 to Armor Class for 1 minute. This effect can only be applied once per creature.
+    </text>
+  </spell>
+  <spell>
+    <name>Instinct: White Cunning</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>You instill yourself with the primal awareness of the white dragon. You have advantage on initiative checks and you ignore non-magical difficult terrain.
+    </text>
+  </spell>
+  <spell>
+    <name>Navigation: Darting Predator</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>You adapt to better surprise your foes with short bursts of speed. You can take the Dash action as a bonus action.
+    </text>
+  </spell>
+  <spell>
+    <name>Navigation: Drowning Terror</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text> You gain a swimming speed equal to your walking speed, and you can breathe both air and water. Whenever you grapple a target that is unable to breathe freely—such as an aquatic creature on land or vice versa—at the start of each of its turns, the target of your grapple must succeed on a Wisdom save against your Dragon Spark DC or become frightened of drowning until it can again breathe freely. Additionally, when you are dragging or carrying a grappled creature with you, your speed is no longer halved.
+    </text>
+  </spell>
+  <spell>
+    <name>Pain: Skewering Quills</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>You develop clusters of sharp quills along your limbs which you can fire in an arc at your foes. You gain a quills natural weapon, which counts as a martial ranged weapon for you and which you are proficient with. You can use them to make ranged weapon attacks with a range of 60/120, and you add your Strength modifier to the attack and damage rolls when you attack with them. On a hit, they deal 1d8 piercing damage. Hit or miss, one square occupied by the targeted creature is then filled with quills, and you can additionally choose two squares within 5 feet of that square to also fill with quills as your inaccurate bombardment harmlessly scatters across the area. Any creature that subsequently enters a square filled with quills must succeed on a Dexterity saving throw against your Dragon Spark save DC or stop moving this turn and take 1 piercing damage. A creature moving through the area at half speed doesn't need to make the save. You can use this attack a number of times equal to 1 + your Constitution modifier (minimum 1), after which you must finish a short or long rest to use it again.
+    </text>
+  </spell>
+  <spell>
+    <name>Pain: Thorny Spines</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>You grow a series of sharp, slender spikes across your body. Any enemy that deals damage to you in melee suffers 1d4 piercing damage. At the start of each of your turns you deal 1d4 piercing damage to any creature grappling you or any creature grappled by you.
+    </text>
+  </spell>
+  <spell>
+    <name>Salvation: Breath of Bolstering Essence</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your magical essence is a wellspring of vitality waiting to be shared. As an action, you exhale revitalizing power unto a creature of your choice within 10 feet of you, restoring a number of hit points equal to your demi-dragon level. At your option, you can expend one or more of your Hit Dice, up to half your demi-dragon level. For each Hit Die spent in this way, roll the die then add your Constitution modifier, and add the result to the total amount of hit points you restore to the target. Once you use this feature, you cannot use it again until you finish a short or long rest.
+    </text>
+  </spell>
+  <spell>
+    <name>Salvation: Enthralling Dragonsong</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>You can sing a wordless aria that pacifies your audience. As a bonus action and on each subsequent turn while your song lasts, every creature of your choice within 20 feet of you must succeed on a Wisdom saving throw against your Dragon Spark or become charmed by you until your song ends. A creature that cannot hear you or which has successfully saved against your song is immune to this use of your song. The song ends after 1 minute, if you are incapacitated, or if you do not maintain it with a bonus action each turn. Once you use this feature, you cannot use it again until you finish a short or long rest.
+    </text>
+  </spell>
+  <spell>
+    <name>Sanctuary: Numinous Dragonsong</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>As a bonus action, you can sing a wordless hymn that guides your allies. Your song lasts until the start of your next turn, and while it lasts you and creatures of your choice within 20 feet of you gain a bonus to death saving throws and Constitution saving throws made to maintain concentration equal to your Charisma modifier (with a minimum bonus of +1). While singing, you gain blindsight out to 10 feet. If you already have blindsight, it instead increases by 10 feet. The song ends if you are incapacitated or if you do not maintain it with a bonus action each turn.
+    </text>
+  </spell>
+  <spell>
+    <name>Sanctuary: Shape Breath</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>When you breathe destructive energy, you can shape pockets of relative safety within the area of your breath. When you use your Dragon's Breath feature, you can choose a number of creatures that are within the area of the breath weapon and which you can see equal to 1 + your Charisma modifier (minimum 1). The chosen creatures need not make a saving throw, and take no damage from your Dragon's Breath.
+    </text>
+  </spell>
+  <spell>
+    <name>Strategy: Reverberating Roar</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your voice grows deeper, seeming to come from a much larger creature. As a bonus action, you can roar, inciting fear and hesitation in your enemies. Each creature of your choice within 20 feet of you are forced to make a Wisdom saving throw against your Dragon Spark save DC. A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target can't take reactions until the start of your next turn. A creature that succeeds on this saving throw is immune to your roar for 24 hours.
+    </text>
+  </spell>
+  <spell>
+    <name>Strategy: Silver Mist</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>You take on the aspect of the silver dragon, and can walk on clouds. As a reaction that you can take at any time when you or a creature that is Large or smaller within 60 feet of you falls, you can create a cloud beneath the target as a reaction. The cloud supports the creature's weight and can harmlessly break their fall as if it were a physical object. A cloud floats in place where it was created and lasts for up to 1 hour, or until you create a new one.
+    </text>
+  </spell>
+  <spell>
+    <name>Subtlety: Chameleon Scales</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your scales gain the ability to change color, letting you blend in with your surroundings. You can take the Hide action as a bonus action on your turn. You have advantage on Stealth checks made to hide in dim light and in natural terrain, such as rocks, plants, or sand.
+    </text>
+  </spell>
+  <spell>
+    <name>Subtlety: Venomous Sting</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your tail develops a stinger, loaded with poison. Your tail attack deals your choice of piercing or bludgeoning damage. When you deal damage with a tail attack, you can use your reaction to inject the target with poison. The target must succeed on a Constitution saving throw against your Dragon Spark save DC. On a failure, the target takes an additional 2d6 poison damage and is poisoned until the end of its next turn.
+    </text>
+  </spell>
+  <spell>
+    <name>Vantage: Skittering Crawl</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text>Your scales gain the ability to change color, letting you blend in with your surroundings. You can take the Hide action as a bonus action on your turn. You have advantage on Stealth checks made to hide in dim light and in natural terrain, such as rocks, plants, or sand.
+    </text>
+  </spell>
+  <spell>
+    <name>Vantage: Snatching Tail</name>
+    <classes>Demi-Dragon (Metamorph)</classes>
+    <text> Your tail grows longer and more flexible, letting you unexpectedly catch your foes and yank them around. When you deal damage to a creature that is up to one size category larger than you with your tail, you can use your bonus action to force them to roll a Strength saving throw. On a failure, they are pulled to a space of your choosing within 10 feet of you. The space must be unoccupied.
+
+      Save DC = 8 + your proficiency bonus + your Strength modifier
+    </text>
+  </spell>
   <spell>
     <name>Beguiling Miasma</name>
     <classes>Demi-Dragon (Scion)</classes>
