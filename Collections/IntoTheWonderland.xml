@@ -4,6 +4,10 @@
     <!-- <doc href="../FightClub5eXML/Sources/PlayersHandbook/class-ranger-phb.xml" /> -->
     <!-- <doc href="../FightClub5eXML/Sources/XanatharsGuideToEverything/class-ranger-xge.xml" /> -->
     <!-- <doc href="../FightClub5eXML/Sources/TashasCauldronOfEverything/class-ranger-tce.xml" /> -->
+    <doc href="../FightClub5eXML/Sources/PlayersHandbook/class-paladin-phb.xml" />
+    <doc href="../FightClub5eXML/Sources/XanatharsGuideToEverything/class-paladin-xge.xml" />
+    <doc href="../FightClub5eXML/Sources/TashasCauldronOfEverything/class-paladin-tce.xml" />
+    <doc href="../FightClub5eXML/Sources/SwordCoastAdventurersGuide/class-paladin-scag.xml" />
     <!-- <doc href="../FightClub5eXML/Sources/PlayersHandbook/spells-phb.xml" />-->
     <!-- <doc href="../FightClub5eXML/Sources/DungeonMastersGuide/spells-phb+dmg.xml" />-->
     <!-- <doc href="../FightClub5eXML/Sources/XanatharsGuideToEverything/spells-xge.xml" />-->
@@ -32,5 +36,6 @@
     <!-- <doc href="../FightClub5eXML/Sources/ThirdParty/Feathren.xml" /> -->
     <!-- <doc href="../FightClub5eXML/Sources/ThirdParty/Ranger_Stormcaller.xml" /> -->
     <!-- <doc href="../FightClub5eXML/Sources/ThirdParty/Warlord.xml" /> -->
-    <doc href="../FightClub5eXML/Sources/ThirdParty/DemiDragon.xml" />
+    <!-- <doc href="../FightClub5eXML/Sources/ThirdParty/DemiDragon.xml" /> -->
+    <doc href="../FightClub5eXML/Sources/ThirdParty/Paladin_OathOfTheHearth.xml" />
 </collection>

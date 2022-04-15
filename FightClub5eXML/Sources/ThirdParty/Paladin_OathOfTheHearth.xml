@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<compendium version="5" auto_indent="NO">
+  <class>
+    <name>Paladin</name>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Sacred Oath: Oath of the Hearth</name>
+        <text>The Oath of the Hearth originates from the city of the same name, whose tragic downfall has been all but lost to history over centuries. These paladins swore an oath to protect this tropical, sunlit city in the name of their celestial guardians. Until the end, they fulfilled their oaths. You may swear this oath because you have an age-old connection to the city through your bloodline, or may have established a connection to the city's principles through stories or interaction with a related celestial being. Regardless of your reasons for taking it, those that swear this oath adorn their armor with symbols of community, fire, and the sun to reflect their commitment to the city and the lives that were led there.</text>
+        <text>The tenets of the Oath of the Hearth are linked directly to the once-flourishing city of the oath's origin. The culture was vibrant and open, and thrived under the tropical sun in the Elsath Jungle. They were supportive of children's imagination and new ideas, and as a community would rush to foster good creativity. With new ideas came progress and prosperity, and with each new generation, the future always looked brighter. The core principles of this oath are devoted to supporting the weak, developing community, and destroying the evils that would seek to harm them.</text>
+        <text> Shield the Embers. Protect those that can't defend themselves. Every ember is a fount of possibility and strength.</text>
+        <text> Feed the Fire. Keep the fires of passion burning. New ideas light the way to progress and salvation.</text>
+        <text> Share the Warmth. Offer guidance and kindness to those that need it. Respite and rest are always free to give.</text>
+        <text> Burn Away Evil. Turn those that would harm the innocent or douse the peoples' flames to ash.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Oath of the Hearth: Oath of the Hearth Spells</name>
+        <text>You gain oath spells at the paladin levels listed.</text>
+        <text>Paladin Level |	Spells</text>
+        <text>3rd |	burning hands, find familiar</text>
+        <text>5th |	aid, continual flame</text>
+        <text>9th	| beacon of hope, daylight</text>
+        <text>13th|	fire shield, guardian of faith</text>
+        <text>17th|	flame strike, Rary's telepathic bond</text>
+      </feature>
+    </autolevel>
+    <autolevel level="3">
+      <feature optional="YES">
+        <name>Oath of the Hearth: Channel Divinity</name>
+        <text>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</text>
+        <text> Burning Weapon. As a bonus action, you can ignite one weapon that you're holding with fiery energy using your Channel Divinity. For 1 minute, you deal extra fire damage with that weapon equal to your Charisma modifier (minimum 1). The weapon also emits bright light in a 20-foot radius and dim light for an additional 20 feet. If the weapon is not already magical, it becomes magical for the duration.</text>
+        <text>You can end this effect on your turn (no action required). If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</text>
+        <text> Warming Respite. Your Channel Divinity can enhance the healing powers of a good rest. When you or any friendly creatures who can see you finish a short rest, you can use your Channel Divinity to grant each of those creatures a number of temporary hit points equal to your paladin level.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="7">
+      <feature optional="YES">
+        <name>Oath of the Hearth: Aura of Warmth</name>
+        <text>Starting at 7th level, you and friendly creatures within 10 feet of you have resistance to cold and fire damage while you are conscious.</text>
+        <text>At 18th level, the range of this aura increases to 30 feet.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="15">
+      <feature optional="YES">
+        <name>Oath of the Hearth: Insulating Ward</name>
+        <text>Beginning at 15th level, whenever you expend a spell slot, you and friendly creatures within your Aura of Warmth gain a number of temporary hit points equal to the spell slot's level + your Charisma modifier.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="20">
+      <feature optional="YES">
+        <name>Oath of the Hearth: Burning Spirit</name>
+        <text>At 20th level, as an action, you can magically ignite yourself to embody your fiery soul for 1 minute. These flames are harmless to you and cast bright light in a 40-foot radius and dim light for an additional 40 feet. The flames invigorate you, giving you 10 temporary hit points at the start of each of your turns. While in this form, you become more lithe and fluid in your movements, increasing your speed by 10 feet and allowing you to move through and enter a hostile creature's space and stop there.</text>
+        <text>Hostile creatures are hurt by these flames as punishment for their transgressions. A hostile creature takes fire damage equal to twice your Charisma modifier (minimum of 1) whenever it touches you, hits you with a melee attack, or whenever you enter its space for the first time on your turn.</text>
+        <text>Once you use this feature, you can't use it again until you finish a long rest.</text>
+      </feature>
+    </autolevel>
+  </class>
+</compendium>
