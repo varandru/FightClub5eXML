@@ -9,17 +9,17 @@
     <!-- <doc href="../FightClub5eXML/Sources/TashasCauldronOfEverything/class-paladin-tce.xml" /> -->
     <!-- <doc href="../FightClub5eXML/Sources/SwordCoastAdventurersGuide/class-paladin-scag.xml" /> -->
     <!-- <doc href="../FightClub5eXML/Sources/PlayersHandbook/spells-phb.xml" />-->
-    <!-- <doc href="../FightClub5eXML/Sources/DungeonMastersGuide/spells-phb+dmg.xml" />-->
-    <!-- <doc href="../FightClub5eXML/Sources/XanatharsGuideToEverything/spells-xge.xml" />-->
+    <doc href="../FightClub5eXML/Sources/DungeonMastersGuide/spells-phb+dmg.xml" />
+    <doc href="../FightClub5eXML/Sources/XanatharsGuideToEverything/spells-xge.xml" />
     <!-- <doc href="../FightClub5eXML/Sources/SwordCoastAdventurersGuide/spells-scag.xml" />-->
     <!-- <doc href="../FightClub5eXML/Sources/GuildmastersGuideToRavnica/spells-ggr.xml" />-->
     <!-- <doc href="../FightClub5eXML/Sources/EberronRisingFromTheLastWar/spells-phb+erlw.xml" />-->
     <!-- <doc href="../FightClub5eXML/Sources/EberronRisingFromTheLastWar/spells-xge+erlw.xml" />-->
-    <!-- <doc href="../FightClub5eXML/Sources/AcquisitionsIncorporated/spells-ai.xml" />-->
-    <!-- <doc href="../FightClub5eXML/Sources/ExplorersGuideToWildemount/spells-egw.xml" />-->
-    <!-- <doc href="../FightClub5eXML/Sources/MythicOdysseysOfTheros/spells-phb+mot.xml" />-->
+    <doc href="../FightClub5eXML/Sources/AcquisitionsIncorporated/spells-ai.xml" />
+    <doc href="../FightClub5eXML/Sources/ExplorersGuideToWildemount/spells-egw.xml" />
+    <doc href="../FightClub5eXML/Sources/MythicOdysseysOfTheros/spells-phb+mot.xml" />
     <!-- <doc href="../FightClub5eXML/Sources/TashasCauldronOfEverything/spells-tce.xml" />-->
-    <!-- <doc href="../FightClub5eXML/Sources/TashasCauldronOfEverything/spells-phb+tce.xml" />-->
+    <doc href="../FightClub5eXML/Sources/TashasCauldronOfEverything/spells-phb+tce.xml" />
     <!-- <doc href="../FightClub5eXML/Sources/LostLaboratoryOfKwalish/spells-llk.xml" />-->
     <!-- <doc href="../FightClub5eXML/Sources/IcewindDaleRimeOfTheFrostmaiden/spells-idrotf.xml" />  -->
 
@@ -38,5 +38,6 @@
     <!-- <doc href="../FightClub5eXML/Sources/ThirdParty/Warlord.xml" /> -->
     <!-- <doc href="../FightClub5eXML/Sources/ThirdParty/DemiDragon.xml" /> -->
     <!-- <doc href="../FightClub5eXML/Sources/ThirdParty/Paladin_OathOfTheHearth.xml" /> -->
-    <doc href="../FightClub5eXML/Sources/ThirdParty/Warden.xml" />
+    <!-- <doc href="../FightClub5eXML/Sources/ThirdParty/Warden.xml" /> -->
+    <doc href="../FightClub5eXML/Sources/ThirdParty/Psion_1_5_3.xml" />
 </collection>

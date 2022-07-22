@@ -2,15 +2,15 @@
 
 <?xml-model href="../../../Utilities/compendium.xsd"?>
 <compendium version="5" auto_indent="NO">
-  <class>
-    <name>Psion 1.5.3</name>
+<class>
+  <name>Psion 1.5.3</name>
     <hd>6</hd>
     <proficiency>Intelligence, Wisdom, Deception, History, Insight, Intimidation, Investigation, Medicine, Perception, Religion</proficiency>
     <numSkills>2</numSkills>
     <armor>light armor</armor>
     <weapons>simple</weapons>
-    <autolevel level="1">
-      <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+<autolevel level="1">
+  <slots>0,0,0,0,0,0,0,0,0,0,</slots>
       <feature>
         <name>Equipment</name>
         <text>You start with the following equipment, in addition to the equipment granted by your background:</text>
@@ -145,17 +145,17 @@
     </autolevel>
     <!-- Unleashed Mind -->
     <autolevel level="1">
-      <feature>
+<feature optional="YES">
         <name>Psion Archetype: Unleashed Mind</name>
         <text>An Unleashed Mind’s power is most often an innate force they struggle to understand or control, a reflection of their state of mind and mood projected onto the world around them, often to devastating results. The life of an Unleashed Psion is frequently their journey to control their unruly powers... or one of embracing the destructive powers fully.</text>
         <text>What the wellspring of their innate power is varies: they could be a psionic race, born under the influence of distant twisted powers, warped by fey blood, or a herald of something more sinister brushing against the material world. Sometimes their power will show itself in simple applications, but most often their power becomes known and feared when their temper flares.</text>
         <text>Their alignment frequently depends on the approach to their powers they have taken. An Unleashed Psion who emphasizes control and restraint, keeping their emotions from running wild and their powers from running rampant will most often be lawful, following strict personal codes. On the other hand, an Unleashed Psion who lets their power run rampant will almost always be chaotic in nature, acting on impulse... with great emphasis.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Unleashed Mind: Unshackled Power</name>
         <text>At 1st level when you select this archetype, you gain the ability to unleash your mind to physically interact with the world around you, granting you the psionic discipline of Telekinesis.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Unleashed Mind: Overwhelming Power</name>
         <text>Additionally at 1st level, you gain the ability to cast thaumaturgy with your psionic powers. When you cast it in this way, you have an additional options:</text>
         <text>• You cause up to 10 pounds of loose objects within 10 feet of you to start floating for 1 minute.</text>
@@ -163,66 +163,66 @@
       </feature>
     </autolevel>
     <autolevel level="3">
-      <feature>
+<feature optional="YES">
         <name>Unleashed Mind: Rampaging Power</name>
         <text>Starting at 3rd level, you gain a d4 rampage die. Once on each of your turns when making a damage roll, you can add this rampage die to the damage roll. If you dealt damage during your last turn, your rampage die becomes a d6, increasing with each subsequent turn you deal damage by one step, up to a d12; if you did not deal damage during your last turn or become incapacitated, it becomes a d4 once more. If you maintain a continuous d12 rampage die for more than one minute, you gain one level of exhaustion.</text>
       </feature>
     </autolevel>
     <autolevel level="6">
-      <feature>
+<feature optional="YES">
         <name>Unleashed Mind: Empowered Psionics</name>
         <text>Starting at 6th level, when you deal damage with a psionic discipline power you can add your Intelligence modifier to the damage dealt.</text>
       </feature>
     </autolevel>
     <autolevel level="10">
-      <feature>
+<feature optional="YES">
         <name>Unleashed Mind: Uncontrollable Mind</name>
         <text>Starting at 10th level, the strength of your rampaging mind is such that others’ attempts to control it are futile. You gain immunity to the charmed and frightened conditions, as well as effects that would control your mind while your rampage die is a d8 or more.</text>
       </feature>
     </autolevel>
     <autolevel level="14">
-      <feature>
+<feature optional="YES">
         <name>Unleashed Mind: Unstoppable Rampage</name>
         <text>Starting at 14th level, when an attack reduces you to zero hit points, you can roll your rampage die. If your roll + your Constitution modifier is higher than the excess damage you took, you are instead reduced to one hit point. You can expend 2 psi points to roll an additional rampage die, adding it to the result.</text>
       </feature>
     </autolevel>
     <!-- Transcended Mind -->
     <autolevel level="1">
-      <feature>
+<feature optional="YES">
         <name>Psion Archetype: Transcended Mind</name>
         <text>A Transcended psion is most often one that has found their path to psionic powers through a mental epiphany, realizing the place of their mind within the multiverse and how it ties to everything else, seeing the keys and levers to the world laid out before them in their mind’s eye.</text>
         <text>Most often achieved either intentionally or accidentally through meditation and ritual, this can sometimes even be a passed on technique to reliably transcend the strictly material concerns, and explore the more cognitive realm and powers within.</text>
         <text>Transcended Psions tend to have the best grasp on their powers in control and principle, having come to understand the greater cosmos, but lack the reckless abandon some other Psions may have. Unfortunately less transcendent minds frequently cannot understand the greater truths they have learned and may view a Transcended Psion as a bit... peculiar.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Transcended Mind: Enlightened</name>
         <text>At 1st level when you select this archetype, you gain the ability to empower your body with the power of your mind, granting you the psionic discipline of Enhancement.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Transcended Mind: State of Mind</name>
         <text>Additionally at 1st level, you can ignore the effects of extreme heat or cold, hold your breath twice as long as normal, and can go twice as long without eating or sleeping before suffering exhaustion.</text>
       </feature>
     </autolevel>
     <autolevel level="3">
-      <feature>
+<feature optional="YES">
         <name>Transcended Mind: Balance of Power</name>
         <text>Starting at 3rd level, when you use a psionic ability (power or spell) to restore hit points or grant temporary hit points, you can add equivalent hit points granted to a stored pool. The maximum value of the pool is your psion level, and any points beyond the maximum are lost. The next time you make a damage roll, you can expend the pool to add damage equal to the stored value to one target affected by the damage roll. This stored damage is lost if not spent within 1 minute.</text>
       </feature>
     </autolevel>
     <autolevel level="6">
-      <feature>
+<feature optional="YES">
         <name>Transcended Mind: Perfected Enhancement</name>
         <text>Starting at 6th level, when you grant temporary hit points with a psionic power you can add your proficiency bonus to the temporary hit points gained by one creature.</text>
       </feature>
     </autolevel>
     <autolevel level="10">
-      <feature>
+<feature optional="YES">
         <name>Transcended Mind: Mental Control</name>
         <text>Starting at 10th level, when you have to make a Constitution saving throw to avoid losing concentration on an effect from a psionic discipline, you can add your Intelligence modifier to the saving throw.</text>
       </feature>
     </autolevel>
     <autolevel level="14">
-      <feature>
+<feature optional="YES">
         <name>Transcended Mind: Mind Over Matter</name>
         <text>Starting at 14th level, when you would roll a Strength, Dexterity, or Constitution saving throw, you can expend 2 psi points to roll an Intelligence saving throw instead.</text>
         <text>Additionally, when you roll a Death saving throw, you can expend 4 psi points before rolling to treat the roll as 20.</text>
@@ -230,16 +230,16 @@
     </autolevel>
     <!-- Shaper’s Mind -->
     <autolevel level="1">
-      <feature>
+<feature optional="YES">
         <name>Psion Archetype: Shaper’s Mind</name>
         <text>A Shaper is a Psion that specializes in the materialization of their imagination, projecting it out into the world. No mere conjurers borrowing the powers of other planes, a Shaper manifests things from nothing but their own mind, weaving their creations into existence through the exertion of raw psionic power and imagination.</text>
         <text>A Shaper’s mind is a tool of nearly unrivaled power possessing both boundless creativity and inexorable will, but if that will is overrun, the world would do well to fear a Shaper’s nightmares.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Shaper’s Mind: Creator’s Mind</name>
         <text>At 1st level when you select this Archetype, you gain the ability to will the contents of your mind into the world, granting you the psionic discipline of Projection.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Shaper’s Mind: Boundless Imagination</name>
         <text>Additionally at 1st level, when you conjure your Astral Construct, you can apply one of the following powers to it:</text>
         <text>• Devastating Weapons. You imagine more deadly armaments—from a greatsword to vicious fangs—causing your Astral Construct to grow more deadly. The Astral Construct’s damage becomes 1d12</text>
@@ -249,90 +249,90 @@
       </feature>
     </autolevel>
     <autolevel level="3">
-      <feature>
+<feature optional="YES">
         <name>Shaper’s Mind: Astral Metastability</name>
         <text>Starting at 3rd level, when you use your psionic powers to create an Astral Construct, it doesn’t require concentration to maintain, and lasts until dismissed, but you can’t summon another one while you have one summoned.</text>
       </feature>
     </autolevel>
     <autolevel level="6">
-      <feature>
+<feature optional="YES">
         <name>Shaper’s Mind: Empowered Construct</name>
         <text>Starting at 6th level, when you deal damage with an Astral Construct or a weapon created by Project Item, you can add your Intelligence modifier to the damage dealt.</text>
       </feature>
     </autolevel>
     <autolevel level="10">
-      <feature>
+<feature optional="YES">
         <name>Shaper’s Mind: Astral Guardian</name>
         <text>Starting at 10th level, when you would take damage while you have an Astral Construct within 30 feet of you, you can use your reaction to conjure it to you (sharing your space) and expend 1 psi point to Solidify it, transposing it between you and the source of damage. It takes the damage instead of you. If the attack deals more damage than it has hit points (from Solidify), you take the remainder of the damage.</text>
       </feature>
     </autolevel>
     <autolevel level="14">
-      <feature>
+<feature optional="YES">
         <name>Shaper’s Mind: Imaginary Army</name>
         <text>Starting at 14th level, you can allow your mind to run wild, letting an astral army spring forth into reality. When you use Replicate, you can create one additional Astral Construct that can be controlled with the same action (commands still only affect one Astral Construct of your choice). This additional construct lasts until the start of your next turn and can’t be sustained. Once you create an additional duplicate, you can’t do so again until you finish a short or long rest.</text>
       </feature>
     </autolevel>
     <!-- Wandering Mind -->
     <autolevel level="1">
-      <feature>
+<feature optional="YES">
         <name>Psion Archetype: Wandering Mind</name>
         <text>A Wandering Mind is among the more mysterious incarnates of psions, these are individuals that just aren’t quite rooted in the same reality everyone else is... they find it more pliable and slippery, and prone to jumping right through it on occasion.</text>
         <text>How they get their powers varies. Some were born in the ethereal plane or went through a portal while young. Sometimes it is just that their mind just works along an axis most people cannot understand. No matter its source, they manifest a truly unique ability to treat certain aspects of the metaphysical with a certain mundanity, and are prone to treating their powers as absolutely natural things as one might treat an arm or leg.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Wandering Mind: Spatial Manipulation</name>
         <text>At 1st level when you select this archetype, your mind grows a greater perspective on the nature of space and dimensions, allowing you to manipulate it and your relation to it, granting you the psionic discipline of Transposition.</text>
         <text>Additionally, your connection to your transdimensional powers are such that you can slide through the spaces you see in dimensions as another might slip through a tight space, without conscious thought or effort. You can use your Dexterity ability score in place of your Intelligence ability score calculating the DC or attack roll modifier of Transpositional powers, alternate effects, or talents that require the Transpositional discipline.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Wandering Mind: Nomad’s Gear</name>
         <text>Additionally at 1st level, you gain proficiency with martial weapons and medium armor.</text>
       </feature>
     </autolevel>
     <autolevel level="3">
-      <feature>
+<feature optional="YES">
         <name>Wandering Mind: Cunning Strikes</name>
         <text>Starting at 3rd level, you gain the Rift Strike talent. If you already have the Rift Strike talent, you can gain one other Psionic Talent of your choice. The Rift Strike talent doesn’t count against your Psionic Talents known, but can’t be switched out on leveling up.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Wandering Mind: Curious Mind</name>
         <text>Starting at 3rd level, your wandering mind adapts to new situations constantly. Whenever you finish a long rest, you can select two skills you lack proficiency in. Until the end of your next long rest, you can add half your proficiency bonus, rounded down, to ability checks made with those skills.</text>
       </feature>
     </autolevel>
     <autolevel level="6">
-      <feature>
+<feature optional="YES">
         <name>Wandering Mind: Phase Dancer</name>
         <text>Starting at 6th level, once per turn, you automatically gain one illusory duplicate as per the blurring modifier when you use your Phase Rift power. Additionally, your first attack roll before the end of your turn after using Phase Rift gains advantage.</text>
       </feature>
     </autolevel>
     <autolevel level="10">
-      <feature>
+<feature optional="YES">
         <name>Wandering Mind: Flickering Presence</name>
         <text>Starting at 10th level, your unspent Psionic Mastery points are not lost until the start of your next turn, but can only be used to cast flicker.</text>
         <text>Additionally, when you roll for the effect of flickerK or blink you can expend 1 psi point to reroll the result. You can select which of the two results you would like to use.</text>
       </feature>
     </autolevel>
     <autolevel level="14">
-      <feature>
+<feature optional="YES">
         <name>Wandering Mind: Planeswalker</name>
         <text>Starting at 14th level, your understanding of how to traverse space expands to a previously incomprehensible scale. You gain the ability to cast plane shift and teleport. You can cast one of these spells per day once without expending a spell slot or use of Innate Psionics. Once you do this, you must finish a long rest before you can use them again, or use your 7th level or higher use of Innate Psionics instead of the spell selected for that level to cast these spells again before finishing a long rest. If you already have one of these spells selected for your 7th level Innate psionic power, you can select a new 7th-level spell from the psion list for that slot. Material components are still required for casting plane shift this way.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Wandering Mind: Winding Paths</name>
         <text>Additionally at 14th level, your phase rift no longer has to go in a straight line, though it can only pass through a creature’s space once.</text>
       </feature>
     </autolevel>
     <!-- Elemental Mind -->
     <autolevel level="1">
-      <feature>
+<feature optional="YES">
         <name>Psion Archetype: Elemental Mind</name>
         <text>An Elemental Mind is a Psion that can manifest and control elements as an extension of their will.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Elemental Mind: Elemental Power</name>
         <text>At 1st level when you select this archetype, you gain a deep intrinsic tie to elemental power, granting you the ability to manipulate it. You gain the psionic discipline of Psychokinesis.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Elemental Mind: Primordial Aspect</name>
         <text>Additionally at 1st level, as an action or when you deal fire, cold, or lightning damage (no action required), you take on an aspect of that element until the end of your next turn or until you take a new primordial aspect.</text>
         <text>• Cold: You gain an icy shell, reducing any nonmagical bludgeoning, piercing or slashing damage taken by your proficiency bonus.</text>
@@ -342,7 +342,7 @@
       </feature>
     </autolevel>
     <autolevel level="3">
-      <feature>
+<feature optional="YES">
         <name>Elemental Mind: Living Power</name>
         <text>Starting at 3rd level, your powers become a living extension of your mind, weaving an extension of your will into reality, allowing you to manipulate your powers in more advanced ways. When you use a power or alternate effect of Psychokinetics, you can apply one of the following modifiers:</text>
         <text>Shaped Power</text>
@@ -354,13 +354,13 @@
       </feature>
     </autolevel>
     <autolevel level="6">
-      <feature>
+<feature optional="YES">
         <name>Elemental Mind: Empowered Psionics</name>
         <text>Starting at 6th level, when you deal damage with a psionic discipline power you can add your Intelligence modifier to the damage dealt.</text>
       </feature>
     </autolevel>
     <autolevel level="10">
-      <feature>
+<feature optional="YES">
         <name>Elemental Mind: Full Manifestation</name>
         <text>Starting at 10th level, when you enter a primordial aspect, you can expend 1 psi point to fully manifest that element, replacing the primordial aspect with the following effect. If you are specialized in that element, it doesn’t require a psi point to fully manifest the power.</text>
         <text>• Cold: Your speed becomes 0 until the end of your next turn, but you have resistance to all damage types except fire and force.</text>
@@ -370,7 +370,7 @@
       </feature>
     </autolevel>
     <autolevel level="14">
-      <feature>
+<feature optional="YES">
         <name>Elemental Mind: Elemental Form</name>
         <text>Starting at 14th level, you can expend 5 psi points to cast shapechange to assume elemental forms. When you cast shapechange in this way it has no verbal or material components, but you can only assume the form of a Water Elemental, Fire Elemental, or Air Elemental. If you are specialized in an element, the cost is reduced to 3 psi points, but you can only assume the form associated with your specialization (Water Elemental for cold, Fire Elemental for fire, or Air Elemental for lightning). A Water Elemental assumed with this form doesn’t have the Freeze property.</text>
         <text>Once you cast shapechange this way, you can’t do so until you finish a short or long rest.</text>
@@ -378,43 +378,43 @@
     </autolevel>
     <!-- Consuming Mind -->
     <autolevel level="1">
-      <feature>
+<feature optional="YES">
         <name>Psion Archetype: Consuming Mind</name>
         <text>A Consuming Mind is a master of a dangerous branch of psionics, born from the ability to sap energy from other creatures. This power can tear away thoughts, minds, and ultimately vitality for the psion’s own consumption. A feared branch of psionics, it is sometimes believed to be one of the primeval roots of all psionic power, as it can be found among mind-eating monsters and ancient psionic space whales... which might have other names in various settings.</text>
         <text>It has been refined by those that seek greater power either from ambition or desperation, and unlocks a terrible but effective path. One example of mortal creatures walking this path are the houses of dark elves, who developed their dark powers from their study of feral, vampiric, brain-eating monsters.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Consuming Mind: Psionic Predator</name>
         <text>At 1st level when you select this archetype, you gain the ability to consume the psionic power of others. You gain the psionic discipline of Consumption.</text>
       </feature>
-      <feature>
+<feature optional="YES">
         <name>Consuming Mind: Dark Lurker</name>
         <text>Additionally at 1st level, your powers grant you intuition that allows you to better adapt and survive as a mind hunter. You gain proficiency in Stealth and Deception. If you are already proficient in either skill, you instead become proficient in a skill of your choice.</text>
         <text>When you use psionic abilities, you can make an Intelligence (Deception) check contested by a target’s Wisdom (Insight) to conceal your use of psionic powers from them, suppressing the ability’s usual visible indicators. If you spend psi points on the ability, you must subtract the psi points spent from your Intelligence (Deception) roll result (concealing greater uses of psionics being more difficult).</text>
       </feature>
     </autolevel>
     <autolevel level="3">
-      <feature>
+<feature optional="YES">
         <name>Consuming Mind: Ravenous Powers</name>
         <text>Starting at 3rd level, you gain the Psionic Talent Mind Devourer; this talent ignores the normal level restriction, and doesn’t count against your Psionic Talents known, but can’t be switched out on leveling up.</text>
         <text>Additionally, you can gain the benefit of this Talent from a range of 30 feet when the creature is killed by one of your psionic powers.</text>
       </feature>
     </autolevel>
     <autolevel level="6">
-      <feature>
+<feature optional="YES">
         <name>Consuming Mind: Empowered Psionics</name>
         <text>Starting at 6th level, when you deal damage with a psionic discipline power you can add your Intelligence modifier to the damage dealt.</text>
       </feature>
     </autolevel>
     <autolevel level="10">
-      <feature>
+<feature optional="YES">
         <name>Consuming Mind: Mind Vampire</name>
         <text>Starting at 10th level, you can trigger Mind Devourer anytime you deal psychic damage to a target within 30 feet, whether it kills the target or not.</text>
         <text>Further, you can have additional psi points (over your normal limit) equal to half your Intelligence modifier (rounded down) when gaining psi points from Mind Devourer, but any additional psi points are lost when you finish a short or long rest.</text>
       </feature>
     </autolevel>
     <autolevel level="14">
-      <feature>
+<feature optional="YES">
         <name>Consuming Mind: Shattered Husks</name>
         <text>Starting at 14th level, your Mind Leech ability always gains the Shredding modifier, and it doesn’t cost a psi point to add the modifier.</text>
         <text>Further, you can use additional power to leave their mind further vulnerable. You can spend additional psi points on the Shredding modifier to further reduce their next Intelligence, Wisdom, or Charisma saving throw (up to 2 additional points to reduce it by a total of 3d4). Once this effect has been applied to a creature, you can’t spend additional psi points on the Shredding modifier against the creature until 1 hour has passed.</text>
@@ -641,4 +641,577 @@
     <text>As your emotion, given form, it acts immediately after your initiative at your directive. If not destroyed, it lasts for up to 1 minute, after which it naturally fades away. You can’t manifest more than one emotion at a time, and if it is destroyed, you take 2d6 psychic damage from the backlash.</text>
     <text>This manifestation is not a sentient creature of its own, but simply a manifestation of your emotion.</text>
   </feat>
+<!-- Precognition Talents -->
+<feat>
+  <name>Talent, Precognition: Glimpsed Future</name>
+  <prerequisite></prerequisite>
+  <text>When you use Seeing with yourself as the beneficiary, you can use it as a bonus action. When you use Seeing as a bonus action in this way, it doesn’t grant additional damage to the attack, or reduce damage taken when hit.</text>
+</feat>
+<feat>
+  <name>Talent, Precognition: One Step Ahead</name>
+  <prerequisite></prerequisite>
+  <text>When you are subjected to a saving throw, you can expend 1 psi point and glimpse into the future. You know what the effect you are saving against is if it is a spell or psionic effect as if you passed an Intelligence (Arcana) or Intelligence (Psionics) check to identify it. Additionally you can add your Intelligence modifier to your saving throw against it regardless of its nature.</text>
+</feat>
+<feat>
+  <name>Talent, Precognition: Precognitive Dreams</name>
+  <prerequisite>11th-level Psion</prerequisite>
+  <text>When you finish a long rest, your dreams have prepared you for the day to come. Upon waking, you issue reassuring words and advice to your companions to help them survive the day, giving them temporary hit points equal to your Intelligence modifier. During the next 24 hours, you can’t be surprised.</text>
+</feat>
+<!-- Nullification Talents -->
+<feat>
+  <name>Talent, Nullification: Deadspot</name>
+  <prerequisite>15th-level Psion</prerequisite>
+  <text>You gain the ability to expend 8 psi points to cast antimagic field. Once you cast it this way, you can’t cast it again until you finish a long rest.</text>
+</feat>
+<feat>
+  <name>Talent, Nullification: Iron Templar</name>
+  <prerequisite></prerequisite>
+  <text>You gain proficiency with medium armor and shields. If you already have proficiency with medium armor, you gain proficiency with heavy armor. You can perform somatic components for psionic powers with a hand carrying a weapon.</text>
+  <text>Additionally, when you hit a creature with a melee weapon attack or with a spell attack with a range of touch, you can use your Denial power as a bonus action targeting that creature.</text>
+</feat>
+<feat>
+  <name>Talent, Nullification: Magical Anathema</name>
+  <prerequisite></prerequisite>
+  <text>You gain resistance to damage dealt by spells or magical effects. The effect of all magical healing effects (including healing potions) on you is halved.</text>
+</feat>
+<feat>
+  <name>Talent, Nullification: Magical Resistance</name>
+  <prerequisite>9th-level Psion</prerequisite>
+  <text>You have advantage on saving throws against spells and other magical effects.</text>
+</feat>
+<!-- Consumption Talents -->
+<feat>
+  <name>Talent, Consumption: Consumed Strength</name>
+  <prerequisite></prerequisite>
+  <text>You can use your Intelligence modifier in place of Strength for Athletics checks while you have a psionic charge from Mind Leech. Additionally, targets you are grappling have disadvantage on the saving throw against your Mind Leech power.</text>
+</feat>
+<feat>
+  <name>Talent, Consumption: Skill Thief</name>
+  <prerequisite></prerequisite>
+  <text>You can gain an additional number of skill, tool, or language proficiencies from Adaptive Hunter equal to half your proficiency bonus (rounded down) before losing the previously gained proficiency. If you would gain an additional proficiency from it beyond that, the first one you gained is lost.</text>
+</feat>
+<feat>
+  <name>Talent, Consumption: Unlife Wielder</name>
+  <prerequisite></prerequisite>
+  <text>While you have a psionic charge, as an action you can invest it into a corpse, bringing it to a state of unlife, becoming a zombie or skeleton under your control. It acts on its own initiative immediately after your turn. Its unlife fades at the end of your next turn unless you expend a psionic charge or psi point on your next turn (no action required) to continue its animation for an additional round. You can spend Psionic Mastery points on this.</text>
+</feat>
+<!-- General Talents -->
+<feat>
+  <name>Talent: Astral Arms</name>
+  <prerequisite></prerequisite>
+  <text>As a bonus action, you can expend 1 psi point to create psionic constructions serving as additional appendages. These arms last for 10 minutes. You determine the arms’ appearance, and they vanish early if you are incapacitated or die. You can use the astral arms to make unarmed strikes. The unarmed strikes you make with the arms use your Intelligence modifier in place of your Strength modifier for the attack and damage rolls. If you hit with one of them, you deal force damage equal to 1d6 + your Intelligence modifier, instead of the bludgeoning damage normal for an unarmed strike.</text>
+  <text>When you create them, or by spending 1 psi point as a bonus action while they are manifested, you can make a single unarmed strike with these arms as a bonus action. You can use Psionic Mastery points on this.</text>
+</feat>
+<feat>
+  <name>Talent: Aura Sight</name>
+  <prerequisite></prerequisite>
+  <text>As an action, you can spend 1 psi point to psionically see the aura of a creature of your choice within 30 feet. When you see the creature’s aura in this way, you can determine if there are any spells or magical effects affecting the creature, and you learn their schools of magic, if any. You can also determine if the creature is under the influence of psionics. A shapeshifter or creature that is transformed or disguised by magical or nonmagical means must make a Charisma (Deception) check against your Psionics save DC. On a failure, you can perceive their original form in their aura.</text>
+</feat>
+<feat>
+  <name>Talent: Awaken Mind</name>
+  <prerequisite>9th-level Psion</prerequisite>
+  <text>You can cast awaken once without expending a spell slot or psi points. You can’t do so again until you finish a long rest.</text>
+</feat>
+<feat>
+  <name>Talent: Beam of Annihilation</name>
+  <prerequisite>11th-level Psion, Elemental Mind subclass</prerequisite>
+  <text>You gain the ability to cast a beam of annihilation for 6 psi points. If you have a specialization of Psychokinesis, you can only select the related elemental damage type, but the beam’s damage ignores resistance to that damage type.</text>
+</feat>
+<feat>
+  <name>Talent: Controlled Power</name>
+  <prerequisite></prerequisite>
+  <text>You gain the ability to suppress the glow and somatic component of your psionic powers. You can expend 2 psi points to use a power without a visual sign or somatic component. Each time you use this talent, the cost of doing so doubles until you finish a short or long rest</text>
+</feat>
+<feat>
+  <name>Talent: Divided Mind</name>
+  <prerequisite>9th-level Psion</prerequisite>
+  <text>You learn the divide self spell, and can cast it by expending 5 psi points. When you gain access to the Innate Psionics feature, you may expend a use of Innate Psionics to cast divide self at the level of the use of Innate Psionics expended. For example, if you choose the teleport spell for your Innate Psionics feature at 13th level, you could expend a casting of teleport to instead cast divide self as a 7th-level spell, and can’t cast teleport or divide self as a 7th-level spell in this way until you finish a long rest.</text>
+  <text>You do not require the material components of the spell when you cast it by expending psi points or a use of Innate Psionics.</text>
+</feat>
+<feat>
+  <name>Talent: Dreamwalker</name>
+  <prerequisite>9th-level Psion</prerequisite>
+  <text>You gain the ability to cast dream. You can cast the spell without expending a spell slot, but once cast, you can’t cast it again until you finish a long rest.</text>
+</feat>
+<feat>
+  <name>Talent: Elemental Penetration</name>
+  <prerequisite>Elemental Mind subclass</prerequisite>
+  <text>When you use a psionic power or spell that deals cold, fire, or lightning damage, you can expend 1 psi point to make the power ignore resistance to that elemental damage damage type.</text>
+  <text>If you have a specialization of Psychokinesis, if the target has immunity to the damage type chosen, this instead turns immunity into resistance for that power.</text>
+  <text>You can spend psi points granted by Psionic Mastery on this ability.</text>
+</feat>
+<feat>
+  <name>Talent: Empowered Strike</name>
+  <prerequisite>Psychokinesis or Telekinetics Discipline</prerequisite>
+  <text>Once per turn, as part of making a weapon attack as part of the Attack action, you can empower a melee weapon you are holding with psionic power. When you hit a creature with a weapon, you can apply Elemental Blast or Telekinetic Force modifiers (you can only select a power you know) to the attack (you can use Psionic Mastery on this). This doesn’t deal the base damage of the power, but any added damage causes the additional effects of the power to occur.</text>
+  <text>When applying a modifier that would make it target an area of effect, only the target takes the weapon damage, but other creatures in the radius become a target of the attack as if using the power normally.</text>
+</feat>
+<feat>
+  <name>Talent: Life Wielder</name>
+  <prerequisite>Enhancement or Consumption</prerequisite>
+  <text>You learn the spell invest life. You can spend Psionic Mastery points to cast this spell.</text>
+</feat>
+<feat>
+  <name>Talent: Mind Devourer</name>
+  <prerequisite>5th-level Psion</prerequisite>
+  <text>You gain the ability to cast psychic drain for 2 psi points. Additionally, whenever a creature within 10 feet of you with an Intelligence score of 6 or higher dies, you can expend your reaction to draw in its psionic power, regaining 1d4 hit points and 1 expended psi point.</text>
+</feat>
+<feat>
+  <name>Talent: Mind Rider</name>
+  <prerequisite></prerequisite>
+  <text>As an action, you can touch a willing creature to see through its eyes and hear what it hears for the next hour, gaining the benefits of any special senses that the creature has.</text>
+  <text>During this time, you are deaf and blind with regard to your own senses. You can end this effect at any time. While this is active, the creature has advantage on Intelligence, Wisdom, and Charisma saving throws.</text>
+</feat>
+<feat>
+  <name>Talent: Perfect Focus</name>
+  <prerequisite>10th-level Psion</prerequisite>
+  <text>You can enter a state of extreme focus. Your concentration is no longer interrupted by using a second ability that requires concentration, but your speed is reduced to 0 while concentrating on more than one effect; you have a −5 penalty to any Constitution saving throw to maintain concentration. If you move or fail a save to maintain concentration, one of the spells you are concentrating on ends. If you fail the saving throw to maintain concentration by 5 or more, you lose concentration on both spells.</text>
+</feat>
+<feat>
+  <name>Talent: Personal Truth</name>
+  <prerequisite></prerequisite>
+  <text>Your power of conviction allows you to believe what you choose to. If you spend at least one minute convincing yourself of something—no matter how absurd—spells and effects to determine if you are telling the truth will register that you believe what you have convinced yourself of.</text>
+  <text>Additionally, your psionic powers allow you to impose your will upon reality to a certain extent. When you expend 1 psi point, you can perform a minor alteration to reality:</text>
+  <text>• You can conjure any Tiny object you can imagine that is worth 1 sp or less. This creates an object as you envision it, but doesn’t grant you knowledge you do not otherwise have (for example, you would be unable to conjure a key to a lock unless you had a perfect mental image of the correct key).</text>
+  <text>• As an action, you can change the color or taste of a Small or smaller object with 10 feet. This change lasts for 1 minute.</text>
+  <text>• As a reaction to a creature within 30 feet taking damage (including yourself), you can change the damage type they take.</text>
+</feat>
+<feat>
+  <name>Talent: Potent Psionics</name>
+  <prerequisite></prerequisite>
+  <text>When a target passes the saving throw against a damaging Psionic Power (granted by a psionic discipline), they still take half the damage, but suffer no other effects.</text>
+</feat>
+<feat>
+  <name>Talent: Psi Crystal</name>
+  <prerequisite></prerequisite>
+  <text>You gain the ability to impart part of your mind into crystal. You can expend 2 psi points to cast the find familiar spell, but your familiar takes on the statics of a psi crystal (below) and the material component required is a crystal worth 10 gp instead of the normal material components. The Psi Crystal gains your Intelligence, Wisdom, and Charisma scores. You can use Psionic Disciplines with a range greater than self through your Psi Crystal as if you were standing in its location. If the psi crystal is destroyed, you gain its memories as your own. While you have a Psi Crystal active, as a bonus action, you can deactivate it to regain 2 expended psi points.</text>
+  <text>When you summon a Psi Crystal, you can store a fragment of your personality in it that you can then release by shattering the crystal. Select one of the following when summoning a psi crystal.</text>
+  <text>Courage. When you make a saving throw against the frightened condition, you can use your reaction to shatter the crystal, releasing that emotion to gain advantage on the save.</text>
+  <text>Cowardice. When your Psi Crystal is within 30 of you and a creature comes within 5 feet of you, you can use your reaction to shatter the crystal, releasing that emotion and immediately moving up to your speed away from the creature without taking any opportunity attacks.</text>
+  <text>Cruelty. When your Psi Crystal is within 30 feet of a creature that takes damage, you can use your reaction to shatter the crystal, releasing that emotion and causing the creature to take additional damage equal to your psion level.</text>
+  <text>Sympathy. When your Psi Crystal is within 30 feet of you and another creature, if that creature takes damage, you can use your reaction to shatter the crystal, releasing that emotion and granting the creature resistance to that damage. You take an equal amount of damage to the damage they take.</text>
+</feat>
+<feat>
+  <name>Talent: Psionic Defenses</name>
+  <prerequisite></prerequisite>
+  <text>You gain a way to defend yourself using your psionic powers. While you are not wearing any armor or carrying a shield, your AC equals 13 + your Intelligence modifier.</text>
+</feat>
+<feat>
+  <name>Talent: Psionic Weapon</name>
+  <prerequisite></prerequisite>
+  <text>As a bonus action, you can expend 1 psi point to imbue a weapon you are holding with psionic energy. For 1 minute, once per turn when you deal damage with that weapon, you can deal an extra 1d6 psychic damage.</text>
+  <text>At higher levels you can expend additional psi points to further enhance the Psionic Weapon; 2 points to enhance it to 2d6 at 5th level, 3 points to enhance it to 3d6 at 11th level, and 4 points to enhance it to 4d6 at 17th level.</text>
+</feat>
+<feat>
+  <name>Talent: Projected Nightmares</name>
+  <prerequisite>Shaper’s Mind Subclass</prerequisite>
+  <text>You gain an additional option for Boundless Imagination to apply to your Astral Construct:</text>
+  <text>• Horrifying Nightmare: Creatures of your choice that start their turn within 5 feet of your Astral Construct must make a Wisdom saving throw against your Psionics DC or become frightened of your Astral Construct until the start of their next turn. On a successful save, they are immune to the effect for the next 24 hours or until you summon a new Astral Construct.</text>
+</feat>
+<feat>
+  <name>Talent: Propelled Bound</name>
+  <prerequisite>Telekinesis or Psychokinesis</prerequisite>
+  <text>When you move on your turn, you can expend movement, up to your speed, in single bounding leap, propelled by telekinetic power or psychokinetic force.</text>
+</feat>
+<feat>
+  <name>Talent: Schism</name>
+  <prerequisite>5th-level Psion</prerequisite>
+  <text>You can spend 1 psi point to temporarily divide your mind to do two things at once until the end of your turn. While dividing your mind, if you use your action on a psionic power or spell granted by a Psionic Discipline, you can use your bonus action to use a psionic power that would normally take an action. The two powers share your per use psi point limit between them.</text>
+</feat>
+<feat>
+  <name>Talent: Tantrum</name>
+  <prerequisite>Unleashed Mind subclass</prerequisite>
+  <text>Your anger boils just beneath the surface. When you roll initiative, you can instantly increase your rampage die by one step (from a d4 to a d6, for example). Additionally, if you take damage while your rampage die is a d6 or lower, your rampage die increases by one step.</text>
+</feat>
+<!-- Spells and Disciplines -->
+<spell>
+  <name>Enhancing Surge</name>
+  <classes>Psion (Enchancement)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>Self</range>
+  <components>S</components>
+  <duration>1 round</duration>
+  <text>You empower the body of a target creature you can see with your psionics. The target gains 1d6 temporary hit points and the next time the target deals damage, it deals 1d6 additional damage to one target of that damage roll. Any remaining temporary hit points from this power fade when you use it again.</text>
+  <text>You can spend psi points up to your per use limit to add the following modifiers to Enhancing Surge (you can add multiple modifiers). The points must be spent when choosing the target of the power.</text>
+  <text>Fortifying (1+ psi points): The target gains an extra 1d6 temporary hit points for each point spent.</text>
+  <text>Resilient (3 psi points): The target gains resistance to all damage until the start of your next turn.</text>
+  <text>Savage (1+ psi points): The target’s next weapon attack deals 1d6 additional damage for each point spent.</text>
+  <text>Swift (2 psi points): The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.</text>
+</spell>
+<spell>
+  <name>Enhancing Skill</name>
+  <classes>Psion (Enchancement)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>Self</range>
+  <components>S</components>
+  <duration>1 round</duration>
+  <text>You can focus your psionics to enhance your abilities. Whenever you make an ability check using Strength or Dexterity, you can add 1d4 to the result.</text>
+</spell>
+<spell>
+  <name>Heroism</name>
+  <classes>Psion (Enhancement)</classes>
+</spell>
+<spell>
+  <name>Longstrider</name>
+  <classes>Psion (Enhancement)</classes>
+</spell>
+<spell>
+  <name>Unlocked Potential</name>
+  <classes>Psion (Enhancement)</classes>
+  <level>1</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>60 feet</range>
+  <components>S</components>
+  <duration>1 round</duration>
+  <text>You unlock the potential of a creature’s mind, allowing it to fully reach its limits. For the duration, once per turn the creature can add 1d4 to any attack roll, damage roll, or saving throw it makes. Each time it adds the extra 1d4, it takes 1 psychic damage as it pushes beyond its natural limitations.</text>
+</spell>
+<spell>
+  <name>Alter Self</name>
+  <classes>Psion (Enhancement)</classes>
+</spell>
+<spell>
+  <name>Enlarge/Reduce</name>
+  <classes>Psion (Enhancement)</classes>
+</spell>
+<spell>
+  <name>Lesser Restoration</name>
+  <classes>Psion (Enhancement)</classes>
+</spell>
+<spell>
+  <name>Haste</name>
+  <classes>Psion (Enhancement)</classes>
+</spell>
+<spell>
+  <name>Protection from Energy</name>
+  <classes>Psion (Enhancement)</classes>
+</spell>
+<spell>
+  <name>Freedom of Movement</name>
+  <classes>Psion (Enhancement)</classes>
+</spell>
+<spell>
+  <name>Stoneskin</name>
+  <classes>Psion (Enhancement)</classes>
+</spell>
+<spell>
+  <name>Greater Restoration</name>
+  <classes>Psion (Enhancement)</classes>
+</spell>
+<spell>
+  <name>Invested Competency</name>
+  <classes>Psion (Enhancement)</classes>
+  <level>5</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>Touch</range>
+  <components>S</components>
+  <duration>Concentration, up to 1 hour</duration>
+  <text>You touch a willing creature imbuing psionic competency into them. Until the spell ends, they gain expertise in on skill of your choice, adding double their proficiency bonus to that skill.</text>
+</spell>
+<spell>
+  <name>Project Item</name>
+  <classes>Psion (Projection)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>Self</range>
+  <components>S</components>
+  <duration>1 round</duration>
+  <text>As an action, you can use your powers to project an inanimate object you imagine into your hands. It can’t be larger than 3 feet on any side or weigh more than 10 pounds, and is clearly ethereal in nature. The item behaves as a solid object. Weapons created with this feature deal force damage.</text>
+  <text>Projected items fade after 1 minute, and you can have no more than 3 projected items at a time.</text>
+</spell>
+<spell>
+  <name>Astral Construct</name>
+  <classes>Psion (Projection)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>60 feet</range>
+  <components>S</components>
+  <duration>Concentration, up to 1 minute</duration>
+  <text>You project an ethereal creation from your mind at a space you can see within range, taking the shape of a Medium or smaller creature, weapon, or other object. This creation is clearly ethereal in nature. When you create it, and on subsequent turns using your action to mentally control it, you can move it up to 30 feet in any direction and attack, so long as it doesn’t move beyond the range of the power. To attack with it, make a melee spell attack. On a hit, the target takes 1d8 force damage. If the Astral Construct moves out of range of the spell, it fades away into nothing, ending the spell.</text>
+  <text>While the Astral Construct is active, you can spend psi points up to your per use limit to issue commands that affect and empower your construct. Commands require no action, but you can’t exceed your psi point limit in total commands issued, and each command can only be issued once per turn.</text>
+  <text>Grab (1 psi point): Can only be used while your construct is Solidified. A target creature within 5 feet of your construct that is no more than one size larger than the construct must make a Strength saving throw or become restrained by the construct. At the end of each of the restrained creature’s turns it can repeat the saving throw. The condition ends if the construct becomes ethereal again, or becomes more than one size smaller than the target.</text>
+  <text>Grow (1 psi point): Your construct increases by one size, and its number of damage dice increases by one. It returns to its normal size at the start of your next turn. It can only gain one additional die (for example, up to 2d8)</text>
+  <text>Relocate (1 psi point): The construct disappears and reappears anywhere within 60 feet of you.</text>
+  <text>Replicate (3 psi points): You use Relocate, but the original doesn’t disappear. Until the end of your turn, you have another construct and control both with the same action (commands only affect one of your choice). Pick one construct to fade at the start of your next turn or use Sustain.</text>
+  <text>Solidify (1 psi point): Your construct becomes solid, blocking its space until the start of your next turn. You can only use this command if it is in an unoccupied space. It has an armor class of 16 and hit points equal to your Intelligence modifier + your psion level. The construct becomes ethereal again if it drops to zero hit points.</text>
+  <text>Strike (2 psi points): The construct makes an attack (even if it has already attacked).</text>
+  <text>Sustain (1+ psi points): At the start of your turn, you can sustain the effect of a Solidify, Grow or Replicate command for an additional round. An effect that has been replicated can be sustained across all replicated constructs with a single use, but each effect can only be sustained once per turn (for example, you can never sustain more than one replicated construct). This costs 1 psi point for each effect sustained. Sustaining Solidify refreshes the construct’s hit points to its maximum.</text>
+</spell>
+<spell>
+  <name>Tenser's Floating Disk</name>
+  <classes>Psion (Projection)</classes>
+</spell>
+<spell>
+  <name>Unseen Servant</name>
+  <classes>Psion (Projection)</classes>
+</spell>
+<spell>
+  <name>Mirror Image</name>
+  <classes>Psion (Projection)</classes>
+</spell>
+<spell>
+  <name>Phantom Steed</name>
+  <classes>Psion (Projection)</classes>
+</spell>
+<spell>
+  <name>Arcane Eye</name>
+  <classes>Psion (Projection)</classes>
+</spell>
+<spell>
+  <name>Creation</name>
+  <classes>Psion (Projection)</classes>
+</spell>
+<spell>
+  <name>Telekinetic Hands</name>
+  <classes>Psion (Telekinesis)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>Self</range>
+  <components>S</components>
+  <duration>1 round</duration>
+  <text>When you gain this feature, you can manipulate small objects within 30 feet with your mind as if using your hand to interact with it. You can use this power to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can’t Attack, activate magical items, or carry more than 10 pounds in this manner. You can move an item you are controlling in this way up to 30 feet during your turn.</text>
+  <text>You can spend 1 or more psi points to increase how much you can move this way by 100 pounds per psi point spent for 1 turn.</text>
+</spell>
+<spell>
+  <name>Telekinetic Force</name>
+  <classes>Psion (Telekinesis)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>60 feet</range>
+  <components>S</components>
+  <duration>Instantaneous</duration>
+  <text>You smash a target creature or object you can see with your mental power. The target must succeed on a Strength saving throw or take 1d10 bludgeoning damage, and either be shoved 5 feet in a direction of your choosing or be knocked prone.</text>
+  <text>You can spend psi points up to your per use limit to add the following modifiers to Telekinetic Force (you can add multiple modifiers). The points must be spent when choosing the target of the power.</text>
+  <text>Crushing (2 psi points): The target is restrained until the end of its next turn if it fails its saving throw.</text>
+  <text>Hammering (1+ psi points): The target takes 1d10 bludgeoning damage for each point spent if it fails its saving throw.</text>
+  <text>Hurling (1–3 psi points): The target is shoved 10 feet in a direction of your choosing for each point spent if it fails its saving throw.</text>
+  <text>Zone of (1–3 psi points): You can target all creatures in a 5-foot radius of a point within range. The radius doubles for each point spent (5 feet, 10 feet, 20 feet).</text>
+</spell>
+<spell>
+  <name>Jump</name>
+  <classes>Psion (Telekinesis)</classes>
+</spell>
+<spell>
+  <name>Catapult</name>
+  <classes>Psion (Telekinesis)</classes>
+</spell>
+<spell>
+  <name>Thunderwave</name>
+  <classes>Psion (Telekinesis)</classes>
+</spell>
+<spell>
+  <name>Fling</name>
+  <classes>Sorcerer, Wizard, Psion (Telekinesis)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>30 feet</range>
+  <components>V, S</components>
+  <duration>Instantaneous</duration>
+  <text>You manipulate gravity around one Large or smaller creature. The target creature makes a Strength saving throw. On failure, you can fling them 40 feet straight up or 20 feet in any direction.</text>
+  <text>If you fling them straight up they immediately fall, taking 4d6 damage falling damage, and fall prone. If you fling them any other direction, they take 2d6 damage and fall prone. If their movement would be stopped early by a creature or object, both the target and creature or object takes 3d6 bludgeoning damage.</text>
+</spell>
+<spell>
+  <name>Levitate</name>
+  <classes>Psion (Telekinesis)</classes>
+</spell>
+<spell>
+  <name>Shatter</name>
+  <classes>Psion (Telekinesis)</classes>
+</spell>
+<spell>
+  <name>Fly</name>
+  <classes>Psion (Telekinesis)</classes>
+</spell>
+<spell>
+  <name>Vortex Blast</name>
+  <classes>Druid, Occultist, Sorcerer, Wizard, Psion (Telekinesis)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>Self (30-foot cone)</range>
+  <components>V, S</components>
+  <duration>Instantaneous</duration>
+  <text>You create a sudden violent vortex that blasts outwards in a 30-foot cone, tossing characters and objects within the area. Creatures in the area take 2d6 bludgeoning damage and must succeed a Strength saving throw or be knocked 20 feet backward and 40 feet upward.</text>
+  <text>At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</text>
+</spell>
+<spell>
+  <name>Telepathic Communication</name>
+  <classes>Psion (Telepathy)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>Self</range>
+  <components>S</components>
+  <duration>1 round</duration>
+  <text>When you gain this feature, you can communicate telepathically with any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. Creatures you communicate with can reply in kind.</text>
+</spell>
+<spell>
+  <name>Telepathic Intrusion</name>
+  <classes>Psion (Telepathy)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>60 feet</range>
+  <components>S</components>
+  <duration>Instantaneous</duration>
+  <text>You assault the mind of a creature you can see directly. The target must succeed on a Wisdom saving throw, or take 1d8 psychic damage. If the target fails the saving throw, it has disadvantage on attacks made against you until the start of your next turn. You can choose to deal no damage to the creature when it fails its saving throw.</text>
+  <text>You can spend Psi Points up to your per use limit to add the following modifiers to Telepathic Intrusion (you can add multiple modifiers). The points must be spent when choosing the target of the power.</text>
+  <text>Meddling (2 psi points): You make one creature invisible to the target creature or cause the creature to see something that is not there with the effect of minor illusion until the start of your next turn if it fails its saving throw.</text>
+  <text>Overwhelming (3 psi points): The target is stunned until the end of its next turn if it fails its saving throw.</text>
+  <text>Rending (1+ psi points): The target takes 1d8 psychic damage for each additional point spent on a failed save.</text>
+  <text>Terrifying (1 psi point): The target is frightened of you until the end of your next turn if it fails its saving throw.</text>
+</spell>
+<spell>
+  <name>Command</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Compelled Query</name>
+  <classes>Psion (Telepathy)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>60 feet</range>
+  <components>S</components>
+  <duration>Instantaneous</duration>
+  <text>You focus your telepathic powers on a creature and ask it a simple question. It must make an Intelligence saving throw, or it conjures a short mental thought or image that answers your question to the best of its ability that you can perceive telepathically. A creature gains a +5 to the saving throw against this spell for each time it has been used on them in the past 24 hours.</text>
+</spell>
+<spell>
+  <name>Cause Fear</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Detect Thoughts</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Suggestion</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Fear</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Delve Mind</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Dominate Beast</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Compulsion</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Confusion</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Dominate Person</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Modify Memory</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Rary's Telepathic Bond</name>
+  <classes>Psion (Telepathy)</classes>
+</spell>
+<spell>
+  <name>Adaptive Hunter</name>
+  <classes>Psion (Consumption)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>Self</range>
+  <components>S</components>
+  <duration>1 round</duration>
+  <text>After using your Mind Leech on a target, you can gain one skill, tool or language proficiency that creature has until the end of your next long rest. If you use this ability again, you lose the last proficiency or language to acquire the new one.</text>
+</spell>
+<spell>
+  <name>Mind Leech</name>
+  <classes>Psion (Consumption)</classes>
+  <level>0</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>30 feet</range>
+  <components>S</components>
+  <duration>Instantaneous</duration>
+  <text>You assault the mind of a target you can see within range, rending and devouring its psionic energy. The target must succeed on a Charisma saving throw or take 1d6 psychic damage. If the target is frightened, charmed, stunned, restrained, grappled, or paralyzed, the psychic damage becomes 1d12 instead. On a failed save, you gain a psionic charge of consumed power until the end of your next turn. You can expend this charge when you deal damage to deal additional damage equal to your Intelligence modifier, or consume this charge at the end of your turn to gain temporary hit points equal to your Intelligence modifier. You can spend only one charge at a time.</text>
+  <text>You can target the corpse of a recently perished creature with this power, as long as the target has died within the last minute and not been previously leeched by this power.</text>
+  <text>Devouring (2 psi points): The range of Mind Leech becomes a radius of 5 feet, centered on you.</text>
+  <text>Nourishing (1 psi point): On a failed saving throw, you gain an additional psionic charge.</text>
+  <text>Rending (1+ psi points): The target takes an additional die of damage (1d6 or 1d12 as applicable if they are under the effect of a listed condition) per psi point spent on a failed save.</text>
+  <text>Shredding (1 psi point): You leave the target’s mind and soul shredded, reducing their next saving throw before the end of your next turn by 1d4.</text>
+  <text>Stunning (3 psi points): On a failed saving throw, the target becomes stunned until the start of your next turn. If the power affects multiple targets, select one target for this effect.</text>
+  <text>Thieving (1 psi point): On a failed saving throw, you can draw a 5th level or lower spell the target can cast from its mind (from a Spellcasting or Psionics feature). You must be aware that it can cast that spell; the target retains the ability to cast the spell, but you gain the ability to cast the spell using your Psionics feature by spending psi points equal to the level of the spell (restricted by your psi point limit; you can’t use Psionic Mastery to cast this spell).</text>
+  <text>You can know one spell in this manner at a time, and retain the ability to cast the spell for 1 minute or until cast. If the spell is one that restores hit points, you reduce your own hit points by the amount healed by the spell.</text>
+</spell>
+<spell>
+  <name>Inflict Wounds</name>
+  <classes>Psion (Consumption)</classes>
+</spell>
+<spell>
+  <name>Psychic Drain</name>
+  <classes>Psion (Consumption)</classes>
+  <level>2</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>60 feet</range>
+  <components>S</components>
+  <duration>Instantaneous</duration>
+  <text>You draw on the psychic energy of another creature you can see to sustain yourself. The target must make a Charisma saving throw. On failure it takes 3d8 psychic damage and you gain temporary hit points equal to half the amount of psychic damage dealt and regain one expended psi point.</text>
+  <text>At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the spell deals an extra 1d8 psychic damage.</text>
+</spell>
+<spell>
+  <name>Vampiric Touch</name>
+  <classes>Psion (Consumption)</classes>
+</spell>
+<spell>
+  <name>Blight</name>
+  <classes>Psion (Consumption)</classes>
+</spell>
+<spell>
+  <name>Devouring Darkness</name>
+  <classes>Psion (Consumption)</classes>
+  <level>5</level>
+  <school>C</school>
+  <ritual>NO</ritual>
+  <time>1 action</time>
+  <range>Self (20-foot radius)</range>
+  <components>V, S</components>
+  <duration>Instantaneous</duration>
+  <text>Dark tendrils burst out from you in all directions. Creatures of your choice within must make a Constitution saving throw. On failure, they take 6d8 necrotic damage, and you can move them in a straight line to within 5 feet of you if there is an empty space they can be pulled to. On success, they take half as much damage and are not moved.</text>
+  <text>You regain hit points equal to one quarter (rounded down) of the necrotic damage taken by all targets effected by the spell.</text>
+  <text>At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</text>
+</spell>
 </compendium>
